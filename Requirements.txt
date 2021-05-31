@@ -1,0 +1,7 @@
+Requirements:
+  • Node.js, Apache Cordova, Python, Java
+  • Firebase (Authentication, Real-Time Database, Cloud Functions, Cloud Messaging, etc)
+  • Raspberry Pi, Sensors, etc
+  • Visual Studio Code, Android Studio
+  • Android, iOS, Linux System (Preferably ‘Raspberry Pi OS’)
+

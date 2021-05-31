@@ -1,0 +1,799 @@
+{
+  "Accident_Confirmation" : {
+    "-LXiI7gwTaoRUISXyfko" : {
+      "Accident_Scenario" : "-LXiI0w-q9jyEJg8CUJb",
+      "Confirmation_Type" : "Confirm friends accident",
+      "Date_And_Time" : "Sat Feb 02 2019 13:01:20 GMT+0000 (UTC)",
+      "From" : "shashankmone19@gmail.com",
+      "Response" : "Pending",
+      "To" : "pranalzambaulikar@gmail.com",
+      "User" : "ahqHcq2HaVdIaqgHOdHqTkNOFHX2"
+    },
+    "-LXiI7qJxbyu5Exzit8U" : {
+      "Accident_Scenario" : "-LXiI0w-q9jyEJg8CUJb",
+      "Confirmation_Type" : "Confirm own accident",
+      "Date_And_Time" : "Sat Feb 02 2019 13:01:21 GMT+0000 (UTC)",
+      "From" : "System",
+      "Response" : "Accepted",
+      "To" : "shashankmone19@gmail.com",
+      "User" : "ahqHcq2HaVdIaqgHOdHqTkNOFHX2"
+    },
+    "-LXiIMt-0P81YlUfR5jM" : {
+      "Accident_Scenario" : "-LXiIMgHIYf0aHgJL_Ct",
+      "Confirmation_Type" : "Confirm friends accident",
+      "Date_And_Time" : "Sat Feb 02 2019 13:02:23 GMT+0000 (UTC)",
+      "From" : "pranalzambaulikar@gmail.com",
+      "Response" : "Accepted",
+      "To" : "udityalaad123@gmail.com",
+      "User" : "XvONPY9TOwZw7qBuOhUlhrAxWAX2"
+    },
+    "-LXiIMt0w2g2ZEh7DTMz" : {
+      "Accident_Scenario" : "-LXiIMgHIYf0aHgJL_Ct",
+      "Confirmation_Type" : "Confirm friends accident",
+      "Date_And_Time" : "Sat Feb 02 2019 13:02:23 GMT+0000 (UTC)",
+      "From" : "pranalzambaulikar@gmail.com",
+      "Response" : "Pending",
+      "To" : "shashankmone19@gmail.com",
+      "User" : "XvONPY9TOwZw7qBuOhUlhrAxWAX2"
+    },
+    "-LXiIMuORrRlsvQ3n1WF" : {
+      "Accident_Scenario" : "-LXiIMgHIYf0aHgJL_Ct",
+      "Confirmation_Type" : "Confirm own accident",
+      "Date_And_Time" : "Sat Feb 02 2019 13:02:23 GMT+0000 (UTC)",
+      "From" : "System",
+      "Response" : "Pending",
+      "To" : "pranalzambaulikar@gmail.com",
+      "User" : "XvONPY9TOwZw7qBuOhUlhrAxWAX2"
+    }
+  },
+  "Accident_Possibility" : {
+    "-LXiHxHpVT4iaC8jNm4u" : {
+      "Blackbox" : "",
+      "Date_And_Time" : "Sat Feb 02 2019 18:30:31 GMT+0530 (India Standard Time)",
+      "Description" : "GA 11 C 6454 - Description",
+      "Image" : "https://firebasestorage.googleapis.com/v0/b/accident-management-system.appspot.com/o/Accident_Possibility%2F-LXiHxHpVT4iaC8jNm4u%2FImage.jpg?alt=media&token=d7c06d24-80b8-4f7b-bf7c-4940e75ba96e",
+      "Level_Of_Risk" : "Very High",
+      "Location_Coordinates" : {
+        "lat" : 15.266358,
+        "lng" : 73.984099
+      },
+      "Status" : "Pending",
+      "Uploaded_By" : "ZFd58ugYOJePpkpZmdojMiXzXJI2",
+      "User" : "ahqHcq2HaVdIaqgHOdHqTkNOFHX2",
+      "Vehicle_Registration_Number" : "GA 11 C 6454",
+      "Weight" : 3
+    },
+    "-LXiIM3sj97SWg1NoN8u" : {
+      "Blackbox" : "",
+      "Date_And_Time" : "Sat Feb 02 2019 18:32:17 GMT+0530 (India Standard Time)",
+      "Description" : "GA 03 R 3712 - Description",
+      "Image" : "https://firebasestorage.googleapis.com/v0/b/accident-management-system.appspot.com/o/Accident_Possibility%2F-LXiIM3sj97SWg1NoN8u%2FImage.jpg?alt=media&token=77ec7b86-63ba-4e65-a25c-50bd1c35c1a4",
+      "Level_Of_Risk" : "High",
+      "Location_Coordinates" : {
+        "lat" : 15.478086,
+        "lng" : 73.825365
+      },
+      "Status" : "Pending",
+      "Uploaded_By" : "wLwAfZ1KwMUHnzDV7PHVB9lJUCz1",
+      "User" : "XvONPY9TOwZw7qBuOhUlhrAxWAX2",
+      "Vehicle_Registration_Number" : "GA 03 R 3712",
+      "Weight" : 3
+    },
+    "-LXiIlg0WSPmnTTLsEHr" : {
+      "Blackbox" : "",
+      "Date_And_Time" : "Sat Feb 02 2019 18:34:06 GMT+0530 (India Standard Time)",
+      "Description" : "GA 03 Q 1234 - Description",
+      "Image" : "https://firebasestorage.googleapis.com/v0/b/accident-management-system.appspot.com/o/Accident_Possibility%2F-LXiIlg0WSPmnTTLsEHr%2FImage?alt=media&token=0ae995d2-e604-46a6-adab-a04e70dd9d72",
+      "Level_Of_Risk" : "Medium",
+      "Location_Coordinates" : {
+        "lat" : 15.469708,
+        "lng" : 73.820171
+      },
+      "Status" : "Pending",
+      "Uploaded_By" : "wLwAfZ1KwMUHnzDV7PHVB9lJUCz1",
+      "User" : "",
+      "Vehicle_Registration_Number" : "GA 03 Q 1234",
+      "Weight" : 2
+    },
+    "-LXiJ5Ru18tebkLuFYXW" : {
+      "Blackbox" : "",
+      "Date_And_Time" : "Sat Feb 02 2019 18:35:31 GMT+0530 (India Standard Time)",
+      "Description" : "GA 03 R 2312 - Description",
+      "Image" : "https://firebasestorage.googleapis.com/v0/b/accident-management-system.appspot.com/o/Accident_Possibility%2F-LXiJ5Ru18tebkLuFYXW%2FImage?alt=media&token=c6879da9-8e1b-43df-a02b-024ec2a47879",
+      "Level_Of_Risk" : "Low",
+      "Location_Coordinates" : {
+        "lat" : 15.588916,
+        "lng" : 73.809124
+      },
+      "Status" : "Pending",
+      "Uploaded_By" : "wLwAfZ1KwMUHnzDV7PHVB9lJUCz1",
+      "User" : "",
+      "Vehicle_Registration_Number" : "GA 03 R 2312",
+      "Weight" : 1
+    },
+    "-LXiJIbHL9aXKQ5hjoeR" : {
+      "Date_And_Time" : "Sat Feb 02 2019 18:36:25 GMT+0530 (India Standard Time)",
+      "Description" : "Accident has been confirmed by the Emergency Contact: udityalaad123@gmail.com",
+      "User" : "XvONPY9TOwZw7qBuOhUlhrAxWAX2",
+      "Weight" : 1
+    },
+    "-LXiJYwGIiP6nKU8gVbT" : {
+      "Blackbox" : "",
+      "Date_And_Time" : "Sat Feb 02 2019 18:37:32 GMT+0530 (India Standard Time)",
+      "Description" : "GA 03 U 3664 - Description",
+      "Image" : "https://firebasestorage.googleapis.com/v0/b/accident-management-system.appspot.com/o/Accident_Possibility%2F-LXiJYwGIiP6nKU8gVbT%2FImage?alt=media&token=71d7bc30-33e5-431a-9532-43cb7edd4fad",
+      "Level_Of_Risk" : "Very Low",
+      "Location_Coordinates" : {
+        "lat" : 15.390263,
+        "lng" : 73.852393
+      },
+      "Status" : "Pending",
+      "Uploaded_By" : "ZFd58ugYOJePpkpZmdojMiXzXJI2",
+      "User" : "",
+      "Vehicle_Registration_Number" : "GA 03 U 3664",
+      "Weight" : 1
+    },
+    "-LXiJvMj7C6Oc8uQq-eV" : {
+      "Date_And_Time" : "Sat Feb 02 2019 18:39:07 GMT+0530 (India Standard Time)",
+      "Description" : "Accident has been confirmed by the User(Driver) himself/herself.",
+      "Location_Coordinates" : {
+        "lat" : 19.7514798,
+        "lng" : 75.7138884
+      },
+      "User" : "ahqHcq2HaVdIaqgHOdHqTkNOFHX2",
+      "Weight" : 3
+    }
+  },
+  "Accident_Scenario" : {
+    "-LXiI0w-q9jyEJg8CUJb" : {
+      "Blackbox" : "",
+      "Current_Weight" : 6,
+      "Date_And_Time" : "Sat Feb 02 2019 18:30:31 GMT+0530 (India Standard Time)",
+      "Description" : [ "GA 11 C 6454 - Description", "Accident has been confirmed by the User(Driver) himself/herself." ],
+      "Emergency_Contacts_Confirmation_Sent" : true,
+      "Heavy_Alerts_Sent" : true,
+      "Image" : "https://firebasestorage.googleapis.com/v0/b/accident-management-system.appspot.com/o/Accident_Possibility%2F-LXiHxHpVT4iaC8jNm4u%2FImage.jpg?alt=media&token=d7c06d24-80b8-4f7b-bf7c-4940e75ba96e",
+      "Level_Of_Risk" : "Very High",
+      "Location_Coordinates" : {
+        "lat" : 15.266358,
+        "lng" : 73.984099
+      },
+      "Mild_Alerts_Sent" : true,
+      "Previous_Weight" : 3,
+      "Simple_Alerts_Sent" : true,
+      "Status" : "Pending",
+      "Uploaded_By" : "System",
+      "User" : "ahqHcq2HaVdIaqgHOdHqTkNOFHX2",
+      "User_Confirmation_Sent" : true,
+      "Vehicle_Registration_Number" : "GA 11 C 6454"
+    },
+    "-LXiIMgHIYf0aHgJL_Ct" : {
+      "Blackbox" : "",
+      "Current_Weight" : 4,
+      "Date_And_Time" : "Sat Feb 02 2019 18:32:17 GMT+0530 (India Standard Time)",
+      "Description" : [ "GA 03 R 3712 - Description", "Accident has been confirmed by the Emergency Contact: udityalaad123@gmail.com" ],
+      "Emergency_Contacts_Confirmation_Sent" : true,
+      "Heavy_Alerts_Sent" : true,
+      "Image" : "https://firebasestorage.googleapis.com/v0/b/accident-management-system.appspot.com/o/Accident_Possibility%2F-LXiIM3sj97SWg1NoN8u%2FImage.jpg?alt=media&token=77ec7b86-63ba-4e65-a25c-50bd1c35c1a4",
+      "Level_Of_Risk" : "Very High",
+      "Location_Coordinates" : {
+        "lat" : 15.478086,
+        "lng" : 73.825365
+      },
+      "Mild_Alerts_Sent" : true,
+      "Previous_Weight" : 3,
+      "Simple_Alerts_Sent" : true,
+      "Status" : "Pending",
+      "Uploaded_By" : "System",
+      "User" : "XvONPY9TOwZw7qBuOhUlhrAxWAX2",
+      "User_Confirmation_Sent" : true,
+      "Vehicle_Registration_Number" : "GA 03 R 3712"
+    },
+    "-LXiImRn4xHGh_ctF4Sp" : {
+      "Blackbox" : "",
+      "Current_Weight" : 2,
+      "Date_And_Time" : "Sat Feb 02 2019 18:34:06 GMT+0530 (India Standard Time)",
+      "Description" : [ "GA 03 Q 1234 - Description" ],
+      "Emergency_Contacts_Confirmation_Sent" : false,
+      "Heavy_Alerts_Sent" : false,
+      "Image" : "https://firebasestorage.googleapis.com/v0/b/accident-management-system.appspot.com/o/Accident_Possibility%2F-LXiIlg0WSPmnTTLsEHr%2FImage?alt=media&token=0ae995d2-e604-46a6-adab-a04e70dd9d72",
+      "Level_Of_Risk" : "Low",
+      "Location_Coordinates" : {
+        "lat" : 15.469708,
+        "lng" : 73.820171
+      },
+      "Mild_Alerts_Sent" : false,
+      "Previous_Weight" : 0,
+      "Simple_Alerts_Sent" : false,
+      "Status" : "Pending",
+      "Uploaded_By" : "System",
+      "User" : "",
+      "User_Confirmation_Sent" : false,
+      "Vehicle_Registration_Number" : "GA 03 Q 1234"
+    },
+    "-LXiJ7F0SfLGJOREDX-7" : {
+      "Blackbox" : "",
+      "Current_Weight" : 1,
+      "Date_And_Time" : "Sat Feb 02 2019 18:35:31 GMT+0530 (India Standard Time)",
+      "Description" : [ "GA 03 R 2312 - Description" ],
+      "Emergency_Contacts_Confirmation_Sent" : false,
+      "Heavy_Alerts_Sent" : false,
+      "Image" : "https://firebasestorage.googleapis.com/v0/b/accident-management-system.appspot.com/o/Accident_Possibility%2F-LXiJ5Ru18tebkLuFYXW%2FImage?alt=media&token=c6879da9-8e1b-43df-a02b-024ec2a47879",
+      "Level_Of_Risk" : "Low",
+      "Location_Coordinates" : {
+        "lat" : 15.588916,
+        "lng" : 73.809124
+      },
+      "Mild_Alerts_Sent" : false,
+      "Previous_Weight" : 0,
+      "Simple_Alerts_Sent" : false,
+      "Status" : "Pending",
+      "Uploaded_By" : "System",
+      "User" : "",
+      "User_Confirmation_Sent" : false,
+      "Vehicle_Registration_Number" : "GA 03 R 2312"
+    },
+    "-LXiJZFGKEcORjtmUH2t" : {
+      "Blackbox" : "",
+      "Current_Weight" : 1,
+      "Date_And_Time" : "Sat Feb 02 2019 18:37:32 GMT+0530 (India Standard Time)",
+      "Description" : [ "GA 03 U 3664 - Description" ],
+      "Emergency_Contacts_Confirmation_Sent" : false,
+      "Heavy_Alerts_Sent" : false,
+      "Image" : "https://firebasestorage.googleapis.com/v0/b/accident-management-system.appspot.com/o/Accident_Possibility%2F-LXiJYwGIiP6nKU8gVbT%2FImage?alt=media&token=71d7bc30-33e5-431a-9532-43cb7edd4fad",
+      "Level_Of_Risk" : "Low",
+      "Location_Coordinates" : {
+        "lat" : 15.390263,
+        "lng" : 73.852393
+      },
+      "Mild_Alerts_Sent" : false,
+      "Previous_Weight" : 0,
+      "Simple_Alerts_Sent" : false,
+      "Status" : "Pending",
+      "Uploaded_By" : "System",
+      "User" : "",
+      "User_Confirmation_Sent" : false,
+      "Vehicle_Registration_Number" : "GA 03 U 3664"
+    }
+  },
+  "Blackbox" : {
+    "Blackbox_1" : {
+      "Accelerometer_Status" : "On",
+      "Activation_Code" : "Blackbox_1_Activation_Code",
+      "Blackbox_Status" : "On",
+      "Overall_Health" : "Good",
+      "Proximity_Sensor_Status" : "Off",
+      "User_ID" : "XvONPY9TOwZw7qBuOhUlhrAxWAX2"
+    },
+    "Blackbox_2" : {
+      "Accelerometer_Status" : "Off",
+      "Activation_Code" : "Blackbox_2_Activation_Code",
+      "Blackbox_Status" : "Off",
+      "Overall_Health" : "Bad",
+      "Proximity_Sensor_Status" : "Off"
+    },
+    "Blackbox_3" : {
+      "Accelerometer_Status" : "Off",
+      "Activation_Code" : "Blackbox_3_Activation_Code",
+      "Blackbox_Status" : "Off",
+      "Overall_Health" : "Good",
+      "Proximity_Sensor_Status" : "Off"
+    },
+    "Blackbox_4" : {
+      "Accelerometer_Status" : "On",
+      "Activation_Code" : "Blackbox_4_Activation_Code",
+      "Blackbox_Status" : "On",
+      "Overall_Health" : "Very Good",
+      "Proximity_Sensor_Status" : "Off",
+      "User_ID" : "ahqHcq2HaVdIaqgHOdHqTkNOFHX2"
+    },
+    "Blackbox_5" : {
+      "Accelerometer_Status" : "Off",
+      "Activation_Code" : "Blackbox_5_Activation_Code",
+      "Blackbox_Status" : "Off",
+      "Overall_Health" : "Good",
+      "Proximity_Sensor_Status" : "Off"
+    }
+  },
+  "Blackspot" : {
+    "-LYknO0Qa3aEmaiNyquA" : {
+      "Added_By" : "fWkbFfAewEYfF0p26ICllrtvFXn1",
+      "Current_Weight" : 5,
+      "Date_And_Time" : "Fri Feb 15 2019 16:27:07 GMT+0530 (India Standard Time)",
+      "Description" : [ " Description 1" ],
+      "Image" : "https://firebasestorage.googleapis.com/v0/b/accident-management-system.appspot.com/o/Blackspot%2F-LYknO0Qa3aEmaiNyquA%2FImage?alt=media&token=eff7ac12-8c54-4b7b-8ff7-c6cd8aa60e62",
+      "Last_Updated" : "Fri Feb 15 2019 17:06:52 GMT+0530 (India Standard Time)",
+      "Level_Of_Risk" : "Very High",
+      "Location_Coordinates" : {
+        "lat" : 15.387356,
+        "lng" : 73.863808
+      },
+      "Previous_Weight" : 0,
+      "Reported_By" : "fWkbFfAewEYfF0p26ICllrtvFXn1",
+      "Status" : "Active"
+    },
+    "-LYknXmhzz2_Tb0sHXW8" : {
+      "Added_By" : "fWkbFfAewEYfF0p26ICllrtvFXn1",
+      "Current_Weight" : 5,
+      "Date_And_Time" : "Fri Feb 15 2019 16:27:47 GMT+0530 (India Standard Time)",
+      "Description" : [ " Description 1" ],
+      "Image" : "https://firebasestorage.googleapis.com/v0/b/accident-management-system.appspot.com/o/Blackspot%2F-LYknXmhzz2_Tb0sHXW8%2FImage?alt=media&token=c5bb72b6-cccf-4eb8-ab1b-8706534a0fdf",
+      "Last_Updated" : "Fri Feb 15 2019 17:07:23 GMT+0530 (India Standard Time)",
+      "Level_Of_Risk" : "Very High",
+      "Location_Coordinates" : {
+        "lat" : 15.257644,
+        "lng" : 74.110685
+      },
+      "Previous_Weight" : 0,
+      "Reported_By" : "ZFd58ugYOJePpkpZmdojMiXzXJI2",
+      "Status" : "Active"
+    },
+    "-LYknkYJfUyneMuM7wCG" : {
+      "Added_By" : "3TEwgD7HuIh7Vv9rRYquzqVHRtz2",
+      "Current_Weight" : 3,
+      "Date_And_Time" : "Fri Feb 15 2019 16:28:44 GMT+0530 (India Standard Time)",
+      "Description" : [ " Description 7" ],
+      "Image" : "https://firebasestorage.googleapis.com/v0/b/accident-management-system.appspot.com/o/Unsafe_Zone%2F-LYknEaUlm-skLIEUzjM%2FImage?alt=media&token=17d82235-953f-403a-8488-432b8b837cbe",
+      "Last_Updated" : "Fri Feb 15 2019 16:28:44 GMT+0530 (India Standard Time)",
+      "Level_Of_Risk" : "Medium",
+      "Location_Coordinates" : {
+        "lat" : 15.262984,
+        "lng" : 73.979435
+      },
+      "Previous_Weight" : 0,
+      "Reported_By" : "XvONPY9TOwZw7qBuOhUlhrAxWAX2",
+      "Status" : "Active"
+    },
+    "-LYknwwEG1I6yPiMaDGf" : {
+      "Added_By" : "fWkbFfAewEYfF0p26ICllrtvFXn1",
+      "Current_Weight" : 2,
+      "Date_And_Time" : "Fri Feb 15 2019 16:29:34 GMT+0530 (India Standard Time)",
+      "Description" : [ " Description 4" ],
+      "Image" : "https://firebasestorage.googleapis.com/v0/b/accident-management-system.appspot.com/o/Blackspot%2F-LYknwwEG1I6yPiMaDGf%2FImage?alt=media&token=2edb0962-7661-4c97-92f2-01d8d204192c",
+      "Last_Updated" : "Fri Feb 15 2019 16:29:34 GMT+0530 (India Standard Time)",
+      "Level_Of_Risk" : "Low",
+      "Location_Coordinates" : {
+        "lat" : 15.587324,
+        "lng" : 74.003168
+      },
+      "Previous_Weight" : 0,
+      "Reported_By" : "fWkbFfAewEYfF0p26ICllrtvFXn1",
+      "Status" : "Active"
+    },
+    "-LYkoBzzaFrcDxmwjgnz" : {
+      "Added_By" : "3TEwgD7HuIh7Vv9rRYquzqVHRtz2",
+      "Current_Weight" : 1,
+      "Date_And_Time" : "Fri Feb 15 2019 16:30:40 GMT+0530 (India Standard Time)",
+      "Description" : [ " Description 5" ],
+      "Image" : "https://firebasestorage.googleapis.com/v0/b/accident-management-system.appspot.com/o/Blackspot%2F-LYkoBzzaFrcDxmwjgnz%2FImage?alt=media&token=c2228e1d-1e6e-420a-a0a9-ea645dff7fb4",
+      "Last_Updated" : "Fri Feb 15 2019 17:07:12 GMT+0530 (India Standard Time)",
+      "Level_Of_Risk" : "Very Low",
+      "Location_Coordinates" : {
+        "lat" : 15.587324,
+        "lng" : 73.820321
+      },
+      "Previous_Weight" : 0,
+      "Reported_By" : "3TEwgD7HuIh7Vv9rRYquzqVHRtz2",
+      "Status" : "Active"
+    },
+    "-LcGkDXNyNcpVWukvAIX" : {
+      "Added_By" : "fWkbFfAewEYfF0p26ICllrtvFXn1",
+      "Current_Weight" : 4,
+      "Date_And_Time" : "Fri Apr 12 2019 19:03:36 GMT+0530 (India Standard Time)",
+      "Description" : [ " Description 6" ],
+      "Image" : "https://firebasestorage.googleapis.com/v0/b/accident-management-system.appspot.com/o/Blackspot%2F-LcGkDXNyNcpVWukvAIX%2FImage?alt=media&token=df012b58-db93-4b1d-acf7-1148924c175c",
+      "Last_Updated" : "Fri Apr 12 2019 19:03:36 GMT+0530 (India Standard Time)",
+      "Level_Of_Risk" : "High",
+      "Location_Coordinates" : {
+        "lat" : 15.310292,
+        "lng" : 73.944983
+      },
+      "Previous_Weight" : 0,
+      "Reported_By" : "fWkbFfAewEYfF0p26ICllrtvFXn1",
+      "Status" : "Active"
+    }
+  },
+  "Request" : {
+    "-LWawiWqMYyJTAX1yfy-" : {
+      "From" : "udityalaad123@gmail.com",
+      "Request_Type" : "Add To Emergency Contact List",
+      "Response" : "Accepted",
+      "To" : "prajyotnaik@gmail.com"
+    },
+    "-LWawm4jncHZFMP0Nd_i" : {
+      "From" : "udityalaad123@gmail.com",
+      "Request_Type" : "Add To Emergency Contact List",
+      "Response" : "Accepted",
+      "To" : "pranalzambaulikar@gmail.com"
+    },
+    "-LWawrfkDT3GSCK1cxD3" : {
+      "From" : "prajyotnaik@gmail.com",
+      "Request_Type" : "Add To Emergency Contact List",
+      "Response" : "Cancelled",
+      "To" : "shashankmone19@gmail.com"
+    },
+    "-LWaxEf8wCcX5l4Zpk9C" : {
+      "From" : "prajyotnaik@gmail.com",
+      "Request_Type" : "Add To Emergency Contact List",
+      "Response" : "Rejected",
+      "To" : "pranalzambaulikar@gmail.com"
+    },
+    "-LWay8vDL2RkRpHaA1aq" : {
+      "From" : "shashankmone19@gmail.com",
+      "Request_Type" : "Add To Emergency Contact List",
+      "Response" : "Rejected",
+      "To" : "udityalaad123@gmail.com"
+    },
+    "-LWayNM12P7mEUpQIXku" : {
+      "From" : "pranalzambaulikar@gmail.com",
+      "Request_Type" : "Add To Emergency Contact List",
+      "Response" : "Accepted",
+      "To" : "shashankmone19@gmail.com"
+    },
+    "-LWayW7A6TGosatblYi-" : {
+      "From" : "shashankmone19@gmail.com",
+      "Request_Type" : "Pass Vehicle Control",
+      "Response" : "Pending",
+      "To" : "udityalaad123@gmail.com"
+    }
+  },
+  "Unsafe_Zone" : {
+    "-LYklmOQUrK6hX8htVNu" : {
+      "Date_And_Time" : "Fri Feb 15 2019 16:20:07 GMT+0530 (India Standard Time)",
+      "Description" : " Description 1",
+      "Image" : "https://firebasestorage.googleapis.com/v0/b/accident-management-system.appspot.com/o/Unsafe_Zone%2F-LYklmOQUrK6hX8htVNu%2FImage?alt=media&token=eb64a873-fa41-43dd-8d9d-2ab52077e370",
+      "Level_Of_Risk" : "Very High",
+      "Location_Coordinates" : {
+        "lat" : 15.257644,
+        "lng" : 74.110685
+      },
+      "Reported_By" : "ZFd58ugYOJePpkpZmdojMiXzXJI2",
+      "Status" : "Used",
+      "Weight" : 5
+    },
+    "-LYkm0aLID9IT90pBoWV" : {
+      "Date_And_Time" : "Fri Feb 15 2019 16:21:09 GMT+0530 (India Standard Time)",
+      "Description" : " Description 2",
+      "Image" : "https://firebasestorage.googleapis.com/v0/b/accident-management-system.appspot.com/o/Unsafe_Zone%2F-LYkm0aLID9IT90pBoWV%2FImage.jpg?alt=media&token=0531b7c8-e92d-4f87-9f5f-41ba1773f4dd",
+      "Level_Of_Risk" : "Medium",
+      "Location_Coordinates" : {
+        "lat" : 15.439627,
+        "lng" : 73.976536
+      },
+      "Reported_By" : "wLwAfZ1KwMUHnzDV7PHVB9lJUCz1",
+      "Status" : "Active",
+      "Weight" : 3
+    },
+    "-LYkmHCMmfrFs-B02Nve" : {
+      "Date_And_Time" : "Fri Feb 15 2019 16:22:17 GMT+0530 (India Standard Time)",
+      "Description" : " Description 3",
+      "Image" : "https://firebasestorage.googleapis.com/v0/b/accident-management-system.appspot.com/o/Unsafe_Zone%2F-LYkmHCMmfrFs-B02Nve%2FImage?alt=media&token=acb65b28-c450-482a-a5c5-f1f3841d7616",
+      "Level_Of_Risk" : "High",
+      "Location_Coordinates" : {
+        "lat" : 15.422437,
+        "lng" : 73.900225
+      },
+      "Reported_By" : "XvONPY9TOwZw7qBuOhUlhrAxWAX2",
+      "Status" : "Active",
+      "Weight" : 4
+    },
+    "-LYkmSLHO5sYszoapRXu" : {
+      "Date_And_Time" : "Fri Feb 15 2019 16:23:03 GMT+0530 (India Standard Time)",
+      "Description" : " Description 4",
+      "Image" : "https://firebasestorage.googleapis.com/v0/b/accident-management-system.appspot.com/o/Unsafe_Zone%2F-LYkmSLHO5sYszoapRXu%2FImage?alt=media&token=b7cbc7a1-7c9c-4cd5-aa53-ef436a9e2f57",
+      "Level_Of_Risk" : "High",
+      "Location_Coordinates" : {
+        "lat" : 15.372568,
+        "lng" : 73.891872
+      },
+      "Reported_By" : "ZFd58ugYOJePpkpZmdojMiXzXJI2",
+      "Status" : "Active",
+      "Weight" : 4
+    },
+    "-LYkmhGb5Ei-x2Ub0LCG" : {
+      "Date_And_Time" : "Fri Feb 15 2019 16:24:08 GMT+0530 (India Standard Time)",
+      "Description" : " Description 5",
+      "Image" : "https://firebasestorage.googleapis.com/v0/b/accident-management-system.appspot.com/o/Unsafe_Zone%2F-LYkmhGb5Ei-x2Ub0LCG%2FImage?alt=media&token=a0fd4820-3a62-4be6-9f47-bb9ad0a32aac",
+      "Level_Of_Risk" : "Very Low",
+      "Location_Coordinates" : {
+        "lat" : 15.29782,
+        "lng" : 73.971867
+      },
+      "Reported_By" : "ahqHcq2HaVdIaqgHOdHqTkNOFHX2",
+      "Status" : "Active",
+      "Weight" : 1
+    },
+    "-LYkmsGhTXBgRJd3UBsD" : {
+      "Date_And_Time" : "Fri Feb 15 2019 16:24:53 GMT+0530 (India Standard Time)",
+      "Description" : " Description 6",
+      "Image" : "https://firebasestorage.googleapis.com/v0/b/accident-management-system.appspot.com/o/Unsafe_Zone%2F-LYkmsGhTXBgRJd3UBsD%2FImage?alt=media&token=108b0b59-bd74-4bb0-b4fb-f1c50b82c6a8",
+      "Level_Of_Risk" : "Very High",
+      "Location_Coordinates" : {
+        "lat" : 15.180933,
+        "lng" : 74.104724
+      },
+      "Reported_By" : "ahqHcq2HaVdIaqgHOdHqTkNOFHX2",
+      "Status" : "Active",
+      "Weight" : 5
+    },
+    "-LYknEaUlm-skLIEUzjM" : {
+      "Date_And_Time" : "Fri Feb 15 2019 16:26:29 GMT+0530 (India Standard Time)",
+      "Description" : " Description 7",
+      "Image" : "https://firebasestorage.googleapis.com/v0/b/accident-management-system.appspot.com/o/Unsafe_Zone%2F-LYknEaUlm-skLIEUzjM%2FImage?alt=media&token=17d82235-953f-403a-8488-432b8b837cbe",
+      "Level_Of_Risk" : "Medium",
+      "Location_Coordinates" : {
+        "lat" : 15.262984,
+        "lng" : 73.979435
+      },
+      "Reported_By" : "XvONPY9TOwZw7qBuOhUlhrAxWAX2",
+      "Status" : "Used",
+      "Weight" : 3
+    }
+  },
+  "User" : {
+    "3TEwgD7HuIh7Vv9rRYquzqVHRtz2" : {
+      "Address" : {
+        "City" : "Margao",
+        "Coordinates" : {
+          "lat" : 19.7514798,
+          "lng" : 75.7138884
+        },
+        "Country" : "India",
+        "House_OR_Flat_No" : "784",
+        "Postal_Code" : "403601",
+        "State" : "Goa",
+        "Street_OR_Building_OR_Colony" : "Ravanfond"
+      },
+      "Alternate_Contact_Number" : "9467829382",
+      "Alternate_Email_ID" : "police_station_1@outlook.com",
+      "Contact_Number" : "7898789867",
+      "Date_Of_Establishment" : "2002-06-20",
+      "Email_ID" : "police_station_1@gmail.com",
+      "Government_Authorized" : "Yes",
+      "Government_Organization" : "Yes",
+      "Location_Settings" : {
+        "GPS_Module" : "Mobile Device GPS",
+        "Use_Bluetooth" : "No",
+        "Use_Wifi" : "No"
+      },
+      "Map_Configuration" : {
+        "Information_To_Be_Displayed_On_Marker" : [ "Image", "Coordinates", "Level of Risk", "Description" ],
+        "Path_Preference" : "Shortest Path",
+        "View_Type" : "Roadmap"
+      },
+      "Most_Recent_Location" : {
+        "lat" : 19.7514798,
+        "lng" : 75.7138884
+      },
+      "Name" : "Police_Station_1",
+      "Role" : "Emergency Service User",
+      "Service_Type" : "Police"
+    },
+    "XvONPY9TOwZw7qBuOhUlhrAxWAX2" : {
+      "Address" : {
+        "City" : "Quepem",
+        "Coordinates" : {
+          "lat" : 15.4076848,
+          "lng" : 73.9842973
+        },
+        "Country" : "India",
+        "House_OR_Flat_No" : "23",
+        "Postal_Code" : "403706",
+        "State" : "Goa",
+        "Street_OR_Building_OR_Colony" : "Zambaulim"
+      },
+      "Alternate_Contact_Number" : "9389212331",
+      "Alternate_Email_ID" : "pranalzambaulikar@outlook.com",
+      "Blackbox_ID" : "Blackbox_1",
+      "Contact_Number" : "93892133216",
+      "Date_Of_Birth" : "1992-05-13",
+      "Email_ID" : "pranalzambaulikar@gmail.com",
+      "Emergency_Contact" : [ "udityalaad123@gmail.com", "shashankmone19@gmail.com" ],
+      "First_Name" : "Pranal",
+      "Gender" : "Male",
+      "Last_Name" : "Zambaulikar",
+      "Location_Settings" : {
+        "GPS_Module" : "Mobile Device GPS",
+        "Use_Bluetooth" : "No",
+        "Use_Wifi" : "No"
+      },
+      "Map_Configuration" : {
+        "Information_To_Be_Displayed_On_Marker" : [ "Image", "Level of Risk", "Description" ],
+        "Path_Preference" : "Safest Path",
+        "View_Type" : "Hybrid"
+      },
+      "Middle_Name" : "Paresh",
+      "Most_Recent_Location" : {
+        "lat" : 19.7514798,
+        "lng" : 75.7138884
+      },
+      "Nationality" : "indian",
+      "Profile_Picture" : "Screenshot (134).png",
+      "Role" : "Vehicle User",
+      "Vehicle" : {
+        "Insurance_No" : "GA 03 R 3712 - Insurance Number",
+        "Model" : "Wagon R - VXI",
+        "RC_No" : "GA 03 R 3712 - RC No",
+        "Registration_No" : "GA 03 R 3712",
+        "Safety_Features" : [ "Airbags", "ABS", "Electronic Stability Control" ],
+        "Vehicle_Health" : "Good"
+      }
+    },
+    "ZFd58ugYOJePpkpZmdojMiXzXJI2" : {
+      "Address" : {
+        "City" : "Curchorem",
+        "Coordinates" : {
+          "lat" : 15.4076848,
+          "lng" : 73.9842973
+        },
+        "Country" : "India",
+        "House_OR_Flat_No" : "609",
+        "Postal_Code" : 403706,
+        "State" : "Goa",
+        "Street_OR_Building_OR_Colony" : "Kakoda"
+      },
+      "Alternate_Contact_Number" : 9673599997,
+      "Alternate_Email_ID" : "laaduditya123@outlook.com",
+      "Contact_Number" : 7262063793,
+      "Date_Of_Birth" : "1997-08-08",
+      "Email_ID" : "udityalaad123@gmail.com",
+      "Emergency_Contact" : [ "prajyotnaik@gmail.com", "pranalzambaulikar@gmail.com" ],
+      "First_Name" : "Uditya",
+      "Gender" : "Male",
+      "Last_Name" : "Laad",
+      "Location_Settings" : {
+        "GPS_Module" : "Mobile Device GPS",
+        "Use_Bluetooth" : "Yes",
+        "Use_Wifi" : "No"
+      },
+      "Map_Configuration" : {
+        "Information_To_Be_Displayed_On_Marker" : [ "Image", "Coordinates", "Level of Risk", "Description" ],
+        "Path_Preference" : "Shortest Path",
+        "View_Type" : "Satellite"
+      },
+      "Middle_Name" : "Uday",
+      "Most_Recent_Location" : {
+        "lat" : 19.7514798,
+        "lng" : 75.7138884
+      },
+      "Nationality" : "indian",
+      "Path_Preference" : "Shortest Path",
+      "Role" : "Simple User"
+    },
+    "ahqHcq2HaVdIaqgHOdHqTkNOFHX2" : {
+      "Address" : {
+        "City" : "Pernem",
+        "Coordinates" : {
+          "lat" : 15.4076848,
+          "lng" : 73.9842973
+        },
+        "Country" : "India",
+        "House_OR_Flat_No" : "28",
+        "Postal_Code" : 4035012,
+        "State" : "Goa",
+        "Street_OR_Building_OR_Colony" : "Warkhand"
+      },
+      "Alternate_Contact_Number" : 9321122112,
+      "Alternate_Email_ID" : "vijaymone19@gmail.com",
+      "Blackbox_ID" : "Blackbox_4",
+      "Contact_Number" : 7279669556,
+      "Date_Of_Birth" : "1997-10-11",
+      "Email_ID" : "shashankmone19@gmail.com",
+      "Emergency_Contact" : [ "pranalzambaulikar@gmail.com" ],
+      "First_Name" : "Vijay",
+      "Gender" : "Male",
+      "Last_Name" : "Mone",
+      "Location_Settings" : {
+        "GPS_Module" : "Mobile Device GPS",
+        "Use_Bluetooth" : "No",
+        "Use_Wifi" : "No"
+      },
+      "Map_Configuration" : {
+        "Information_To_Be_Displayed_On_Marker" : [ "Image", "Level of Risk" ],
+        "Path_Preference" : "Safest Path",
+        "View_Type" : "Hybrid"
+      },
+      "Middle_Name" : "Shyamsundar",
+      "Most_Recent_Location" : {
+        "lat" : 19.7514798,
+        "lng" : 75.7138884
+      },
+      "Nationality" : "indian",
+      "Profile_Picture" : "Screenshot (134).png",
+      "Role" : "Vehicle User",
+      "Vehicle" : {
+        "Insurance_No" : "GA 11 C 6454 - Insurance Number",
+        "Model" : "Skoda Rapid",
+        "RC_No" : "GA 11 C 6454 - RC No",
+        "Registration_No" : "GA 11 C 6454",
+        "Safety_Features" : [ "Airbags", "ABS" ],
+        "Vehicle_Health" : "Very Good"
+      }
+    },
+    "fWkbFfAewEYfF0p26ICllrtvFXn1" : {
+      "Address" : {
+        "City" : "Ponda",
+        "Coordinates" : {
+          "lat" : 15.4076848,
+          "lng" : 73.9842973
+        },
+        "Country" : "India",
+        "House_OR_Flat_No" : "12",
+        "Postal_Code" : 403706,
+        "State" : "Goa",
+        "Street_OR_Building_OR_Colony" : "Farmagudi"
+      },
+      "Alternate_Contact_Number" : 9389213132,
+      "Alternate_Email_ID" : "ambulance_1@outlook.com",
+      "Contact_Number" : 9389321336,
+      "Date_Of_Establishment" : "1982-03-21",
+      "Email_ID" : "ambulance_1@gmail.com",
+      "FCM_Token" : "eYPd8AJMGjg:APA91bF8EmSGpTdC9FAQbKcNaV2jTP4D0IwtHyqW6lTEMeqNZ1QY1tud781oI6qf9Ltuu3slOQz8kRGqHlymcSEdsK0EQZK2sxLV7l0Solu_i_n_TbZwK7vTCYJyvb9pSorh0NtC-2dK",
+      "Government_Authorized" : "Yes",
+      "Government_Organization" : "Yes",
+      "Location_Settings" : {
+        "GPS_Module" : "Blackbox GPS",
+        "Use_Bluetooth" : "Yes",
+        "Use_Wifi" : "Yes"
+      },
+      "Map_Configuration" : {
+        "Information_To_Be_Displayed_On_Marker" : [ "Image", "Level of Risk", "Description" ],
+        "Path_Preference" : "Shortest Path",
+        "View_Type" : "Roadmap"
+      },
+      "Most_Recent_Location" : {
+        "lat" : 19.7514798,
+        "lng" : 75.7138884
+      },
+      "Name" : "Ambulance_1",
+      "Profile_Picture" : "Screenshot (134).png",
+      "Role" : "Emergency Service User",
+      "Service_Type" : "Ambulance"
+    },
+    "wLwAfZ1KwMUHnzDV7PHVB9lJUCz1" : {
+      "Address" : {
+        "City" : "Curchorem",
+        "Coordinates" : {
+          "lat" : 19.7514798,
+          "lng" : 75.7138884
+        },
+        "Country" : "India",
+        "House_OR_Flat_No" : "456",
+        "Postal_Code" : "403706",
+        "State" : "Goa",
+        "Street_OR_Building_OR_Colony" : "Mirabag"
+      },
+      "Alternate_Contact_Number" : "7878172712",
+      "Alternate_Email_ID" : "prajyotnaik@outlook.com",
+      "Contact_Number" : "9922778833",
+      "Date_Of_Birth" : "1992-06-15",
+      "Email_ID" : "prajyotnaik@gmail.com",
+      "Emergency_Contact" : [ "udityalaad123@gmail.com" ],
+      "First_Name" : "Prajyot",
+      "Gender" : "Male",
+      "Last_Name" : "Naik",
+      "Location_Settings" : {
+        "GPS_Module" : "Mobile Device GPS",
+        "Use_Bluetooth" : "No",
+        "Use_Wifi" : "No"
+      },
+      "Map_Configuration" : {
+        "Information_To_Be_Displayed_On_Marker" : [ "Level of Risk", "Description" ],
+        "Path_Preference" : "Shortest Path",
+        "View_Type" : "Roadmap"
+      },
+      "Middle_Name" : "Prakash",
+      "Most_Recent_Location" : {
+        "lat" : 19.7514798,
+        "lng" : 75.7138884
+      },
+      "Nationality" : "indian",
+      "Role" : "Simple User",
+      "Security_Question" : {
+        "Birth_Place" : "Margao",
+        "Favorite_Dish" : "Butter Chicken",
+        "First_Pets_Name" : "Jack"
+      }
+    }
+  }
+}

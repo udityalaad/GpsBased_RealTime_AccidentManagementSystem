@@ -1,0 +1,39 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "Mapa"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "Mapa"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "Mapa"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "Mapa"
+    },
+    "cordova-plugin-media": {
+      "PACKAGE_NAME": "Mapa"
+    },
+    "cordova-plugin-media-capture": {
+      "PACKAGE_NAME": "Mapa"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "Mapa"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "Mapa"
+    },
+    "kr.co.joycorp.cordova.exitapp": {
+      "PACKAGE_NAME": "Stay Safe"
+    }
+  },
+  "dependent_plugins": {}
+}

@@ -1,0 +1,144 @@
+{
+  "project_info": {
+    "project_number": "33456599278",
+    "firebase_url": "https://accident-management-system.firebaseio.com",
+    "project_id": "accident-management-system",
+    "storage_bucket": "accident-management-system.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:33456599278:android:ea894d94db2a692b",
+        "android_client_info": {
+          "package_name": "com.example.Maps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "33456599278-40vd5vemd09hju5eh6326939sdpkc6nn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUr37lYOznqwtvKhgfKJEH1KRTyw_kKkM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:33456599278:android:1b700e56ab5fa99a",
+        "android_client_info": {
+          "package_name": "com.staysafe.uditya.staysafe_extension"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "33456599278-jaklf7ua3otdppb1lpd0i2q5l0la9a26.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.staysafe.uditya.staysafe_extension",
+            "certificate_hash": "f6b503794e6d79e0027036c7127b0186abb0f79f"
+          }
+        },
+        {
+          "client_id": "33456599278-40vd5vemd09hju5eh6326939sdpkc6nn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUr37lYOznqwtvKhgfKJEH1KRTyw_kKkM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "33456599278-40vd5vemd09hju5eh6326939sdpkc6nn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "33456599278-3rniuuic5l55sp5n53bbhlq7qvg95ld0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.Maps"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:33456599278:android:d7d156fabe0b3c54",
+        "android_client_info": {
+          "package_name": "com.staysafe.uditya.staysafeextension"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "33456599278-rhe3t1gk477sdjmmhnq0avk5ir6m7bcs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.staysafe.uditya.staysafeextension",
+            "certificate_hash": "f6b503794e6d79e0027036c7127b0186abb0f79f"
+          }
+        },
+        {
+          "client_id": "33456599278-40vd5vemd09hju5eh6326939sdpkc6nn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUr37lYOznqwtvKhgfKJEH1KRTyw_kKkM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "33456599278-40vd5vemd09hju5eh6326939sdpkc6nn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "33456599278-3rniuuic5l55sp5n53bbhlq7qvg95ld0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.Maps"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

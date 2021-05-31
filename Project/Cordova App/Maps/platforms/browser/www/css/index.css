@@ -1,0 +1,888 @@
+
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    background-color:#E4E4E4;
+    background-image:linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+    background-image:-webkit-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+    background-image:-ms-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+    background-image:-webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0, #A7A7A7),
+        color-stop(0.51, #E4E4E4)
+    );
+    background-attachment:fixed;
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size:12px;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    /* text-transform:uppercase; */
+    width:100%;
+}
+
+/* Portrait layout (default) */
+.app {
+    background:url(../img/logo.png) no-repeat center top; /* 170px x 200px */
+    position:absolute;             /* position in the center of the screen */
+    left:50%;
+    top:50%;
+    height:50px;                   /* text area height */
+    width:225px;                   /* text area width */
+    text-align:center;
+    padding:180px 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
+    margin:-115px 0px 0px -112px;  /* offset vertical: half of image height and text area height */
+                                   /* offset horizontal: half of text area width */
+}
+
+/* Landscape layout (with min-width) */
+@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
+    .app {
+        background-position:left center;
+        padding:75px 0px 75px 170px;  /* padding-top + padding-bottom + text area = image height */
+        margin:-90px 0px 0px -198px;  /* offset vertical: half of image height */
+                                      /* offset horizontal: half of image width and text area width */
+    }
+}
+
+h1 {
+    font-size:24px;
+    font-weight:normal;
+    margin:0px;
+    overflow:visible;
+    padding:0px;
+    text-align:center;
+}
+
+.event {
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    color:#FFFFFF;
+    font-size:12px;
+    margin:0px 30px;
+    padding:2px 0px;
+}
+
+.event.listening {
+    background-color:#333333;
+    display:block;
+}
+
+.event.received {
+    background-color:#4B946A;
+    display:none;
+}
+
+@keyframes fade {
+    from { opacity: 1.0; }
+    50% { opacity: 0.4; }
+    to { opacity: 1.0; }
+}
+ 
+@-webkit-keyframes fade {
+    from { opacity: 1.0; }
+    50% { opacity: 0.4; }
+    to { opacity: 1.0; }
+}
+ 
+.blink {
+    animation:fade 3000ms infinite;
+    -webkit-animation:fade 3000ms infinite;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ---------- STANDARD ELEMENTS ---------- */
+html, body {
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    font-family: 'Numans', sans-serif;
+}
+
+
+h5 {
+    text-align: center;
+}
+
+hr {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+
+
+
+
+/* ---------- Font Icons ---------- */
+/* -- Close Form Icon  -- */
+.close_window_icon {
+    /* -webkit-text-stroke: 1px background-color; */
+    color: #656565;
+    float: right;
+
+    margin-top: 14px;
+    margin-right: 19px;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+.close_window_icon:hover {
+    cursor: pointer;
+    color: #DBDBDB;
+    transform: scale(1.2,1.2);
+}
+
+
+
+/* -- Go Back Icon -- */
+.go_back_icon {
+    transform: scale(1.5,.8);
+    color: #656565;
+    float: right;
+
+    margin-top: 15px;
+    margin-right: 20px;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+.go_back_icon:hover {
+    cursor: pointer;
+    color: #DBDBDB;
+    transform: scale(1.7,1);
+}
+
+
+
+
+
+/* ---------- FORMS ---------- */
+.Data_Forms {
+	border: 2px;
+	padding: 1em;
+	/* margin: auto; */
+	font-size: 18;
+	/* color: white; */
+	/* background: linear-gradient(to top right, #00ccff 0%, #ff9999 100%);
+	border-radius: 10px; */
+}
+
+
+
+.Data_Forms input {
+    border-radius: 4px;
+    margin: 3px;
+}
+
+.Data_Forms select {
+    border-radius: 4px;
+    margin: 3px;
+}
+
+.Data_Forms image {
+    border-radius: 4px;
+    margin: 3px;
+}
+
+.Data_Forms textarea {
+    border-radius: 4px;
+    margin: 3px;
+}
+
+
+
+.form_bottons {
+    text-align: center;
+}
+
+.form_buttons {
+    position: absolute;
+    top: 50%;
+}
+
+
+.contact100-form-btn {
+    display: inline-block;
+}
+
+
+
+
+/* -- Refresh Location Coordinates Button  -- */
+.refresh_location_coordinates_button {
+    border-radius: 4px;
+    margin: 3px;
+}
+
+
+
+
+/* -- Bottom Form Buttons  -- */
+.contact100-form-btn {
+    justify-content: center;
+    align-items: center;
+    padding: 0 w0px;
+    min-width: 125px;
+    height: 38px;
+    background-color: #57b846;
+    border-radius:25px;
+
+    font-size: 12px;
+    color: #fff;
+    line-height: 1.2;
+
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+
+.contact100-form-btn i {
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.contact100-form-btn:hover {
+    background-color: #333333;
+}
+
+.contact100-form-btn:hover i {
+    -webkit-transform: translateX(10px);
+    -moz-transform: translateX(10px);
+    -ms-transform: translateX(10px);
+    -o-transform: translateX(10px);
+    transform: translateX(10px);
+}
+
+
+
+
+/* -- Form Tables -- */
+.form_tables {
+    width: 100%;
+    /* margin: 2px; */
+    padding: none;
+    border: none;
+}
+
+.form_tables tr {
+    width: 100%;
+
+    border-top: solid #BDBDBD thin;
+    border-bottom: solid #BDBDBD thin;
+}
+
+.form_tables th {
+    vertical-align: top;
+    text-align: right;
+    padding: 17px;
+}
+
+.form_tables td {
+    vertical-align: top;
+    padding: 17px;
+}
+
+
+
+
+
+
+
+/* ---------- LOGIN PAGE ---------- */
+#LOGIN_PAGE {
+    background-image: url('../img/Login/544750.jpg');
+    background-size: 450px 1200px;
+}
+
+
+
+
+
+/* ---------- SIGN UP ---------- */
+.User_Profile_Forms {
+    /* width: 100%; */
+
+    margin-top: none;
+    margin-bottom: none;
+
+    padding-bottom: none;
+    
+    border-bottom: none;
+}
+
+
+#Sign_Up_User_Type_Form {
+    text-align: center;
+}
+
+
+.Form_Subpart {
+    font-size: 16px;
+    text-align: center;
+}
+
+
+
+/* ---------- HOME PAGE ---------- */
+/* Home Page Title */
+#Home_Page_Title {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    background-color: #383838;
+    /* border-bottom: white 5px; */
+}
+
+
+
+/* Map_Inputs Form */
+#Map_Inputs_Form  {
+    background-color: #F9F6F6;
+    overflow: hidden;
+}
+
+#Map_Inputs_Form input {
+    font-size: 18px;
+    border-radius: 5px;
+    margin: 4px;
+    width: 150px;
+}
+
+.Map_Inputs_Buttons_Class {
+    display : inline;
+    font-size: 40px;
+    color: rgb(236, 235, 221);
+    border: none;
+    background-color: green;
+    /* float: right; */
+}
+
+
+#Map_Inputs_Texts_Div {
+    width: 20px;
+    float: left;
+}
+
+#Map_Inputs_Buttons_Div {
+    overflow: hidden;
+    float : right;
+}
+
+#One_Click_Help_Button {
+    font-size: 20px;
+    border-radius: 7px;
+    color: white;
+    background-color: red;
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+}
+
+
+/* Google Map */
+#googleMap {
+    /* z-index: -1; */
+}
+
+
+
+
+
+/* ---------- List Tables ---------- */
+.list_tables {
+    width: 100%;
+    margin: 10px;
+}
+
+.list_tables tr {
+    border-top: 1px solid #A4A4A4;
+    border-bottom: 1px solid #A4A4A4;
+    width: 100%;
+}
+
+
+.list_tables tr:hover {
+    background-color: #DCDCDC;
+    cursor: pointer;
+}
+
+
+.list_tables td {
+    padding: 15px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+/* -------------------------------------------------------
+                        Setting
+------------------------------------------------------- */
+
+/* ---------- Blackbox ---------- */
+.Form_Description {
+    width: 100%;
+    text-align: center;
+
+    margin-top: none;
+    margin-bottom: none;
+
+    padding-bottom: none;
+    
+    border-bottom: none;
+}
+
+
+
+/* Check Status */
+.Status_On_icon {
+    color: green;
+    font-size: 15px;
+}
+
+.Status_Off_Icon {
+    color: red;
+    font-size: 15px;
+}
+
+
+
+
+
+/* ---------- Emergency Contact ---------- */
+
+/* Delete Emergency Contact Icon */
+.delete_icon {
+    /* -webkit-text-stroke: 1px background-color; */
+    color: black;
+    float: right;
+}
+
+
+.delete_icon:hover {
+    cursor: pointer;
+    color: rgb(255, 0, 0);
+    transform: scale(1.2,1.2);
+}
+
+
+
+/* Add Emergency Contact Icon */
+#Add_Emergency_Contact_Icon {
+    font-size: 75px;
+    color: rgba(0, 0, 0, 0.643);
+
+    right: 0;
+    bottom: 0;
+
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+#Add_Emergency_Contact_Icon:hover {
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+/* -------------------------------------------------------
+                    REQUESTS
+------------------------------------------------------- */
+
+.Request_Buttons {
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.Accept-Request {
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+.Reject-Request {
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+.Cancel-Request {
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+
+
+
+
+
+
+/* -------------------------------------------------------
+                Messages & Notifications
+------------------------------------------------------- */
+
+/* ---------- Notification/Message Window ---------- */
+
+/* -- Notification/Message Window -- */
+.Notification_OR_Message_Window {
+    padding: 5px;
+}
+
+
+/* -- Notification/Message Parameters -- */
+.ID_FOR_Notification_OR_Message_Window_Class {
+    font-weight: bold;
+    font-size: 23px;
+    width: 100%;
+
+    text-align: center;
+}
+
+.Sender_FOR_Notification_OR_Message_Window_Class {
+    font-weight: bold;
+    font-size: 20px;
+    width: 100%;
+}
+
+.Subject_FOR_Notification_OR_Message_Window_Class {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.Content_FOR_Notification_OR_Message_Window_Class {
+    font-size: 13px;
+}
+
+.Time_FOR_Notification_OR_Message_Window_Class {
+    font-size: 12px;
+    text-align: right;
+}
+
+
+
+/* -- Delete Notification/Message Butonn -- */
+.Delete_Button_FOR_Notification_OR_Message_Window_Class {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------
+                    User Profile
+------------------------------------------------------- */
+/* Profile Picture */
+.Image_Object_Class {
+    width: 120px;
+    height: 120px;
+}
+
+
+.Edit_Image_Input {
+    width: 0px;
+    visibility: hidden;
+}
+
+
+.image-preview {
+    width: 120px;
+    height: 120px;
+    
+    position: relative;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.image-preview:hover .edit {
+    display: block;
+}
+
+.edit_image {
+    padding-top: 7px;
+    padding-right:7px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.edit_image a {
+    color: blue;
+}
+
+.remove_image {
+    padding-bottom: 7px;
+    padding-right:7px;
+    position: absolute;
+    float: right top;
+    right: 0;
+    bottom: 0;
+}
+
+
+.remove_image a {
+    color: blue;
+}
+
+
+
+/* User - Name & Type */
+.User_Name_FOR_My_Profile {
+    font-size: 20px;
+}
+
+.User_Role_FOR_My_Profile {
+    font-size: 14px;
+}
+
+
+/* Internet Status */
+.Internet_Status_Logo_Online {
+    color: green;
+}
+
+.Internet_Status_Logo_Offline {
+    color: red;
+}
+
+
+
+
+
+
+
+
+/* ------------------------------------     Modals     ------------------------------------ */
+
+/* Modal Buttons */
+.Modal_Buttons {
+    background-color: black;
+    color: rgb(235, 235, 235);
+    text-align : center;
+    border-radius: 5px;
+    font-size: 17px;
+    margin: auto;
+}
+
+/* #Modal_Button_YES {
+    background-color: red;
+}
+
+#Modal_Button_NO {
+    background-color: green;
+} */
+
+
+
+
+
+/* -------------------------------------------------------
+                Confirm Accident Modal
+------------------------------------------------------- */
+
+#Confirm_Accident_Modal {
+    background-color: white;
+    width: 70%;
+    height: 60%;
+    margin: auto;
+}
+
+
+#Confirm_Accident_Modal_Header {
+    margin: auto;
+}
+
+#Confirm_Accident_Modal_Body_Paragraph {
+    text-align: center;
+}
+
+
+
+
+
+/* -------------------------------------------------------
+                One Click Help Modal
+------------------------------------------------------- */
+
+#Confirm_One_Click_Help_Modal {
+    background-color: white;
+    width: 70%;
+    height: 200px;
+    margin: auto;
+}
+
+
+#Confirm_One_Click_Help_Modal_Header {
+    margin: auto;
+}
+
+#Confirm_One_Click_Help_Modal_Body_Paragraph {
+    text-align: center;
+}
+
+
+
+
+
+
+/* ------------------------------------     Hidden Data     ------------------------------------ */
+
+/* -------------------------------------------------------
+        Accident_Scenario_Report_Table FOR Download
+------------------------------------------------------- */
+
+#Accident_Scenario_Report_Table_FOR_Download {
+    display : none;
+}
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------     Images     ------------------------------------ */
+
+/* -------------------------------------------------------
+                User Profile
+------------------------------------------------------- */
+/* Profile Picture */
+/* .Profile_Picture_Img {
+    width: 120px;
+    height: 120px;
+} */
+
+
+/* User - Name & Type */
+/* .User_Name_FOR_My_Profile {
+    font-size: 20px;
+}
+
+.User_Role_FOR_My_Profile {
+    font-size: 14px;
+} */
+
+
+/* Internet Status */
+/* .Internet_Status_Logo_Online {
+    color: green;
+}
+
+.Internet_Status_Logo_Offline {
+    color: red;
+} */
+
+
+
+/* -------------------------------------------------------
+                BlackSpot & Unsafe Zone
+------------------------------------------------------- */
+
+/* Image */
+/* .Image_Object_Class {
+    width: 120px;
+    height: 120px;
+}
+
+.Edit_Image_Input {
+    visibility: hidden;
+}
+
+.image-preview {
+    width: 120px;
+    height: 120px;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.image-preview:hover .edit_image {
+    display: block;
+}
+
+.edit_image {
+    padding-top: 7px;
+    padding-right:7px;
+    position: absolute;
+    float: right top;
+    right: 0;
+    top: 0;
+}
+
+.edit_image a {
+    color: white;
+}
+
+
+.remove_image {
+    padding-bottom: 7px;
+    padding-right:7px;
+    position: absolute;
+    float: right top;
+    right: 0;
+    bottom: 0;
+}
+
+.remove_image a {
+    color: white;
+}

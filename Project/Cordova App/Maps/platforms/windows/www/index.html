@@ -1,0 +1,4600 @@
+﻿<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+        <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;"> -->
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+
+
+		<!-- Main -->
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+		<script src="js/index.js"> </script>
+		
+		
+
+		<!-- For Bootstrap Navigation Bar-->
+			<link rel="stylesheet" type="text/css" href="css/Navbar/1/bootstrap.min.css">
+			<!-- <script src="js/Navbar/1/bootstrap.min.js"> </script> -->
+			<script src="js/Navbar/1/jquery.min.js"> </script>
+	<!-- Doubt -->		<link rel="stylesheet" href="css/Navbar/2/bootstrap.min.css">
+			<!-- <link rel="stylesheet" href="css/Navbar/all.css"> -->
+			
+			<link rel="stylesheet" type="text/css" href="css/Navbar/assets/custom.css">
+			<link rel="stylesheet" type="text/css" href="css/Navbar/assets/custom-themes.css">
+			<link rel="shortcut icon" type="image/png" href="img/Navbar/assets/user.jpg">
+			
+			<!-- ------------------------ -->
+			
+			<!-- <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> -->
+			<!-- <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"> </script> -->
+			<!-- <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script> -->
+			<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" -->
+				<!-- crossorigin="anonymous"> -->
+			<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+
+			<!-- <link rel="stylesheet" href="assets/css/custom.css"> -->
+			<!-- <link rel="stylesheet" href="assets/css/custom-themes.css"> -->
+			<!-- <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png" /> -->
+
+			
+
+		<!-- Login Modal -->
+			<!-- <link id="bootstrap-css" rel="stylesheet" href="css/Login/1/bootstrap.min.css"> -->
+			<!-- <script src="js/Login/bootstrap.min.js"> </script> -->
+			<script src="js/Login/jquery.min.js"> </script>
+			
+			<!-- Bootstrap 4 CDN -->
+			<!-- <link rel="stylesheet"  href="css/Login/2/bootstrap.min.css"> -->
+
+			<!-- Fontawesome CDN -->
+			<!-- <link rel="stylesheet"  href="css/Login/all.css"> -->
+
+			<!-- Custom styles -->
+			<link rel="stylesheet" type="text/css" href="css/Login/styles.css" >
+
+			<!-- ------------------------ -->
+
+			<!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+			<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+			<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>	 -->
+			
+			<!--Bootsrap 4 CDN-->
+			<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
+			
+			<!--Fontawesome CDN-->
+			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+			<!--Custom styles-->
+			<!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
+
+
+
+		
+		<!-- Forms -->
+			<link rel="stylesheet" type="text/css" href="css/Forms/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+		
+		
+		
+		<!-- Drag & Drop Function -->
+    		<script type="text/javascript" src='js/Drag_Drop/jquery.min.js'></script>
+			<script type="text/javascript" src='js/Drag_Drop/Sortable.js'></script>
+
+
+
+
+		<!-- Bootstrap Modal -->
+			<!-- <link rel="stylesheet" type="text/css" href="css/Bootstrap_Modal/bootstrap.min.css"> -->
+			<script src="js/Bootstrap_Modal/jquery.min.js"> </script>
+			<script src="js/Bootstrap_Modal/bootstrap.min.js"> </script>
+			
+			<!-- ------------------------ -->
+			
+			<!-- <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> -->
+			<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script> -->
+			<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"> </script> -->
+
+
+
+
+		<!-- jsPDF -->
+			<!-- <script src="js/jsPDF/jspdf.js"> </script> -->	<!-- Gives Error - Does not allow image upload to firebase storage -->
+			<script src="js/jsPDF/jspdf.debug.js"> </script>
+			<script src="js/jsPDF/jspdf.plugin.autotable.js"> </script>
+			
+			<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/0.9.0rc1/jspdf.js"> </script> -->	<!-- Gives Error - Does not allow image upload to firebase storage -->
+			<!-- <script src="https://rawgit.com/MrRio/jsPDF/master/dist/jspdf.debug.js"> </script> -->
+			<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/2.3.0/jspdf.plugin.autotable.js"> </script> -->
+		<title>Stay Safe</title>
+		
+    </head>
+
+
+	
+	
+	<body onload="init();">
+		<!-- Login Page -->	
+		<div id="LOGIN_PAGE" class="container">
+			<div class="d-flex justify-content-center h-100">
+				<div class="card">
+					<div class="card-header">
+						<h3> Sign In </h3>
+
+						<div class="d-flex justify-content-end social_icon">
+							<span> <i class="fab fa-facebook-square"> </i> </span>
+							<span> <i class="fab fa-google-plus-square"> </i> </span>
+							<span> <i class="fab fa-twitter-square"> </i> </span>
+						</div>
+					</div>
+					
+					<div class="card-body">
+						<form class="User_Filled_Forms" id="Login_Form" name="Login_Form" onsubmit="return validate_Login_Form('Login_Form');" action="javascript:Log_In('Login_Form')" method="post">
+							<div class="input-group form-group">
+								<div class="input-group-prepend">
+									<span class="input-group-text">	<i class="fas fa-user"> </i> </span>
+								</div>
+
+								<input type="email" name="EMAIL_ID" class="form-control" placeholder="email" required>
+							</div>
+
+							<div class="input-group form-group">
+								<div class="input-group-prepend">
+									<span class="input-group-text">	<i class="fas fa-key"> </i>	</span>
+								</div>
+
+								<input type="password" name="USER_PASSWORD" class="form-control" placeholder="password" required>
+							</div>
+
+
+							<div class="row align-items-center remember">
+								<input type="checkbox" name="REMEMBER_ME" checked> Remember Me
+							</div>
+
+							<div class="form-group">
+								<input type="submit" value="Login" class="btn float-right login_btn">
+							</div>
+						</form>
+					</div>
+
+					<div class="card-footer">
+						<div class="d-flex justify-content-center links">
+							Don't have an account?
+							<a href="javascript:show_hide_content('SIGN_UP_PAGE')">
+								Sign Up
+							</a>
+						</div>
+
+						<div class="d-flex justify-content-center">
+							<a href="javascript: show_hide_content('FORGOT_PASSWORD');">
+								Forgot your password?
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		
+		
+
+		<!-- --------------------------------------------------------------
+									Sign Up
+			-------------------------------------------------------------- -->
+		<div class="Main_Page_Content" id="SIGN_UP_PAGE">
+			<main class="page-content">
+				<br>
+
+				<h5> SIGN UP </h5>
+
+				<!-- <i class="fa fa-arrow-left go_back_icon" aria-hidden="true" style="font-size: 30px;""> </i> -->
+				<i class="fa fa-close close_window_icon" aria-hidden="true" style="font-size: 30px;" onclick="javascript: Go_Back_To_Initial_State('Indirect');"> </i>
+
+				<hr>
+
+
+				<!-- Choose User-Type -->
+				<!-- Unsure -------- class="User_Filled_Forms" -------- Unsure -->
+				<form class="Data_Forms" id="Sign_Up_User_Type_Form">
+				<!-- --------------------- End - Unsure --------------------- -->
+					<table class="form_tables" id="Sign_Up_User_Type_Form_Table">
+						<tbody class="form_tables_body" id="Sign_Up_User_Type_Form_Table_Body">
+							<tr>
+								<td colspan="2">
+									<input type="radio" name="USER_TYPE" id="SIGN_UP_SIMPLE_USER" value="Simple User" onchange="javascript: Switch_Sign_Up_User_Type('Simple_User');" checked> Simple User &nbsp
+									<input type="radio" name="USER_TYPE" id="SIGN_UP_VEHICLE_USER" value="Vehicle User" onchange="javascript: Switch_Sign_Up_User_Type('Vehicle_User');"> Vehicle User &nbsp
+									<input type="radio" name="USER_TYPE" id="SIGN_UP_EMERGENCY_SERVICE_USER" value="Emergency Service User" onchange="javascript: Switch_Sign_Up_User_Type('Emergency_Service_User');"> Emergency Service User
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</form>
+
+				<!-- Sign Up Form - For 3 Types of Users -->
+				<div class="User_Profile_Forms" id="Sign_Up_Form">
+					<!-- Simple User -->
+					<form class="User_Filled_Forms Data_Forms" id="Sign_Up_Simple_User_Form" onsubmit="return validate_Sign_Up_Simple_User_Form('Sign_Up_Simple_User_Form');" action="javascript: Sign_Up_OR_Modify_User_Profile('Sign Up', 'Sign_Up_Simple_User_Form');">
+						<table class="form_tables" id="Sign_Up_Simple_User_Form_Table">
+							<tbody class="form_tables_body" id="Sign_Up_Simple_User_Form_Table_Body">
+								<!-- ---------------- Common Content ---------------- -->
+								<tr>
+									<th> Full Name </th>
+									<td>
+										<input type="text" name="FIRST_NAME" placeholder=" First Name" required>  &nbsp &nbsp
+										<input type="text" name="MIDDLE_NAME" placeHolder=" Middle Name" > &nbsp &nbsp
+										<input type="text" name="LAST_NAME" placeholder=" Last Name" required>
+									</td>
+								</tr>
+
+								<tr>
+									<th> Email ID </th>
+									<td> <input type="email" name="EMAIL_ID" placeholder=" Email ID"> </td>
+								</tr>
+
+								<tr>
+									<th> Alternate Email ID </th>
+									<td> <input type="email" name="ALTERNATE_EMAIL_ID" placeholder=" Alternate Email ID" required> </td>
+								</tr>
+
+								<tr>
+									<th> Contact Number </th>
+									<td> <input type="number" name="CONTACT_NUMBER" placeholder=" Contact Number" required> </td>
+								</tr>
+
+								<tr>
+									<th> Alternate Contact Number </th>
+									<td> <input type="number" name="ALTERNATE_CONTACT_NUMBER" placeholder=" Alternate Contact Number"> </td>
+								</tr>
+
+								<tr>
+									<th> Profile Picture </th>
+									<td> <input type="file" name="PROFILE_PICTURE" accept="image/*" capture="capture"/> </td>
+								</tr>
+
+								<tr>
+									<th> Nationality </th>
+									<td>
+										<select name="NATIONALITY" class="Sign_Up_Simple_User_Form_Nationality_Class" id="Sign_Up_Simple_User_Form_Nationality" required>
+											<option value="" disabled selected> Select your choice </option>
+											<option value="afghan">Afghan</option>
+											<option value="albanian">Albanian</option>
+											<option value="algerian">Algerian</option>
+											<option value="american">American</option>
+											<option value="andorran">Andorran</option>
+											<option value="angolan">Angolan</option>
+											<option value="antiguans">Antiguans</option>
+											<option value="argentinean">Argentinean</option>
+											<option value="armenian">Armenian</option>
+											<option value="australian">Australian</option>
+											<option value="austrian">Austrian</option>
+											<option value="azerbaijani">Azerbaijani</option>
+											<option value="bahamian">Bahamian</option>
+											<option value="bahraini">Bahraini</option>
+											<option value="bangladeshi">Bangladeshi</option>
+											<option value="barbadian">Barbadian</option>
+											<option value="barbudans">Barbudans</option>
+											<option value="batswana">Batswana</option>
+											<option value="belarusian">Belarusian</option>
+											<option value="belgian">Belgian</option>
+											<option value="belizean">Belizean</option>
+											<option value="beninese">Beninese</option>
+											<option value="bhutanese">Bhutanese</option>
+											<option value="bolivian">Bolivian</option>
+											<option value="bosnian">Bosnian</option>
+											<option value="brazilian">Brazilian</option>
+											<option value="british">British</option>
+											<option value="bruneian">Bruneian</option>
+											<option value="bulgarian">Bulgarian</option>
+											<option value="burkinabe">Burkinabe</option>
+											<option value="burmese">Burmese</option>
+											<option value="burundian">Burundian</option>
+											<option value="cambodian">Cambodian</option>
+											<option value="cameroonian">Cameroonian</option>
+											<option value="canadian">Canadian</option>
+											<option value="cape verdean">Cape Verdean</option>
+											<option value="central african">Central African</option>
+											<option value="chadian">Chadian</option>
+											<option value="chilean">Chilean</option>
+											<option value="chinese">Chinese</option>
+											<option value="colombian">Colombian</option>
+											<option value="comoran">Comoran</option>
+											<option value="congolese">Congolese</option>
+											<option value="costa rican">Costa Rican</option>
+											<option value="croatian">Croatian</option>
+											<option value="cuban">Cuban</option>
+											<option value="cypriot">Cypriot</option>
+											<option value="czech">Czech</option>
+											<option value="danish">Danish</option>
+											<option value="djibouti">Djibouti</option>
+											<option value="dominican">Dominican</option>
+											<option value="dutch">Dutch</option>
+											<option value="east timorese">East Timorese</option>
+											<option value="ecuadorean">Ecuadorean</option>
+											<option value="egyptian">Egyptian</option>
+											<option value="emirian">Emirian</option>
+											<option value="equatorial guinean">Equatorial Guinean</option>
+											<option value="eritrean">Eritrean</option>
+											<option value="estonian">Estonian</option>
+											<option value="ethiopian">Ethiopian</option>
+											<option value="fijian">Fijian</option>
+											<option value="filipino">Filipino</option>
+											<option value="finnish">Finnish</option>
+											<option value="french">French</option>
+											<option value="gabonese">Gabonese</option>
+											<option value="gambian">Gambian</option>
+											<option value="georgian">Georgian</option>
+											<option value="german">German</option>
+											<option value="ghanaian">Ghanaian</option>
+											<option value="greek">Greek</option>
+											<option value="grenadian">Grenadian</option>
+											<option value="guatemalan">Guatemalan</option>
+											<option value="guinea-bissauan">Guinea-Bissauan</option>
+											<option value="guinean">Guinean</option>
+											<option value="guyanese">Guyanese</option>
+											<option value="haitian">Haitian</option>
+											<option value="herzegovinian">Herzegovinian</option>
+											<option value="honduran">Honduran</option>
+											<option value="hungarian">Hungarian</option>
+											<option value="icelander">Icelander</option>
+											<option value="indian">Indian</option>
+											<option value="indonesian">Indonesian</option>
+											<option value="iranian">Iranian</option>
+											<option value="iraqi">Iraqi</option>
+											<option value="irish">Irish</option>
+											<option value="israeli">Israeli</option>
+											<option value="italian">Italian</option>
+											<option value="ivorian">Ivorian</option>
+											<option value="jamaican">Jamaican</option>
+											<option value="japanese">Japanese</option>
+											<option value="jordanian">Jordanian</option>
+											<option value="kazakhstani">Kazakhstani</option>
+											<option value="kenyan">Kenyan</option>
+											<option value="kittian and nevisian">Kittian and Nevisian</option>
+											<option value="kuwaiti">Kuwaiti</option>
+											<option value="kyrgyz">Kyrgyz</option>
+											<option value="laotian">Laotian</option>
+											<option value="latvian">Latvian</option>
+											<option value="lebanese">Lebanese</option>
+											<option value="liberian">Liberian</option>
+											<option value="libyan">Libyan</option>
+											<option value="liechtensteiner">Liechtensteiner</option>
+											<option value="lithuanian">Lithuanian</option>
+											<option value="luxembourger">Luxembourger</option>
+											<option value="macedonian">Macedonian</option>
+											<option value="malagasy">Malagasy</option>
+											<option value="malawian">Malawian</option>
+											<option value="malaysian">Malaysian</option>
+											<option value="maldivan">Maldivan</option>
+											<option value="malian">Malian</option>
+											<option value="maltese">Maltese</option>
+											<option value="marshallese">Marshallese</option>
+											<option value="mauritanian">Mauritanian</option>
+											<option value="mauritian">Mauritian</option>
+											<option value="mexican">Mexican</option>
+											<option value="micronesian">Micronesian</option>
+											<option value="moldovan">Moldovan</option>
+											<option value="monacan">Monacan</option>
+											<option value="mongolian">Mongolian</option>
+											<option value="moroccan">Moroccan</option>
+											<option value="mosotho">Mosotho</option>
+											<option value="motswana">Motswana</option>
+											<option value="mozambican">Mozambican</option>
+											<option value="namibian">Namibian</option>
+											<option value="nauruan">Nauruan</option>
+											<option value="nepalese">Nepalese</option>
+											<option value="new zealander">New Zealander</option>
+											<option value="ni-vanuatu">Ni-Vanuatu</option>
+											<option value="nicaraguan">Nicaraguan</option>
+											<option value="nigerien">Nigerien</option>
+											<option value="north korean">North Korean</option>
+											<option value="northern irish">Northern Irish</option>
+											<option value="norwegian">Norwegian</option>
+											<option value="omani">Omani</option>
+											<option value="pakistani">Pakistani</option>
+											<option value="palauan">Palauan</option>
+											<option value="panamanian">Panamanian</option>
+											<option value="papua new guinean">Papua New Guinean</option>
+											<option value="paraguayan">Paraguayan</option>
+											<option value="peruvian">Peruvian</option>
+											<option value="polish">Polish</option>
+											<option value="portuguese">Portuguese</option>
+											<option value="qatari">Qatari</option>
+											<option value="romanian">Romanian</option>
+											<option value="russian">Russian</option>
+											<option value="rwandan">Rwandan</option>
+											<option value="saint lucian">Saint Lucian</option>
+											<option value="salvadoran">Salvadoran</option>
+											<option value="samoan">Samoan</option>
+											<option value="san marinese">San Marinese</option>
+											<option value="sao tomean">Sao Tomean</option>
+											<option value="saudi">Saudi</option>
+											<option value="scottish">Scottish</option>
+											<option value="senegalese">Senegalese</option>
+											<option value="serbian">Serbian</option>
+											<option value="seychellois">Seychellois</option>
+											<option value="sierra leonean">Sierra Leonean</option>
+											<option value="singaporean">Singaporean</option>
+											<option value="slovakian">Slovakian</option>
+											<option value="slovenian">Slovenian</option>
+											<option value="solomon islander">Solomon Islander</option>
+											<option value="somali">Somali</option>
+											<option value="south african">South African</option>
+											<option value="south korean">South Korean</option>
+											<option value="spanish">Spanish</option>
+											<option value="sri lankan">Sri Lankan</option>
+											<option value="sudanese">Sudanese</option>
+											<option value="surinamer">Surinamer</option>
+											<option value="swazi">Swazi</option>
+											<option value="swedish">Swedish</option>
+											<option value="swiss">Swiss</option>
+											<option value="syrian">Syrian</option>
+											<option value="taiwanese">Taiwanese</option>
+											<option value="tajik">Tajik</option>
+											<option value="tanzanian">Tanzanian</option>
+											<option value="thai">Thai</option>
+											<option value="togolese">Togolese</option>
+											<option value="tongan">Tongan</option>
+											<option value="trinidadian or tobagonian">Trinidadian or Tobagonian</option>
+											<option value="tunisian">Tunisian</option>
+											<option value="turkish">Turkish</option>
+											<option value="tuvaluan">Tuvaluan</option>
+											<option value="ugandan">Ugandan</option>
+											<option value="ukrainian">Ukrainian</option>
+											<option value="uruguayan">Uruguayan</option>
+											<option value="uzbekistani">Uzbekistani</option>
+											<option value="venezuelan">Venezuelan</option>
+											<option value="vietnamese">Vietnamese</option>
+											<option value="welsh">Welsh</option>
+											<option value="yemenite">Yemenite</option>
+											<option value="zambian">Zambian</option>
+											<option value="zimbabwean">Zimbabwean</option>
+										</select>
+									</td>
+								</tr>
+
+								<tr>
+									<th> Date of Birth </th>
+									<td> <input type="date" name="DOB" required> </td>
+								</tr>
+
+								<tr>
+									<th> Gender </th>
+									<td>
+										<input type="radio" name="GENDER" id="Sign_Up_Simple_User_Form_MALE" value="Male" required> Male &nbsp
+										<input type="radio" name="GENDER" id="Sign_Up_Simple_User_Form_FEMALE" value="Female"> Female &nbsp
+										<input type="radio" name="GENDER" id="Sign_Up_Simple_User_Form_OTHER" value="Other"> Other
+									</td>
+								</tr>
+
+								<tr>
+									<th> Address </th>
+									<td>
+										<input type="number" name="HOUSE_NO_OR_FLAT_NO" placeHolder=" House No. / Flat No." required> &nbsp &nbsp
+										<input type="text" name="STREET_OR_BUILDING_OR_COLONY" placeholder=" Street / Building / Colony" required> &nbsp &nbsp
+										<input type="text" name="CITY" placeholder=" City" required> <br> <br>
+										<input type="text" name="STATE" placeholder=" State" required> &nbsp &nbsp
+										<input type="text" name="COUNTRY" placeholder=" Country" required> &nbsp &nbsp
+										<input type="number" name="POSTAL_CODE" placeholder=" Postal Code" required>
+
+										<br> <br>
+
+										<input type="text" name="COORDINATES" placeholder=" Coordinates" required>
+										<button type="button" class="refresh_location_coordinates_button" onclick="javascript: fetch_location('Sign_Up_Simple_User_Form');"> <i class="fa fa-refresh"> </i> </button>
+									</td>
+								</tr>
+								<!-- ---------------- End - Common Content ---------------- -->
+
+
+								<!-- ---------------- Unique Content ---------------- -->
+								<tr>
+									<th> Path Preference </th>
+									<td>
+										<input type="radio" name="PATH_PREFERENCE" id="Sign_Up_Simple_User_Form_SHORTEST_PATH" value="Shortest Path" required> Shortest Path &nbsp &nbsp
+										<input type="radio" name="PATH_PREFERENCE" id="Sign_Up_Simple_User_Form_SAFEST_PATH" value="Safest Path"> Safest Path
+									</td>
+								</tr>
+
+								<tr>
+									<th> Password </th>
+									<td>
+										<input type="password" name="PASSWORD_1" placeholder=" Password" required>
+									</td>
+								</tr>
+
+								<tr>
+									<th> Re-enter Password </th>
+									<td>
+										<input type="password" name="PASSWORD_2" placeholder=" Re-enter Password" required>
+										<span id="Sign_Up_Simple_User_Form_Password_Match"> </span>
+									</td>
+								</tr>
+
+								<tr>
+									<th> Security Question </th>
+									<td>
+										<input type="text" name="BIRTH_PLACE" placeholder=" Birth Place" required>  &nbsp &nbsp
+										<input type="text" name="FIRST_PETS_NAME" placeHolder=" Name Of 1st Pet" required> &nbsp &nbsp
+										<input type="text" name="FAVORITE_DISH" placeholder=" Favorite Dish" required>
+									</td>
+								</tr>
+								
+								<tr>
+									<td class="form_bottons" colspan="2">
+										<button type="submit" class="contact100-form-btn">
+											<span>
+												Sign Up
+												<i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"> </i>
+											</span>
+										</button> &nbsp &nbsp
+
+										<!-- <input type="reset" value="Clear"> -->
+										<button type="reset" class="contact100-form-btn">
+											<span>
+												Clear
+												<i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"> </i>
+											</span>
+										</button>
+									</td>
+								</tr>
+								<!-- ---------------- End - Unique Content ---------------- -->
+							</tbody>
+						</table>
+					</form>
+
+
+					<!-- Vehicle User -->
+					<form class="User_Filled_Forms Data_Forms" id="Sign_Up_Vehicle_User_Form" onsubmit="return validate_Sign_Up_Vehicle_User_Form('Sign_Up_Vehicle_User_Form');" action="javascript: Sign_Up_OR_Modify_User_Profile('Sign Up', 'Sign_Up_Vehicle_User_Form');">
+						<table class="form_tables" id="Sign_Up_Vehicle_User_Form_Table">
+							<tbody class="form_tables_body" id="Sign_Up_Vehicle_User_Form_Table_Body">
+								<!-- ---------------- Common Content ---------------- -->
+								<tr>
+									<th> Full Name </th>
+									<td>
+										<input type="text" name="FIRST_NAME" placeholder=" First Name" required>  &nbsp &nbsp
+										<input type="text" name="MIDDLE_NAME" placeHolder=" Middle Name" > &nbsp &nbsp
+										<input type="text" name="LAST_NAME" placeholder=" Last Name" required>
+									</td>
+								</tr>
+
+								<tr>
+									<th> Email ID </th>
+									<td> <input type="email" name="EMAIL_ID" placeholder=" Email ID" required> </td>
+								</tr>
+
+								<tr>
+									<th> Alternate Email ID </th>
+									<td> <input type="email" name="ALTERNATE_EMAIL_ID" placeholder=" Alternate Email ID"> </td>
+								</tr>
+
+								<tr>
+									<th> Contact Number </th>
+									<td> <input type="number" name="CONTACT_NUMBER" placeholder=" Contact Number" required> </td>
+								</tr>
+
+								<tr>
+									<th> Alternate Contact Number </th>
+									<td> <input type="number" name="ALTERNATE_CONTACT_NUMBER" placeholder=" Alternate Contact Number"> </td>
+								</tr>
+
+								<tr>
+									<th> Profile Picture </th>
+									<td> <input type="file" name="PROFILE_PICTURE" accept="image/*" capture="capture"/> </td>
+								</tr>
+
+								<tr>
+									<th> Nationality </th>
+									<td>
+										<select name="NATIONALITY" required>
+											<option value="" disabled selected> Select your choice </option>
+											<option value="afghan">Afghan</option>
+											<option value="albanian">Albanian</option>
+											<option value="algerian">Algerian</option>
+											<option value="american">American</option>
+											<option value="andorran">Andorran</option>
+											<option value="angolan">Angolan</option>
+											<option value="antiguans">Antiguans</option>
+											<option value="argentinean">Argentinean</option>
+											<option value="armenian">Armenian</option>
+											<option value="australian">Australian</option>
+											<option value="austrian">Austrian</option>
+											<option value="azerbaijani">Azerbaijani</option>
+											<option value="bahamian">Bahamian</option>
+											<option value="bahraini">Bahraini</option>
+											<option value="bangladeshi">Bangladeshi</option>
+											<option value="barbadian">Barbadian</option>
+											<option value="barbudans">Barbudans</option>
+											<option value="batswana">Batswana</option>
+											<option value="belarusian">Belarusian</option>
+											<option value="belgian">Belgian</option>
+											<option value="belizean">Belizean</option>
+											<option value="beninese">Beninese</option>
+											<option value="bhutanese">Bhutanese</option>
+											<option value="bolivian">Bolivian</option>
+											<option value="bosnian">Bosnian</option>
+											<option value="brazilian">Brazilian</option>
+											<option value="british">British</option>
+											<option value="bruneian">Bruneian</option>
+											<option value="bulgarian">Bulgarian</option>
+											<option value="burkinabe">Burkinabe</option>
+											<option value="burmese">Burmese</option>
+											<option value="burundian">Burundian</option>
+											<option value="cambodian">Cambodian</option>
+											<option value="cameroonian">Cameroonian</option>
+											<option value="canadian">Canadian</option>
+											<option value="cape verdean">Cape Verdean</option>
+											<option value="central african">Central African</option>
+											<option value="chadian">Chadian</option>
+											<option value="chilean">Chilean</option>
+											<option value="chinese">Chinese</option>
+											<option value="colombian">Colombian</option>
+											<option value="comoran">Comoran</option>
+											<option value="congolese">Congolese</option>
+											<option value="costa rican">Costa Rican</option>
+											<option value="croatian">Croatian</option>
+											<option value="cuban">Cuban</option>
+											<option value="cypriot">Cypriot</option>
+											<option value="czech">Czech</option>
+											<option value="danish">Danish</option>
+											<option value="djibouti">Djibouti</option>
+											<option value="dominican">Dominican</option>
+											<option value="dutch">Dutch</option>
+											<option value="east timorese">East Timorese</option>
+											<option value="ecuadorean">Ecuadorean</option>
+											<option value="egyptian">Egyptian</option>
+											<option value="emirian">Emirian</option>
+											<option value="equatorial guinean">Equatorial Guinean</option>
+											<option value="eritrean">Eritrean</option>
+											<option value="estonian">Estonian</option>
+											<option value="ethiopian">Ethiopian</option>
+											<option value="fijian">Fijian</option>
+											<option value="filipino">Filipino</option>
+											<option value="finnish">Finnish</option>
+											<option value="french">French</option>
+											<option value="gabonese">Gabonese</option>
+											<option value="gambian">Gambian</option>
+											<option value="georgian">Georgian</option>
+											<option value="german">German</option>
+											<option value="ghanaian">Ghanaian</option>
+											<option value="greek">Greek</option>
+											<option value="grenadian">Grenadian</option>
+											<option value="guatemalan">Guatemalan</option>
+											<option value="guinea-bissauan">Guinea-Bissauan</option>
+											<option value="guinean">Guinean</option>
+											<option value="guyanese">Guyanese</option>
+											<option value="haitian">Haitian</option>
+											<option value="herzegovinian">Herzegovinian</option>
+											<option value="honduran">Honduran</option>
+											<option value="hungarian">Hungarian</option>
+											<option value="icelander">Icelander</option>
+											<option value="indian">Indian</option>
+											<option value="indonesian">Indonesian</option>
+											<option value="iranian">Iranian</option>
+											<option value="iraqi">Iraqi</option>
+											<option value="irish">Irish</option>
+											<option value="israeli">Israeli</option>
+											<option value="italian">Italian</option>
+											<option value="ivorian">Ivorian</option>
+											<option value="jamaican">Jamaican</option>
+											<option value="japanese">Japanese</option>
+											<option value="jordanian">Jordanian</option>
+											<option value="kazakhstani">Kazakhstani</option>
+											<option value="kenyan">Kenyan</option>
+											<option value="kittian and nevisian">Kittian and Nevisian</option>
+											<option value="kuwaiti">Kuwaiti</option>
+											<option value="kyrgyz">Kyrgyz</option>
+											<option value="laotian">Laotian</option>
+											<option value="latvian">Latvian</option>
+											<option value="lebanese">Lebanese</option>
+											<option value="liberian">Liberian</option>
+											<option value="libyan">Libyan</option>
+											<option value="liechtensteiner">Liechtensteiner</option>
+											<option value="lithuanian">Lithuanian</option>
+											<option value="luxembourger">Luxembourger</option>
+											<option value="macedonian">Macedonian</option>
+											<option value="malagasy">Malagasy</option>
+											<option value="malawian">Malawian</option>
+											<option value="malaysian">Malaysian</option>
+											<option value="maldivan">Maldivan</option>
+											<option value="malian">Malian</option>
+											<option value="maltese">Maltese</option>
+											<option value="marshallese">Marshallese</option>
+											<option value="mauritanian">Mauritanian</option>
+											<option value="mauritian">Mauritian</option>
+											<option value="mexican">Mexican</option>
+											<option value="micronesian">Micronesian</option>
+											<option value="moldovan">Moldovan</option>
+											<option value="monacan">Monacan</option>
+											<option value="mongolian">Mongolian</option>
+											<option value="moroccan">Moroccan</option>
+											<option value="mosotho">Mosotho</option>
+											<option value="motswana">Motswana</option>
+											<option value="mozambican">Mozambican</option>
+											<option value="namibian">Namibian</option>
+											<option value="nauruan">Nauruan</option>
+											<option value="nepalese">Nepalese</option>
+											<option value="new zealander">New Zealander</option>
+											<option value="ni-vanuatu">Ni-Vanuatu</option>
+											<option value="nicaraguan">Nicaraguan</option>
+											<option value="nigerien">Nigerien</option>
+											<option value="north korean">North Korean</option>
+											<option value="northern irish">Northern Irish</option>
+											<option value="norwegian">Norwegian</option>
+											<option value="omani">Omani</option>
+											<option value="pakistani">Pakistani</option>
+											<option value="palauan">Palauan</option>
+											<option value="panamanian">Panamanian</option>
+											<option value="papua new guinean">Papua New Guinean</option>
+											<option value="paraguayan">Paraguayan</option>
+											<option value="peruvian">Peruvian</option>
+											<option value="polish">Polish</option>
+											<option value="portuguese">Portuguese</option>
+											<option value="qatari">Qatari</option>
+											<option value="romanian">Romanian</option>
+											<option value="russian">Russian</option>
+											<option value="rwandan">Rwandan</option>
+											<option value="saint lucian">Saint Lucian</option>
+											<option value="salvadoran">Salvadoran</option>
+											<option value="samoan">Samoan</option>
+											<option value="san marinese">San Marinese</option>
+											<option value="sao tomean">Sao Tomean</option>
+											<option value="saudi">Saudi</option>
+											<option value="scottish">Scottish</option>
+											<option value="senegalese">Senegalese</option>
+											<option value="serbian">Serbian</option>
+											<option value="seychellois">Seychellois</option>
+											<option value="sierra leonean">Sierra Leonean</option>
+											<option value="singaporean">Singaporean</option>
+											<option value="slovakian">Slovakian</option>
+											<option value="slovenian">Slovenian</option>
+											<option value="solomon islander">Solomon Islander</option>
+											<option value="somali">Somali</option>
+											<option value="south african">South African</option>
+											<option value="south korean">South Korean</option>
+											<option value="spanish">Spanish</option>
+											<option value="sri lankan">Sri Lankan</option>
+											<option value="sudanese">Sudanese</option>
+											<option value="surinamer">Surinamer</option>
+											<option value="swazi">Swazi</option>
+											<option value="swedish">Swedish</option>
+											<option value="swiss">Swiss</option>
+											<option value="syrian">Syrian</option>
+											<option value="taiwanese">Taiwanese</option>
+											<option value="tajik">Tajik</option>
+											<option value="tanzanian">Tanzanian</option>
+											<option value="thai">Thai</option>
+											<option value="togolese">Togolese</option>
+											<option value="tongan">Tongan</option>
+											<option value="trinidadian or tobagonian">Trinidadian or Tobagonian</option>
+											<option value="tunisian">Tunisian</option>
+											<option value="turkish">Turkish</option>
+											<option value="tuvaluan">Tuvaluan</option>
+											<option value="ugandan">Ugandan</option>
+											<option value="ukrainian">Ukrainian</option>
+											<option value="uruguayan">Uruguayan</option>
+											<option value="uzbekistani">Uzbekistani</option>
+											<option value="venezuelan">Venezuelan</option>
+											<option value="vietnamese">Vietnamese</option>
+											<option value="welsh">Welsh</option>
+											<option value="yemenite">Yemenite</option>
+											<option value="zambian">Zambian</option>
+											<option value="zimbabwean">Zimbabwean</option>
+										</select>
+									</td>
+								</tr>
+
+								<tr>
+									<th> Date of Birth </th>
+									<td> <input type="date" name="DOB" required> </td>
+								</tr>
+
+								<tr>
+									<th> Gender </th>
+									<td>
+										<input type="radio" name="GENDER" id="Sign_Up_Vehicle_User_Form_MALE" value="Male" required> Male &nbsp
+										<input type="radio" name="GENDER" id="Sign_Up_Vehicle_User_Form_FEMALE" value="Female"> Female &nbsp
+										<input type="radio" name="GENDER" id="Sign_Up_Vehicle_User_Form_OTHER" value="Other"> Other
+									</td>
+								</tr>
+
+								<tr>
+									<th> Address </th>
+									<td>
+										<input type="number" name="HOUSE_NO_OR_FLAT_NO" placeHolder=" House No. / Flat No." required> &nbsp &nbsp
+										<input type="text" name="STREET_OR_BUILDING_OR_COLONY" placeholder=" Street / Building / Colony" required> &nbsp &nbsp
+										<input type="text" name="CITY" placeholder=" City" required> <br> <br>
+										<input type="text" name="STATE" placeholder=" State" required> &nbsp &nbsp
+										<input type="text" name="COUNTRY" placeholder=" Country" required> &nbsp &nbsp
+										<input type="number" name="POSTAL_CODE" placeholder=" Postal Code" required>
+
+										<br> <br>
+
+										<input type="text" name="COORDINATES" placeholder=" Coordinates" required>
+										<button type="button" class="refresh_location_coordinates_button" onclick="javascript: fetch_location('Sign_Up_Vehicle_User_Form');"> <i class="fa fa-refresh"> </i> </button>
+									</td>
+								</tr>
+								<!-- ---------------- End - Common Content ---------------- -->
+
+
+
+								<!-- ---------------- Unique Content ---------------- -->
+								<tr>
+									<th> Path Preference </th>
+									<td>
+										<input type="radio" name="PATH_PREFERENCE" id="Sign_Up_Vehicle_User_Form_SHORTEST_PATH" value="Shortest Path" required> Shortest Path &nbsp &nbsp
+										<input type="radio" name="PATH_PREFERENCE" id="Sign_Up_Vehicle_User_Form_SAFEST_PATH" value="Safest Path"> Safest Path
+									</td>
+								</tr>
+
+								<tr>
+									<th> Password </th>
+									<td>
+										<input type="password" name="PASSWORD_1" placeholder=" Password" required>
+									</td>
+								</tr>
+
+								<tr>
+									<th> Re-enter Password </th>
+									<td>
+										<input type="password" name="PASSWORD_2" placeholder=" Re-enter Password" required>
+										<span id="Sign_Up_Vehicle_User_Form_Password_Match"> </span>
+									</td>
+								</tr>
+
+								<tr>
+									<th> Security Question </th>
+									<td>
+										<input type="text" name="BIRTH_PLACE" placeholder=" Birth Place" required>  &nbsp &nbsp
+										<input type="text" name="FIRST_PETS_NAME" placeHolder=" Name Of 1st Pet" required> &nbsp &nbsp
+										<input type="text" name="FAVORITE_DISH" placeholder=" Favorite Dish" required>
+									</td>
+								</tr>
+
+								<tr>
+									<th> </th>
+									<td> </td>
+								</tr>
+
+
+
+								<!-- Vehicle Details -->
+								<tr>
+									<td colspan="2" class="Form_Subpart"> <b> VEHICLE DETAILS </b> </td>
+								</tr>
+
+								<tr>
+									<th> Registration Number </th>
+									<td>
+										<input type="text" name="VEHICLE_REGISTRATION_NUMBER" placeholder=" Registration Number" required>
+									</td>
+								</tr>
+
+								<tr>
+									<th> Model </th>
+									<td> <input type="text" name="VEHICLE_MODEL" placeholder=" Model" required> </td>
+								</tr>
+
+								<tr>
+									<th> RC Number </th>
+									<td> <input type="text" name="VEHICLE_RC_NUMBER" placeholder=" RC Number" required> </td>
+								</tr>
+
+								<tr>
+									<th> Insurance Number </th>
+									<td> <input type="text" name="VEHICLE_INSURANCE_NUMBER" placeholder=" Insurance Number"> </td>
+								</tr>
+
+								<tr>
+									<th> Safety Features</th>
+									<td>
+										<input type="checkbox" name="AIRBAGS"> Airbags <br>
+										<input type="checkbox" name="ALL_WHEEL_DRIVE"> All-Wheel Drive <br>
+										<input type="checkbox" name="ABS"> ABS <br>
+										<input type="checkbox" name="ELECTRONIC_STABILITY_CONTROL"> Electronic Stability Control
+									</td>
+								</tr>
+
+								<tr>
+									<th> Vehicle Health </th>
+									<td>
+										<select name="VEHICLE_HEALTH" required>
+											<option value="" disabled> Select your choice </option>
+											<option value="Very Good"> Very Good </option>
+											<option value="Good"> Good </option>
+											<option value="Average"> Average </option>
+											<option value="Bad"> Bad </option>
+											<option value="Very Bad"> Very Bad </option>
+										</select>
+									</td>
+								</tr>
+
+								<tr>
+									<td class="form_bottons" colspan="2">
+										<button type="submit" class="contact100-form-btn">
+											<span>
+												Sign Up
+												<i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"> </i>
+											</span>
+										</button> &nbsp &nbsp
+
+										<!-- <input type="reset" value="Clear"> -->
+										<button type="reset" class="contact100-form-btn">
+											<span>
+												Clear
+												<i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"> </i>
+											</span>
+										</button>
+									</td>
+								</tr>
+								<!-- ---------------- End - Unique Content ---------------- -->
+							</tbody>
+						</table>
+					</form>
+
+
+
+					<!-- Emergency Service User -->
+					<form class="User_Filled_Forms Data_Forms" id="Sign_Up_Emergency_Service_User_Form" onsubmit="return validate_Sign_Up_Emergency_Service_User_Form('Sign_Up_Emergency_Service_User_Form');" action="javascript: Sign_Up_OR_Modify_User_Profile('Sign Up', 'Sign_Up_Emergency_Service_User_Form');">
+						<table class="form_tables" id="Sign_Up_Emergency_Service_User_Form_Table">
+							<tbody class="form_tables_body" id="Sign_Up_Emergency_Service_User_Form_Table_Body">
+								<!-- ---------------- Common Content ---------------- -->
+								<tr>
+									<th> Name </th>
+									<td> <input type="text" name="NAME" placeholder=" Name" required> </td>
+								</tr>
+
+								<tr>
+									<th> Email ID </th>
+									<td> <input type="email" name="EMAIL_ID" placeholder=" Email ID" required> </td>
+								</tr>
+
+								<tr>
+									<th> Alternate Email ID </th>
+									<td> <input type="email" name="ALTERNATE_EMAIL_ID" placeholder=" Alternate Email ID"> </td>
+								</tr>
+
+								<tr>
+									<th> Contact Number </th>
+									<td> <input type="number" name="CONTACT_NUMBER" placeholder=" Contact Number" required> </td>
+								</tr>
+
+								<tr>
+									<th> Alternate Contact Number </th>
+									<td> <input type="number" name="ALTERNATE_CONTACT_NUMBER" placeholder=" Alternate Contact Number"> </td>
+								</tr>
+
+								<tr>
+									<th> Profile Picture </th>
+									<td> <input type="file" name="PROFILE_PICTURE" accept="image/*" capture="capture"/> </td>
+								</tr>
+
+								<tr>
+									<th> Service Type </th>
+									<td>
+										<select name="SERVICE_TYPE" required>
+											<option value="" disabled selected> Select your choice </option>
+											<option value="Air Ambulance"> Air Ambulance </option>
+											<option value="Ambulance"> Ambulance </option>
+											<option value="Disaster Management"> Disaster Management </option>
+											<option value="Fire"> Fire </option>
+											<option value="Police"> Police </option>
+											<option value="Public Works Department (PWD)"> PWD </option>
+										</select>
+									</td>
+								</tr>
+
+								<tr>
+									<th> Date of Establishment </th>
+									<td> <input type="date" name="DOE" required> </td>
+								</tr>
+
+								<tr>
+									<th> Government Organization? </th>
+									<td>
+										<input type="radio" name="GOVERNMENT_ORGANIZATION" id="Sign_Up_Emergency_Service_User_Form_GOVERNMENT_ORGANIZATION_YES" value="Yes"  required> Yes &nbsp &nbsp
+										<input type="radio" name="GOVERNMENT_ORGANIZATION" id="Sign_Up_Emergency_Service_User_Form_GOVERNMENT_ORGANIZATION_NO" value="No"> No
+									</td>
+								</tr>
+
+								<tr>
+									<th> Government Authorized? </th>
+									<td>
+										<input type="radio" name="GOVERNMENT_AUTHORIZED" id="Sign_Up_Emergency_Service_User_Form_GOVERNMENT_AUTHORIZED_YES" value="Yes"  required> Yes &nbsp &nbsp
+										<input type="radio" name="GOVERNMENT_AUTHORIZED" id="Sign_Up_Emergency_Service_User_Form_GOVERNMENT_AUTHORIZED_NO" value="No"> No
+									</td>
+								</tr>
+
+								<tr>
+									<th> Address </th>
+									<td>
+										<input type="number" name="HOUSE_NO_OR_FLAT_NO" placeHolder=" House No. / Flat No." required> &nbsp &nbsp
+										<input type="text" name="STREET_OR_BUILDING_OR_COLONY" placeholder=" Street / Building / Colony" required> &nbsp &nbsp
+										<input type="text" name="CITY" placeholder=" City" required> <br> <br>
+										<input type="text" name="STATE" placeholder=" State" required> &nbsp &nbsp
+										<input type="text" name="COUNTRY" placeholder=" Country" required> &nbsp &nbsp
+										<input type="number" name="POSTAL_CODE" placeholder=" Postal Code" required>
+
+										<br> <br>
+
+										<input type="text" name="COORDINATES" placeholder=" Coordinates" required>
+										<button type="button" class="refresh_location_coordinates_button" onclick="javascript: fetch_location('Sign_Up_Emergency_Service_User_Form');"> <i class="fa fa-refresh"> </i> </button>
+									</td>
+								</tr>
+								<!-- ---------------- End - Common Content ---------------- -->
+
+								
+								
+								<!-- ---------------- Unique Content ---------------- -->
+								<tr>
+									<th> Path Preference </th>
+									<td>
+										<input type="radio" name="PATH_PREFERENCE" id="Sign_Up_Emergency_Service_User_Form_SHORTEST_PATH" value="Shortest Path" required> Shortest Path &nbsp &nbsp
+										<input type="radio" name="PATH_PREFERENCE" id="Sign_Up_Emergency_Service_User_Form_SAFEST_PATH" value="Safest Path"> Safest Path
+									</td>
+								</tr>
+
+								<tr>
+									<th> Password </th>
+									<td>
+										<input type="password" name="PASSWORD_1" placeholder=" Password" required>
+									</td>
+								</tr>
+
+								<tr>
+									<th> Re-enter Password </th>
+									<td>
+										<input type="password" name="PASSWORD_2" placeholder=" Re-enter Password" required>
+										<span id="Sign_Up_Emergency_Service_User_Form_Password_Match"> </span>
+									</td>
+								</tr>
+
+								<!-- <tr>
+									<th> Security Question </th>
+									<td>
+										<input type="text" name="BIRTH_PLACE" placeholder=" Birth Place" required>  &nbsp &nbsp
+										<input type="text" name="FIRST_PETS_NAME" placeHolder=" Name Of 1st Pet" required> &nbsp &nbsp
+										<input type="text" name="FAVORITE_DISH" placeholder=" Favorite Dish" required>
+									</td>
+								</tr> -->
+
+								<tr>
+									<td class="form_bottons" colspan="2">
+										<button type="submit" class="contact100-form-btn">
+											<span>
+												Sign Up
+												<i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"> </i>
+											</span>
+										</button> &nbsp &nbsp
+
+										<!-- <input type="reset" value="Clear"> -->
+										<button type="reset" class="contact100-form-btn">
+											<span>
+												Clear
+												<i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"> </i>
+											</span>
+										</button>
+									</td>
+								</tr>
+								<!-- ---------------- End - Unique Content ---------------- -->
+							</tbody>
+						</table>
+					</form>
+				</div>
+			</main>
+		</div>
+
+
+
+
+
+		
+		<!-- --------------------------------------------------------------
+								Forgot Password
+			-------------------------------------------------------------- -->
+		<div class="Main_Page_Content" id="FORGOT_PASSWORD">
+			<main class="page-content">
+				<br>
+				
+				<h5> FORGOT PASSWORD </h5>
+
+				<i class="fa fa-close close_window_icon" aria-hidden="true" style="font-size: 30px;" onclick="javascript: Go_Back_To_Initial_State('Indirect');"> </i>
+				
+				<hr>
+
+
+				<!-- Verify User Credentials -->
+				<form class="User_Filled_Forms Data_Forms" id="Verify_User_Credentials_Form" onsubmit="return validate_Verify_User_Credentials_Form('Verify_User_Credentials_Form');" action="javascript: Verify_User_Credentials('Verify_User_Credentials_Form');">
+					<table class="form_tables" id="Verify_User_Credentials_Form_Table">
+						<tbody class="form_tables_body" id="Verify_User_Credentials_Form_Table_Body">
+							<tr>
+								<th> Email ID </th>
+								<td> <input type="email" name="EMAIL_ID" placeHolder=" Email ID" required> </td>
+							</tr>
+
+							<!-- <tr>
+								<th> Security Question </th>
+								<td>
+									<input type="text" name="BIRTH_PLACE" placeholder=" Birth Place" required>  &nbsp &nbsp
+									<input type="text" name="FIRST_PETS_NAME" placeHolder=" Name Of 1st Pet" required> &nbsp &nbsp
+									<input type="text" name="FAVORITE_DISH" placeholder=" Favorite Dish" required>
+								</td>
+							</tr> -->
+
+							<tr>
+								<td class="form_bottons" colspan="2">
+									<button type="submit" class="contact100-form-btn">
+										<span>
+											Submit
+											<i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"> </i>
+										</span>
+									</button> &nbsp &nbsp
+									
+									<button type="reset" class="contact100-form-btn">
+										<span>
+											Clear
+											<i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"> </i>
+										</span>
+									</button>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</form>
+			</main>
+		</div>
+
+
+
+
+
+		<!-- --------------------------------------------------------------
+								NAVBAR - Options & Content
+			-------------------------------------------------------------- -->
+        <div id="NAVBAR" class="page-wrapper chiller-theme sidebar-bg bg1">
+            <!-- Sidebar -->
+            <a id="show-sidebar" class="btn btn-sm btn-dark" href="#">
+                <i class="fas fa-bars"></i>
+            </a>
+
+            <nav id="sidebar" class="sidebar-wrapper">
+                <div class="sidebar-content">
+                    <div class="sidebar-brand">
+                        <a href="#"> Stay Safe </a>
+
+                        <div id="close-sidebar">
+                            <i class="fas fa-times"></i>
+                        </div>
+                    </div>
+
+                    <!-- Sidebar - Header - User Info -->
+                    <div class="sidebar-header">
+                        <div class="user-pic">
+                            <img class="img-responsive img-rounded Profile_Picture_Img" alt="User Picture" style="width: 60px; height: 60px">
+                        </div>
+
+                        <div class="user-info">
+                            <span class="user-name"> </span>
+
+                            <span class="user-role"> </span>
+
+                            <span class="user-status-Online">
+								<i class="fa fa-circle Internet_Status_Logo_Online navbar_logo"></i>
+								<span> Online </span>
+							</span>
+							
+							<span class="user-status-Offline">
+								<i class="fa fa-circle Internet_Status_Logo_Offline navbar_logo" ></i>
+								<span> Offline </span>
+							</span>
+                        </div>
+                    </div>
+
+                    <!-- Sidebar - Search-->
+                    <div class="sidebar-search">
+                        <div>
+                            <div class="input-group">
+                                <input type="text" class="form-control search-menu" placeholder="Search...">
+
+                                <div class="input-group-append">
+                                    <span class="input-group-text">
+                                        <i class="fa fa-search" aria-hidden="true"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Sidebar - Options-->
+                    <div class="sidebar-menu">
+                        <ul>
+							<!-- User Type -->
+							<!-- <li class="header-menu">
+								<span> User Type </span>
+							</li>
+
+							<li>
+								<a href="#">
+									<span> </span><input type="radio" name="User_Type" id="Simple_User_Type" value="Simple User" onchange="Change_User('Simple_User')" checked> Simple User <br> </span>
+									<span> <input type="radio" name="User_Type" id="Vehicle_User_Type" value="Vehicle User" onchange="Change_User('Vehicle_User')"> Vehicle User <br> </span>
+									<span> <input type="radio" name="User_Type" id="Emergency_Service_User_Type" value="Emergency Service User" onchange="Change_User('Emergency_Service_User')"> Emergency Service User </span>
+								</a>
+							</li> -->
+
+							<!-- General -->
+							<li class="header-menu" id="HOME_NAVIGATION">
+								<span> General </span>
+							</li>
+							
+							<li>
+								<a href="javascript:show_hide_content('HOME_PAGE');">
+									<i class="fa fa-folder"></i>
+									<span> Home </span>
+								</a>
+							</li>
+
+							<!-- For Government Emergency Service Users Only -->
+							<li class="sidebar-dropdown"  id="ACCIDENT_SCENARIO_NAVIGATION">
+                                <a href="#">
+                                    <i class="fa fa-calendar"></i>
+                                    <span> Accident Scenario </span>
+                                </a>
+
+                                <div class="sidebar-submenu">
+                                    <ul>
+                                        <li id="UPLOAD_ACCIDENT_SCENARIO_SUBMENU">
+                                            <a href="javascript:show_hide_content('UPLOAD_ACCIDENT_SCENARIO');"> Upload Accident </a>
+                                        </li>
+
+                                        <li id="VIEW_PENDING_ACCIDENT_SCENARIOS_SUBMENU">
+                                            <a href="javascript:show_hide_content('VIEW_PENDING_ACCIDENT_SCENARIOS')"> View Pending Accidents </a>
+										</li>
+										
+										<li id="VIEW_CLEARED_ACCIDENT_SCENARIOS_SUBMENU">
+                                            <a href="javascript:show_hide_content('VIEW_CLEARED_ACCIDENT_SCENARIOS')"> View Cleared Accidents </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+							
+							<li id="REPORT_UNSAFE_ZONE_NAVIGATION">
+								<a href="javascript:show_hide_content('REPORT_UNSAFE_ZONE')">
+									<i class="fa fa-book"></i>
+									<span> Report Unsafe Zone </span>
+								</a>
+							</li>
+							
+							<!-- For Government Emergency Service Users Only -->
+							<li class="sidebar-dropdown"  id="BLACKSPOTS_NAVIGATION">
+                                <a href="#">
+                                    <i class="fa fa-tachometer-alt"></i>
+                                    <span> Blackspots </span>
+                                </a>
+
+                                <div class="sidebar-submenu">
+                                    <ul>
+                                        <li>
+                                            <a href="javascript:show_hide_content('ADD_BLACKSPOT')"> Add Blackspot </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="javascript:show_hide_content('VIEW_BLACKSPOTS')"> View Blackspots </a>
+                                        </li>
+
+										<li>
+                                            <a href="javascript:show_hide_content('VIEW_REPORTED_ZONES')"> View Reported Zones </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+							
+							
+							
+							<!-- Settings -->
+                            <li class="header-menu">
+                                <span> Settings </span>
+                            </li>
+
+							<li id="VEHICLE_NAVIGATION">
+                                <a href="javascript:show_hide_content('VEHICLE')">
+                                    <i class="fa fa-gem"></i>
+                                    <span> Vehicle </span>
+                                </a>
+                            </li>
+
+                            <!-- <li class="sidebar-dropdown" id="VEHICLE_NAVIGATION">
+                                <a href="#">
+                                    <i class="fa fa-tachometer-alt"></i>
+                                    <span> Vehicle </span>
+                                </a>
+
+                                <div class="sidebar-submenu">
+                                    <ul>
+                                        <li>
+                                            <a href="javascript:show_hide_content('VIEW_VEHICLE_DETAILS')"> View Details </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="javascript:show_hide_content('REPORT_VEHICLE_DAMAGE')"> Report Damage </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li> -->
+							
+							
+							<li class="sidebar-dropdown" id="BLACKBOX_NAVIGATION">
+                                <a href="#">
+                                    <i class="fa fa-tachometer-alt"></i>
+                                    <span> Blackbox </span>
+                                </a>
+
+                                <div class="sidebar-submenu">
+                                    <ul>
+                                        <li>
+                                            <a id="Add_Blackbox_Sidebar_Submenu" href="javascript:show_hide_content('ADD_BLACKBOX')"> Add Blackbox </a>
+                                        </li>
+
+										<li>
+                                            <a id="Replace_Blackbox_Sidebar_Submenu" href="javascript:show_hide_content('REPLACE_BLACKBOX')"> Replace Blackbox </a>
+                                        </li>
+										
+										<li>
+                                            <a id="Check_Blackbox_Status_Sidebar_Submenu" href="javascript:show_hide_content('BLACKBOX_STATUS')"> Check Status </a>
+                                        </li>
+
+										<li>
+                                            <a id="Remove_Blackbox_Sidebar_Submenu" href="javascript:show_hide_content('REMOVE_BLACKBOX')"> Remove Blackbox </a>
+                                        </li>
+
+										<!-- <li>
+                                            <a href="javascript:show_hide_content('BLACKBOX_MANAGE_SENSORS')"> Manage Sensors </a>
+                                        </li> -->
+
+										<!-- <li>
+                                            <a href="javascript:show_hide_content('BLACKBOX_HELP')"> Help </a>
+                                        </li> -->
+                                    </ul>
+                                </div>
+                            </li>
+							
+							
+							<!-- <li id="DEVICE_CONFIGURATION_NAVIGATION">
+                                <a href="javascript:show_hide_content('DEVICE_CONFIGURATION')">
+                                    <i class="fa fa-gem"></i>
+                                    <span> Device Configuration </span>
+                                </a>
+                            </li> -->
+							
+							
+							<li class="sidebar-dropdown" id="MAP_&_LOCATION_NAVIGATION">
+                                <a href="#">
+                                    <i class="fa fa-globe"></i>
+                                    <span> Maps & Location </span>
+                                </a>
+
+                                <div class="sidebar-submenu">
+                                    <ul>
+										<li>
+                                            <a href="javascript:show_hide_content('MAP_CONFIGURATION')"> Map Configuration </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="javascript:show_hide_content('LOCATION_SETTINGS')"> Location Settings </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+							
+							
+							
+							
+							
+							<!-- Settings -->
+							<li id="EMERGENCY_CONTACT_NAVIGATION">
+								<a href="javascript:show_hide_content('EMERGENCY_CONTACT')">
+                                    <i class="fa fa-gem"></i>
+                                    <span> Emergency Contact </span>
+                                </a>
+							</li>
+							
+
+							<!-- <li class="sidebar-dropdown" id="EMERGENCY_CONTACT_NAVIGATION">
+                                <a href="#">
+                                    <i class="fa fa-chart-line"></i>
+                                    <span> Emergency Contact </span>
+                                </a>
+
+                                <div class="sidebar-submenu">
+                                    <ul>
+                                        <li>
+                                            <a href="javascript:show_hide_content('ADD_EMERGENCY_CONTACT');"> Add Contact </a>
+                                        </li>
+										
+										<li>
+                                            <a href="javascript:show_hide_content('VIEW_EMERGENCY_CONTACTS');"> View Contacts </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="javascript:show_hide_content('MODIFY_EMERGENCY_CONTACT_PRIORITIES');"> Modify Priorities </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li> -->
+                        </ul>
+                    </div>
+                </div>
+				
+				
+				
+
+				
+				<!-- Sidebar Footer -->
+				<div class="sidebar-footer">
+					<!-- Requests -->
+					<div class="dropdown" id="REQUESTS_NAVIGATION">
+						<a href="javascript:show_hide_content('REQUESTS');" class="" id="dropdownMenuRequest">
+							<i class="fa fa-bell"></i>
+							<span class="badge badge-pill badge-warning notification" id="No_Of_Pending_Requests"> 3 </span>
+						</a>
+
+						<!-- <a href="#" class="" id="dropdownMenuNotification" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> -->
+						<!-- <a href="javascript:show_hide_content('NOTIFICATIONS');" class="" id="dropdownMenuNotification">
+							<i class="fa fa-bell"></i>
+							<span class="badge badge-pill badge-warning notification"> 3 </span>
+						</a> -->
+						
+						<!-- <div class="dropdown-menu notifications" aria-labelledby="dropdownMenuMessage">
+							<div class="notifications-header">
+								<i class="fa fa-bell"> </i>
+								Notifications
+							</div>
+							
+							<div class="dropdown-divider"> </div>
+							
+							<a class="dropdown-item" href="#">
+								<div class="notification-content">
+									<div class="icon">
+										<i class="fas fa-check text-success border border-success"> </i>
+									</div>
+									
+									<div class="content">
+										<div class="notification-detail"> Notification 1 </div>
+										<div class="notification-time"> 6 minutes ago </div>
+									</div>
+								</div>
+							</a>
+							
+							<a class="dropdown-item" href="#">
+								<div class="notification-content">
+									<div class="icon">
+										<i class="fas fa-exclamation text-info border border-info"> </i>
+									</div>
+									
+									<div class="content">
+										<div class="notification-detail"> Notification 2 </div>
+										<div class="notification-time"> Today </div>
+									</div>
+								</div>
+							</a>
+							
+							<a class="dropdown-item" href="#">
+								<div class="notification-content">
+									<div class="icon">
+										<i class="fas fa-exclamation-triangle text-warning border border-warning"> </i>
+									</div>
+									
+									<div class="content">
+										<div class="notification-detail"> Notification 3 </div>
+										<div class="notification-time"> Yesterday </div>
+									</div>
+								</div>
+							</a>
+							
+							<div class="dropdowndivider"> </div>
+							
+							<a class="dropdown-item text-center" href="javascript:show_hide_content('NOTIFICATIONS');"> View all notifications </a>
+						</div> -->
+					</div>
+
+					<!-- Confirmation -->
+					<div class="dropdown" id="CONFIRMATIOINS_NAVIGATION">
+						<!-- <a href="#" class="" id="dropdownMenuMenuMessage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> -->
+						<a href="javascript:show_hide_content('CONFIRMATIONS');" class="" id="dropdownMenuConfirmation">
+							<i class="fa fa-check"></i>
+							<span class="badge badge-pill badge-warning notification" id="No_Of_Pending_Confirmation"> 7 </span>
+						</a>
+						
+						<!-- <div class="dropdown-menu confirmations" aria-labelledby="dropdownMenuMessage">
+							<div class="messages-header">
+								<i class="fa fa-envelope"> </i>
+								Confirmations
+							</div>
+							
+							<div class="dropdown-divider">
+							</div>
+							
+							<a class="dropdown-item" href="#">
+								<div class="message-content">
+									<div class="pic">
+										<img src="img/Navbar/assets/user.jpg" alt="">
+									</div>
+									
+									<div class="content">
+										<div class="message-title">
+											<strong> Jon Snow </strong> 
+										</div>
+										
+										<div class="message-detail"> Message 1 </div>
+									</div>
+								</div>
+							</a>
+							
+							<a class="dropdown-item" href="#">
+								<div class="message-content">
+									<div class="pic">
+										<img src="img/Navbar/assets/user.jpg" alt="">
+									</div>
+									
+									<div class="content">
+										<div class="message-title">
+											<strong> Danearys Targaryen </strong> 
+										</div>
+										
+										<div class="message-detail"> Message 2 </div>
+									</div>
+								</div>
+							</a>
+							
+							<a class="dropdown-item" href="#">
+								<div class="message-content">
+									<div class="pic">
+										<img src="img/Navbar/assets/user.jpg" alt="">
+									</div>
+									
+									<div class="content">
+										<div class="message-title">
+											<strong> Ned Stark </strong> 
+										</div>
+										
+										<div class="message-detail"> Message 3 </div>
+									</div>
+								</div>
+							</a>
+							
+							<div class="dropdowndivider"> </div>
+							
+							<a class="dropdown-item text-center" href="javascript:show_hide_content('MESSAGES');"> View all messages </a>
+						</div> -->
+					</div>
+					
+					<!-- Messages -->
+					<div class="dropdown" id="MESSAGES_NAVIGATION">
+						<!-- <a href="#" class="" id="dropdownMenuMenuMessage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> -->
+						<a href="javascript:show_hide_content('MESSAGES');" class="" id="dropdownMenuNotification">
+							<i class="fa fa-envelope"></i>
+							<span class="badge badge-pill badge-success notification"> 7 </span>
+						</a>
+						
+						<!-- <div class="dropdown-menu messages" aria-labelledby="dropdownMenuMessage">
+							<div class="messages-header">
+								<i class="fa fa-envelope"> </i>
+								Messages
+							</div>
+							
+							<div class="dropdown-divider">
+							</div>
+							
+							<a class="dropdown-item" href="#">
+								<div class="message-content">
+									<div class="pic">
+										<img src="img/Navbar/assets/user.jpg" alt="">
+									</div>
+									
+									<div class="content">
+										<div class="message-title">
+											<strong> Jon Snow </strong> 
+										</div>
+										
+										<div class="message-detail"> Message 1 </div>
+									</div>
+								</div>
+							</a>
+							
+							<a class="dropdown-item" href="#">
+								<div class="message-content">
+									<div class="pic">
+										<img src="img/Navbar/assets/user.jpg" alt="">
+									</div>
+									
+									<div class="content">
+										<div class="message-title">
+											<strong> Danearys Targaryen </strong> 
+										</div>
+										
+										<div class="message-detail"> Message 2 </div>
+									</div>
+								</div>
+							</a>
+							
+							<a class="dropdown-item" href="#">
+								<div class="message-content">
+									<div class="pic">
+										<img src="img/Navbar/assets/user.jpg" alt="">
+									</div>
+									
+									<div class="content">
+										<div class="message-title">
+											<strong> Ned Stark </strong> 
+										</div>
+										
+										<div class="message-detail"> Message 3 </div>
+									</div>
+								</div>
+							</a>
+							
+							<div class="dropdowndivider"> </div>
+							
+							<a class="dropdown-item text-center" href="javascript:show_hide_content('MESSAGES');"> View all messages </a>
+						</div> -->
+					</div>
+					
+					
+					<!-- Profile Settings -->
+					<div class="dropdown" id="PROFILE_SETTINGS_NAVIGATION">
+						<a href="#" class="" id="dropdownMenuMenuMEssage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<i class="fa fa-cog"></i>
+							<span class="badge-sonar"> </span>
+						</a>
+						
+						<div class="dropdown-menu" aria-labelledby="dropdownMenuMessage">
+							<a class="dropdown-item" href="javascript:show_hide_content('MY_PROFILE');"> My Profile </a>
+
+							<a id="PASS_VEHICLE_CONTROL_dropdown_menu_item" class="dropdown-item" href="javascript: show_hide_content('PASS_VEHICLE_CONTROL');"> Pass Vehicle Control </a>
+
+							<a id="SWITCH_TO_SIMPLE_USER_TYPE_dropdown_menu_item" class="dropdown-item" href="javascript:show_hide_content('SWITCH_USER_TYPE');"> Switch To Simple User </a>
+							<a id="SWITCH_TO_VEHICLE_USER_TYPE_dropdown_menu_item" class="dropdown-item" href="javascript:show_hide_content('SWITCH_USER_TYPE');"> Switch To Vehicle User </a>
+
+							<a class="dropdown-item" href="javascript:show_hide_content('CUSTOMIZE_APPLICATION');"> Customize Application </a>
+							<a class="dropdown-item" href="javascript:show_hide_content('HELP');"> Help </a>
+						</div>
+					</div>
+					
+					
+					<!-- Log Out -->
+					<div id="LOG_OUT_NAVIGATION">
+						<a href="javascript:Log_Out('Direct')">
+							<i class="fa fa-power-off"></i>
+						</a>
+					</div>
+				</div>
+            </nav>
+			
+			
+			
+			
+			
+			<!-- --------------------------------------------------------------
+							NAVBAR - Main Page Content
+			-------------------------------------------------------------- -->
+			<!-- -------- HOME_PAGE -------- -->
+			<div class="Main-Page-Content" id="HOME_PAGE">
+				<!-- Home Page - Title -->
+				<div id="Home_Page_Title">
+					Stay Safe
+				</div>
+				
+				<!-- Form - For Taking Map Inputs -->
+				<form class="User_Filled_Forms" id="Map_Inputs_Form" onsubmit="return validate_Map_Inputs_Form('Map_Inputs_Form');" action="javascript: Find_Shortest_Safest_Routes('Map_Inputs_Form')">
+					<div id="Map_Inputs_Texts_Div">
+						<input type="text" name="SOURCE" placeholder=" Source" required> <br>
+						<input type="text" name="DESTINATION" placeholder=" Destination" required>
+					</div>
+
+					<div id="Map_Inputs_Buttons_Div">
+						<input type="submit" class="Map_Inputs_Buttons_Class" id="Map_Inputs_Find_Route" value="Find Route"> <br>
+						<input type="button" class="Map_Inputs_Buttons_Class" id="Map_Inputs_Clear_Route" value="Clear Route" onclick="javascipt: Clear_Route('Map_Inputs_Form');">
+					</div>
+				</form>
+
+				<!-- Google Map -->
+				<div id="GOOGLE_MAP">
+					<div id="googleMap" style="width:100%; height:647px;"> </div>
+					
+					<script>
+						var application_map;
+
+						function myMap() {
+							var mapProp = {
+								center: new google.maps.LatLng (51.508742, -0.120850),
+								zoom: 10,
+							};
+							
+							application_map = new google.maps.Map (document.getElementById("googleMap"), mapProp);
+						}
+					</script>
+					
+					<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCUr37lYOznqwtvKhgfKJEH1KRTyw_kKkM&callback=myMap"> </script>
+				</div>
+
+
+				<!-- One Click Help -->
+				<button type="button" id="One_Click_Help_Button" onclick="Ask_Confirmation_FOR_One_Click_Help();"> One Click Help </button>
+			</div>
+
+
+
+
+
+			<!-- -------- ACCIDENT_SCENARIO -------- -->
+			
+			<!-- UPLOAD_ACCIDENT_SCENARIO -->
+			<div class="Main_Page_Content" id="UPLOAD_ACCIDENT_SCENARIO">
+				<main class="page-content">
+					<h5> UPLOAD ACCIDENT SCENARIO</h5>
+
+					<i class="fa fa-close close_window_icon" aria-hidden="true" style="font-size: 30px;" onclick="javascript: show_hide_content('HOME_PAGE');"> </i>
+					
+					<hr>
+
+					<form class="User_Filled_Forms Data_Forms" id="Upload_Accident_Scenario_Form" onsubmit="return validate_Upload_Accident_Scenario_Form('Upload_Accident_Scenario_Form');" action="javascript: Add_OR_Modify_Accident_Scenario('Add Accident Possibility', 'Upload_Accident_Scenario_Form')">
+						<table class="form_tables" id="Upload_Accident_Scenario_Form_Table">
+							<tbody class="form_tables_body" id="Upload_Accident_Scenario_Form_Table_Body">
+								<tr>
+									<th> Vehicle Registration No. </th>
+									<td> <input type="text" name="VEHICLE_REGISTRATION_NUMBER" placeholder=" Vehicle Registration No." required> </td>
+								</tr>
+
+								<tr>
+									<th> Location </th>
+									<td>
+										<input type="text" name="COORDINATES" placeholder=" Coordinates" required>
+										<button type="button" class="refresh_location_coordinates_button" onclick="javascript: fetch_location('Upload_Accident_Scenario_Form');"> <i class="fa fa-refresh"> </i> </button>
+									</td>
+								</tr>
+
+								<tr>
+									<th> Image </th>
+									<td> <input type="file" name="IMAGE" accept="image/*" capture="capture"/> </td>
+								</tr>
+
+								<tr>
+									<th> Level of Risk </th>
+									<td>
+										<select name="LEVEL_OF_RISK" required>
+											<option value="" disabled selected> Select your choice </option>
+											<option value="Very High"> Very High </option>
+											<option value="High"> High </option>
+											<option value="Medium"> Medium </option>
+											<option value="Low"> Low </option>
+											<option value="Very Low"> Very Low </option>
+										</select>
+									</td>
+								</tr>
+
+								<tr>
+									<th> Description </th>
+									<td> <textarea name="DESCRIPTION" placeholder=" Description" rows="4" cols="25"> </textarea> </td>
+								</tr>
+
+								<tr>
+									<td class="form_bottons" colspan="2">
+										<button type="submit" class="contact100-form-btn">
+											<span>
+												Upload
+												<i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"> </i>
+											</span>
+										</button> &nbsp &nbsp
+
+										<button type="reset" class="contact100-form-btn">
+											<span>
+												Clear
+												<i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"> </i>
+											</span>
+										</button>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</form>
+				</main>
+			</div>
+
+
+
+			<!-- VIEW_PENDING_ACCIDENT_SCENARIOS -->
+			<div class="Main_Page_Content" id="VIEW_PENDING_ACCIDENT_SCENARIOS">
+				<main class="page-content">
+					<h5> VIEW PENDING ACCIDENTS </h5>
+
+					<i class="fa fa-close close_window_icon" aria-hidden="true" style="font-size: 30px;" onclick="javascript: show_hide_content('HOME_PAGE');"> </i>
+					<i class="fa fa-arrow-left go_back_icon" aria-hidden="true" style="font-size: 30px;" onclick="javascript: Display_Accident_Scenario_List('Pending');"> </i>
+					
+					<hr>
+
+
+					<div id="Pending_Accident_Scenario_Search_Bar">
+						<div class="input-group">
+							<input type="text" class="form-control search-menu" placeholder="Search...">
+
+							<div class="input-group-append" onclick="javascript: Accident_Scenario_Search_Results('Accident_Scenario', 'Pending')">
+								<span class="input-group-text">
+									<i class="fa fa-search" aria-hidden="true"></i>
+								</span>
+							</div>
+						</div>
+					</div>
+					
+					
+					<table class="list_tables" id="Pending_Accident_Scenario_Search_Results">
+						<tbody class="list_tables_body" id="Pending_Accident_Scenario_Search_Results_Table_Body">
+						</tbody>
+					</table>
+					
+
+					<form class="Data_Forms" id="View_Pending_Accident_Scenario_Form" onsubmit="return validate_View_Pending_Accident_Scenario_Form('View_Pending_Accident_Scenario_Form');" action="javascript: Add_OR_Modify_Accident_Scenario('Mark Accident Scenario As - Cleared', 'View_Pending_Accident_Scenario_Form');">
+						<table class="form_tables" id="View_Pending_Accident_Scenario_Form_Table">
+							<tbody class="form_tables_body" id="View_Pending_Accident_Scenario_Form_Table_Body">
+								<!-- ---------------- Unique Content ---------------- -->
+								<tr>
+									<th> Accident Scenario ID </th>
+									<td> <input type="text" name="ID" placeholder=" Accident Scenario ID" readonly required> </td>
+								</tr>
+								
+								<tr>
+									<th> User </th>
+									<td> <input type="text" name="USER" placeholder=" User"> </td>
+								</tr>
+
+								<tr>
+									<th> Blackbox </th>
+									<td> <input type="text" name="BLACKBOX" placeholder=" Blackbox"> </td>
+								</tr>
+
+								<tr>
+									<th> Uploaded By </th>
+									<td> <input type="text" name="UPLOADED_BY" placeholder=" Uploaded By" readonly> </td>
+								</tr>
+
+								<tr>
+									<th> Weight </th>
+									<td> <input type="number" name="WEIGHT" placeholder=" Weight" readonly> </td>
+								</tr>
+
+								<tr>
+									<th> Date & Time </th>
+									<td>
+										<input type="text" name="DATE_AND_TIME" placeholder=" Date & Time" readonly>
+									</td>
+								</tr>
+								<!-- ---------------- End - Unique Content ---------------- -->
+
+
+								<!-- ---------------- Common Content ---------------- -->
+								<tr>
+									<th> Vehicle Registration No. </th>
+									<td> <input type="text" name="VEHICLE_REGISTRATION_NUMBER" placeholder=" Vehicle Registration No." required> </td>
+								</tr>
+
+								<tr>
+									<th> Location </th>
+									<td>
+										<input type="text" name="COORDINATES" placeholder=" Coordinates" required>
+										<button type="button" class="refresh_location_coordinates_button" onclick="javascript: fetch_location('View_Pending_Accident_Scenario_Form');"> <i class="fa fa-refresh"> </i> </button>
+									</td>
+								</tr>
+
+								<tr>
+									<th> Image </th>
+									
+									<!-- <td> <input type="file" name="IMAGE" accept="image/*" capture="capture"/> </td> -->
+									
+									<td id="Image_td">
+										<div class="image-preview">
+											<img class="Image_Object_Class" id="Pending_Accident_Scenario_Image_Object_ID" src="img/Empty_Image/Empty_Image.png" alt="Pending Accident Scenario Picture"> <br>
+											<div class="edit_image"> <a href="javascript: Edit_Image('View_Pending_Accident_Scenario_Form', 'Image_FOR_Pending_Accident_Scenario');"> <i class="fa fa-pencil fa-lg"> </i> </a> </div>
+											<div class="remove_image"> <a href="javascript: Remove_Image('View_Pending_Accident_Scenario_Form', 'Pending_Accident_Scenario_Image_Object_ID');"> <i class="fa fa-trash fa-lg"> </i> </a> </div>
+										</div>
+
+										<input type="file" class="Edit_Image_Input" id="Image_FOR_Pending_Accident_Scenario" name="IMAGE" placeholder="Edit" accept="image/*" capture="capture" onchange="javascript: Preview_Image(this, 'Pending_Accident_Scenario_Image_Object_ID');"/>
+										<input type="hidden" name="Remove_Picture" value="No">
+									</td>
+								</tr>
+
+								<tr>
+									<th> Level of Risk </th>
+									<td>
+										<input type="text" name="LEVEL_OF_RISK" placeholder=" Level of Risk" readonly>
+									</td>
+								</tr>
+
+								<tr>
+									<th> Cause of Accident </th>
+									<td>
+										<input type="text" name="CAUSE_OF_ACCIDENT" placeholder=" Cause of Accident">
+									</td>
+								</tr>
+
+								<tr>
+									<th> Number of Survivors </th>
+									<td>
+										<input type="number" name="NUMBER_OF_SURVIVORS" placeholder=" Number of Survivors">
+									</td>
+								</tr>
+
+								<tr>
+									<th> Number of Injured People </th>
+									<td>
+										<input type="number" name="NUMBER_OF_INJURED_PEOPLE" placeholder=" Number of Injured People">
+									</td>
+								</tr>
+
+								<tr>
+									<th> Number of Non-Survivors </th>
+									<td>
+										<input type="number" name="NUMBER_OF_NON_SURVIVORS" placeholder=" Number of Non-Survivors">
+									</td>
+								</tr>
+								
+								<tr>
+									<th> Description </th>
+									<td> <textarea name="DESCRIPTION" placeholder=" Description" rows="4" cols="25"> </textarea> </td>
+								</tr>
+								<!-- ---------------- End - Common Content ---------------- -->
+
+								
+								
+								<!-- ---------------- Unique Content ---------------- -->
+								<tr>
+									<td class="form_bottons" colspan="2">
+										<button type="button" class="contact100-form-btn" onclick="javascript: Add_OR_Modify_Accident_Scenario('Modify Accident Scenario', 'View_Pending_Accident_Scenario_Form');">
+											<span>
+												Save Changes
+												<i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"> </i>
+											</span>
+										</button> &nbsp &nbsp
+										
+										<button type="button" class="contact100-form-btn" onclick="javascript: Delete_Accident_Scenario('View_Pending_Accident_Scenario_Form');">
+											<span>
+												Delete
+												<i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"> </i>
+											</span>
+										</button>
+
+										<br>
+
+										<button type="submit" class="contact100-form-btn">
+											<span>
+												Mark Cleared
+												<i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"> </i>
+											</span>
+										</button>
+									</td>
+								</tr>
+								<!-- ---------------- End - Unique Content ---------------- -->
+							</tbody>
+						</table>
+					</form>
+				</main>
+			</div>
+
+
+
+
+			<!-- VIEW_CLEARED_ACCIDENT_SCENARIOS -->
+			<div class="Main_Page_Content" id="VIEW_CLEARED_ACCIDENT_SCENARIOS">
+				<main class="page-content">
+					<h5> VIEW CLEARED ACCIDENTS </h5>
+
+					<i class="fa fa-close close_window_icon" aria-hidden="true" style="font-size: 30px;" onclick="javascript: show_hide_content('HOME_PAGE');"> </i>
+					<i class="fa fa-arrow-left go_back_icon" aria-hidden="true" style="font-size: 30px;" onclick="javascript: Display_Accident_Scenario_List('Cleared');"> </i>
+					
+					<hr>
+
+
+					<div id="Cleared_Accident_Scenario_Search_Bar">
+						<div class="input-group">
+							<input type="text" class="form-control search-menu" placeholder="Search...">
+
+							<div class="input-group-append" onclick="javascript: Accident_Scenario_Search_Results('Accident_Scenario', 'Cleared')">
+								<span class="input-group-text">
+									<i class="fa fa-search" aria-hidden="true"></i>
+								</span>
+							</div>
+						</div>
+					</div>
+					
+					
+					<table class="list_tables" id="Cleared_Accident_Scenario_Search_Results">
+						<tbody class="list_tables_body" id="Cleared_Accident_Scenario_Search_Results_Table_Body">
+						</tbody>
+					</table>
+					
+
+					<form class="Data_Forms" id="View_Cleared_Accident_Scenario_Form" action="javascript: Download_Accident_Scenario_Report('View_Cleared_Accident_Scenario_Form');">
+						<table class="form_tables" id="View_Cleared_Accident_Scenario_Form_Table">
+							<tbody class="form_tables_body" id="View_Cleared_Accident_Scenario_Form_Table_Body">
+								<!-- ---------------- Unique Content ---------------- -->
+								<tr>
+									<th> Accident Scenario ID </th>
+									<td> <input type="text" name="ID" placeholder=" Accident Scenario ID" readonly> </td>
+								</tr>
+								
+								<tr>
+									<th> User </th>
+									<td> <input type="text" name="USER" placeholder=" User" readonly> </td>
+								</tr>
+
+								<tr>
+									<th> Blackbox </th>
+									<td> <input type="text" name="BLACKBOX" placeholder=" Blackbox" readonly> </td>
+								</tr>
+
+								<tr>
+									<th> Uploaded_By </th>
+									<td> <input type="text" name="UPLOADED_BY" placeholder=" Uploaded By" readonly> </td>
+								</tr>
+
+								<tr>
+									<th> Weight </th>
+									<td> <input type="number" name="WEIGHT" placeholder=" Weight" readonly> </td>
+								</tr>
+
+								<tr>
+									<th> Date & Time </th>
+									<td>
+										<input type="text" name="DATE_AND_TIME" placeholder=" Date & Time" readonly>
+									</td>
+								</tr>
+								<!-- ---------------- End - Unique Content ---------------- -->
+
+
+								<!-- ---------------- Super Unique Content ---------------- -->
+								<tr>
+									<th> Date & Time of Clearance </th>
+									<td>
+										<input type="text" name="DATE_AND_TIME_OF_CLEARANCE" placeholder=" Date & Time of Clearance" readonly>
+									</td>
+								</tr>
+								<!-- ---------------- End - Super Unique Content ---------------- -->
+
+
+								<!-- ---------------- Common Content ---------------- -->
+								<tr>
+									<th> Vehicle Registration No. </th>
+									<td> <input type="text" name="VEHICLE_REGISTRATION_NUMBER" placeholder=" Vehicle Registration No." readonly> </td>
+								</tr>
+
+								<tr>
+									<th> Location </th>
+									<td>
+										<input type="text" name="COORDINATES" placeholder=" Coordinates" readonly>
+									</td>
+								</tr>
+
+								<tr>
+									<th> Image </th>
+									
+									<td id="Image_td">
+										<img class="Image_Object_Class" id="Cleared_Accident_Scenario_Image_Object_ID" src="img/Empty_Image/Empty_Image.png" alt="Pending Accident Scenario Picture">
+									</td>
+								</tr>
+
+								<tr>
+									<th> Level of Risk </th>
+									<td>
+										<input type="text" name="LEVEL_OF_RISK" placeholder=" Level of Risk" readonly>
+									</td>
+								</tr>
+
+								<tr>
+									<th> Cause of Accident </th>
+									<td>
+										<input type="text" name="CAUSE_OF_ACCIDENT" placeholder=" Cause of Accident" readonly>
+									</td>
+								</tr>
+
+								<tr>
+									<th> Number of Survivors </th>
+									<td>
+										<input type="number" name="NUMBER_OF_SURVIVORS" placeholder=" Number of Survivors">
+									</td>
+								</tr>
+
+								<tr>
+									<th> Number of Injured People </th>
+									<td>
+										<input type="number" name="NUMBER_OF_INJURED_PEOPLE" placeholder=" Number of Injured People">
+									</td>
+								</tr>
+
+								<tr>
+									<th> Number of Non-Survivors </th>
+									<td>
+										<input type="number" name="NUMBER_OF_NON_SURVIVORS" placeholder=" Number of Non-Survivors">
+									</td>
+								</tr>
+
+								<tr>
+									<th> Description </th>
+									<td> <textarea name="DESCRIPTION" placeholder=" Description" rows="4" cols="25" readonly> </textarea> </td>
+								</tr>
+								<!-- ---------------- End - Common Content ---------------- -->
+
+								
+								
+								<!-- ---------------- Unique Content ---------------- -->
+								<tr>
+									<td class="form_bottons" colspan="2">
+										<button type="submit" class="contact100-form-btn">
+											<span>
+												Download Report
+												<i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"> </i>
+											</span>
+										</button>
+									</td>
+								</tr>
+								<!-- ---------------- End - Unique Content ---------------- -->
+							</tbody>
+						</table>
+					</form>
+				</main>
+			</div>
+
+
+
+
+
+
+			<!-- -------- REPORT_UNSAFE_ZONE -------- -->
+			<div class="Main_Page_Content" id="REPORT_UNSAFE_ZONE">
+				<main class="page-content">
+					<h5> REPORT UNSAFE ZONE </h5>
+					
+					<i class="fa fa-close close_window_icon" aria-hidden="true" style="font-size: 30px;" onclick="javascript: show_hide_content('HOME_PAGE');"> </i>
+					
+					<hr>
+					
+					<form class="User_Filled_Forms Data_Forms" id="Report_Unsafe_Zone_Form" onsubmit="return validate_Report_Unsafe_Zone_Form('Report_Unsafe_Zone_Form');" action="javascript: Add_OR_Modify_Blackspot_OR_Reported_Zone('Report Unsafe Zone', 'Report_Unsafe_Zone_Form');">
+						<table class="form_tables" id="Report_Unsafe_Zone_Form_Table">
+							<tbody class="form_tables_body" id="Report_Unsafe_Zone_Form_Table_Body">
+								<!-- ---------------- Common Content ---------------- -->
+								<tr>
+									<th> Location </th>
+
+									<td>
+										<input type="text" name="COORDINATES" placeholder=" Coordinates" required>
+										<button type="button" class="refresh_location_coordinates_button" onclick="javascript: fetch_location('Report_Unsafe_Zone_Form');"> <i class="fa fa-refresh"> </i> </button>
+									</td>
+								</tr>
+								
+								<tr>
+									<th> Image </th>
+									<td> <input type="file" name="IMAGE" accept="image/*" capture="capture"/> </td>
+								</tr>
+
+								<tr>
+									<th> Level of Risk </th>
+									<td>
+										<select name="LEVEL_OF_RISK" required>
+											<option value="" disabled selected> Select your choice </option>
+											<option value="Very High"> Very High </option>
+											<option value="High"> High </option>
+											<option value="Medium"> Medium </option>
+											<option value="Low"> Low </option>
+											<option value="Very Low"> Very Low </option>
+										</select>
+									</td>
+								</tr>
+
+								<tr>
+									<th> Description </th>
+									<td> <textarea name="DESCRIPTION" placeholder=" Description" rows="4" cols="25"> </textarea> </td>
+								</tr>
+								<!-- ---------------- End - Common Content ---------------- -->
+
+								
+								
+								<!-- ---------------- Unique Content ---------------- -->
+								<tr>
+									<td class="form_bottons" colspan="2">
+										<button type="submit" class="contact100-form-btn">
+											<span>
+												Report
+												<i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"> </i>
+											</span>
+										</button> &nbsp &nbsp
+
+										<button type="reset" class="contact100-form-btn">
+											<span>
+												Clear
+												<i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"> </i>
+											</span>
+										</button>
+									</td>
+								</tr>
+								<!-- ---------------- End - Unique Content ---------------- -->
+							</tbody>
+						</table>
+					</form>
+				</main>
+			</div>
+
+	
+	
+	
+	
+			<!-- -------- BLACKSPOT -------- -->
+			<!-- ADD_BLACKSPOT -->
+			<div class="Main_Page_Content" id="ADD_BLACKSPOT">
+				<main class="page-content">
+					<h5> ADD BLACKSPOT </h5>
+
+					<i class="fa fa-close close_window_icon" aria-hidden="true" style="font-size: 30px;" onclick="javascript: show_hide_content('HOME_PAGE');"> </i>
+
+					<hr>
+
+					<form class="User_Filled_Forms Data_Forms" id="Add_Blackspot_Form" onsubmit="return validate_Add_Blackspot_Form('Add_Blackspot_Form');" action="javascript: Add_OR_Modify_Blackspot_OR_Reported_Zone('Add Blackspot', 'Add_Blackspot_Form');">
+						<table class="form_tables" id="Add_Blackspot_Form_Table">
+							<tbody class="form_tables_body" id="Add_Blackspot_Form_Table_Body">
+								<!-- ---------------- Common Content ---------------- -->
+								<tr>
+									<th> Location </th>
+									<td> 
+										<input type="text" name="COORDINATES" placeholder=" Coordinates" required>
+										<button type="button" class="refresh_location_coordinates_button" onclick="javascript: fetch_location('Add_Blackspot_Form');"> <i class="fa fa-refresh"> </i> </button>
+									</td>
+								</tr>
+
+								<tr>
+									<th> Image </th>
+									<td> <input type="file" name="IMAGE" accept="image/*" capture="capture"/> </td>
+								</tr>
+
+								<tr>
+									<th> Level of Risk </th>
+									<td>
+										<select name="LEVEL_OF_RISK" required>
+											<option value="" disabled selected> Select your choice </option>
+											<option value="Very High"> Very High </option>
+											<option value="High"> High </option>
+											<option value="Medium"> Medium </option>
+											<option value="Low"> Low </option>
+											<option value="Very Low"> Very Low </option>
+										</select>
+									</td>
+								</tr>
+
+								<tr>
+									<th> Description </th>
+									<td> <textarea name="DESCRIPTION" placeholder=" Description" rows="4" cols="25"> </textarea> </td>
+								</tr>
+								<!-- ---------------- End - Common Content ---------------- -->
+
+								
+								
+								<!-- ---------------- Unique Content ---------------- -->
+								<tr>
+									<td class="form_bottons" colspan="2">
+										<button type="submit" class="contact100-form-btn">
+											<span>
+												Add
+												<i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"> </i>
+											</span>
+										</button> &nbsp &nbsp
+
+										<button type="reset" class="contact100-form-btn">
+											<span>
+												Clear
+												<i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"> </i>
+											</span>
+										</button>
+									</td>
+								</tr>
+								<!-- ---------------- End - Unique Content ---------------- -->
+							</tbody>
+						</table>
+					</form>
+				</main>
+			</div>
+
+
+
+			<!-- VIEW_BLACKSPOT -->
+			<div class="Main_Page_Content" id="VIEW_BLACKSPOTS">
+				<main class="page-content">
+					<h5> VIEW BLACKSPOTS </h5>
+
+					<i class="fa fa-close close_window_icon" aria-hidden="true" style="font-size: 30px;" onclick="javascript: show_hide_content('HOME_PAGE');"> </i>
+					<i class="fa fa-arrow-left go_back_icon" aria-hidden="true" style="font-size: 30px;" onclick="javascript: Display_Blackspot_List();"> </i>
+					
+					<hr>
+
+
+					<div id="Blackspot_Search_Bar">
+						<div class="input-group">
+							<input type="text" class="form-control search-menu" placeholder="Search...">
+
+							<div class="input-group-append" onclick="javascript: Blackspot_Search_Results('Blackspot')">
+								<span class="input-group-text">
+									<i class="fa fa-search" aria-hidden="true"></i>
+								</span>
+							</div>
+						</div>
+					</div>
+					
+					
+					<table class="list_tables" id="Blackspot_Search_Results">
+						<tbody class="list_tables_body" id="Blackspot_Search_Results_Table_Body">
+						</tbody>
+					</table>
+					
+
+					<form class="Data_Forms" id="View_Blackspot_Form" onsubmit="return validate_View_Blackspot_Form('View_Blackspot_Form');" action="javascript: Add_OR_Modify_Blackspot_OR_Reported_Zone('Modify Blackspot', 'View_Blackspot_Form');">
+						<table class="form_tables" id="View_Blackspot_Form_Table">
+							<tbody class="form_tables_body" id="View_Blackspot_Form_Table_Body">
+								<!-- ---------------- Unique Content ---------------- -->
+								<tr>
+									<th> Blackspot ID </th>
+									<td> <input type="text" name="ID" placeholder=" Blackspot ID" readonly required> </td>
+								</tr>
+								<!-- ---------------- End - Unique Content ---------------- -->
+
+
+								<!-- ---------------- Common Content ---------------- -->
+								<tr>
+									<th> Location </th>
+									<td>
+										<input type="text" name="COORDINATES" placeholder=" Coordinates" required>
+										<button type="button" class="refresh_location_coordinates_button" onclick="javascript: fetch_location('View_Blackspot_Form');"> <i class="fa fa-refresh"> </i> </button>
+									</td>
+								</tr>
+
+								<tr>
+									<th> Image </th>
+									
+									<!-- <td> <input type="file" name="IMAGE" accept="image/*" capture="capture"/> </td> -->
+									
+									<td id="Image_td">
+										<div class="image-preview">
+											<img class="Image_Object_Class" id="Blackspot_Image_Object_ID" src="img/Empty_Image/Empty_Image.png" alt="Blackspot Picture"> <br>
+											<div class="edit_image"> <a href="javascript: Edit_Image('View_Blackspot_Form', 'Image_FOR_Blackspot');"> <i class="fa fa-pencil fa-lg"> </i> </a> </div>
+											<div class="remove_image"> <a href="javascript: Remove_Image('View_Blackspot_Form', 'Blackspot_Image_Object_ID');"> <i class="fa fa-trash fa-lg"> </i> </a> </div>
+										</div>
+
+										<input type="file" class="Edit_Image_Input" id="Image_FOR_Blackspot" name="IMAGE" placeholder="Edit" accept="image/*" capture="capture" onchange="javascript: Preview_Image(this, 'Blackspot_Image_Object_ID');"/>
+										<input type="hidden" name="Remove_Picture" value="No">
+									</td>
+								</tr>
+
+								<tr>
+									<th> Level of Risk </th>
+									<td>
+										<input type="text" name="LEVEL_OF_RISK" placeholder=" Level of Risk" readonly>
+									</td>
+								</tr>
+
+								<tr>
+									<th> Description </th>
+									<td> <textarea name="DESCRIPTION" placeholder=" Description" rows="4" cols="25"> </textarea> </td>
+								</tr>
+								<!-- ---------------- End - Common Content ---------------- -->
+
+								
+								
+								<!-- ---------------- Unique Content ---------------- -->
+								<tr>
+									<td class="form_bottons" colspan="2">
+										<button type="submit" class="contact100-form-btn">
+											<span>
+												Save Changes
+												<i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"> </i>
+											</span>
+										</button> &nbsp &nbsp
+										
+										<button type="button" class="contact100-form-btn" onclick="javascript: Delete_Blackspot('View_Blackspot_Form');">
+											<span>
+												Delete
+												<i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"> </i>
+											</span>
+										</button>
+									</td>
+								</tr>
+								<!-- ---------------- End - Unique Content ---------------- -->
+							</tbody>
+						</table>
+					</form>
+				</main>
+			</div>
+
+
+
+			<!-- VIEW_REPORTED_ZONES -->
+			<div class="Main_Page_Content" id="VIEW_REPORTED_ZONES">
+				<main class="page-content">
+					<h5> VIEW REPORTED ZONES </h5>
+					
+					<i class="fa fa-close close_window_icon" aria-hidden="true" style="font-size: 30px;" onclick="javascript: show_hide_content('HOME_PAGE');"> </i>
+					<i class="fa fa-arrow-left go_back_icon" aria-hidden="true" style="font-size: 30px;" onclick="javascript: Display_Reported_Zone_List();"> </i>
+
+					<hr>
+
+
+					<table class="list_tables" id="Reported_Zones">
+						<tbody class="list_tables_body" id="Reported_Zones_Table_Body">
+						</tbody>
+					</table>
+
+					<form class="Data_Forms" id="View_Zone_Form" onsubmit="return validate_View_Zone_Form('View_Zone_Form');" action="javascript: Add_OR_Modify_Blackspot_OR_Reported_Zone('Add to Blackspots', 'View_Zone_Form');">
+						<table class="form_tables" id="View_Zone_Form_Table">
+							<tbody class="form_tables_body" id="View_Zone_Form_Table_Body">
+								<!-- ---------------- Unique Content ---------------- -->
+								<tr>
+									<th> Report ID </th>
+									<td> <input type="text" name="ID" placeholder=" Report ID" readonly required> </td>
+								</tr>
+
+								<input type="hidden" name="Reporter_ID">
+								<!-- ---------------- End - Unique Content ---------------- -->
+
+
+
+								<!-- ---------------- Common Content ---------------- -->
+								<tr>
+									<th> Location </th>
+									<td>
+										<input type="text" name="COORDINATES" placeholder=" Coordinates" required>
+										<button type="button" class="refresh_location_coordinates_button" onclick="javascript: fetch_location('View_Zone_Form');"> <i class="fa fa-refresh"> </i> </button>
+									</td>
+								</tr>
+
+								<tr>
+									<th> Image </th>
+
+									<!-- <td> <input type="file" name="IMAGE" accept="image/*" capture="capture"/> </td> -->
+
+									<td id="Image_td">
+										<div class="image-preview">
+											<img class="Image_Object_Class" id="Unsafe_Zone_Image_Object_ID" src="img/Empty_Image/Empty_Image.png" alt="Unsafe Zone Picture"> <br>
+											<div class="edit_image"> <a href="javascript: Edit_Image('View_Zone_Form', 'Image_FOR_Unsafe_Zone');"> <i class="fa fa-pencil fa-lg"> </i> </a> </div>
+											<div class="remove_image"> <a href="javascript: Remove_Image('View_Zone_Form', 'Unsafe_Zone_Image_Object_ID');"> <i class="fa fa-trash fa-lg"> </i> </a> </div>
+											
+											<input type="hidden" name="Image_URL">
+										</div>
+
+										<input type="file" class="Edit_Image_Input" id="Image_FOR_Unsafe_Zone" name="IMAGE" placeholder="Edit" accept="image/*" capture="capture" onchange="javascript: Preview_Image(this, 'Unsafe_Zone_Image_Object_ID');"/>
+										<input type="hidden" name="Remove_Picture" value="No">
+									</td>
+								</tr>
+
+
+								<tr>
+									<th> Level of Risk </th>
+									<td>
+										<select name="LEVEL_OF_RISK" required>
+											<option value="" disabled> Select your choice </option>
+											<option value="Very High"> Very High </option>
+											<option value="High"> High </option>
+											<option value="Medium"> Medium </option>
+											<option value="Low"> Low </option>
+											<option value="Very Low"> Very Low </option>
+										</select>
+									</td>
+								</tr>
+
+								<tr>
+									<th> Description </th>
+									<td> <textarea name="DESCRIPTION" placeholder=" Description" rows="4" cols="25"> </textarea> </td>
+								</tr>
+								<!-- ---------------- End - Common Content ---------------- -->
+
+								
+								
+								<!-- ---------------- Unique Content ---------------- -->
+								<tr>
+									<td class="form_bottons" colspan="2">
+										<button type="button" class="contact100-form-btn" onclick="javascript: Add_OR_Modify_Blackspot_OR_Reported_Zone('Modify Unsafe Zone', 'View_Zone_Form');">
+											<span>
+												Save Changes
+												<i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"> </i>
+											</span>
+										</button> &nbsp &nbsp
+
+										<button type="submit" class="contact100-form-btn">
+											<span>
+												Add to Blackspots
+												<i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"> </i>
+											</span>
+										</button> &nbsp &nbsp
+										
+										<button type="button" class="contact100-form-btn" onclick="javascript: Delete_Reported_Zone('View_Zone_Form');">
+											<span>
+												Delete
+												<i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"> </i>
+											</span>
+										</button>
+									</td>
+								</tr>
+								<!-- ---------------- End - Unique Content ---------------- -->
+							</tbody>
+						</table>
+					</form>
+				</main>
+			</div>
+
+	
+
+
+	
+			<!-- -------- VEHICLE --------  -->
+			<!-- VIEW_VEHICLE_DETAILS -->
+			<div class="Main_Page_Content" id="VEHICLE">
+				<main class="page-content">
+					<h5> VEHICLE </h5>
+
+					<i class="fa fa-close close_window_icon" aria-hidden="true" style="font-size: 30px;" onclick="javascript: show_hide_content('HOME_PAGE');"> </i>
+					
+					<hr>
+
+
+					<form class="Data_Forms" id="View_Vehicle_Details_Form" onsubmit="return validate_View_Vehicle_Details_Form('View_Vehicle_Details_Form');" action="javascript: Add_OR_Modify_Vehicle_Details('View_Vehicle_Details_Form')">
+						<table class="form_tables" id="View_Vehicle_Details_Form_Table">
+							<tbody class="form_tables_body" id="View_Vehicle_Details_Form_Table_Body">
+								<!-- ---------------- Common Content ---------------- -->
+								<tr>
+									<th> Registration Number </th>
+									<td>
+										<input type="text" name="VEHICLE_REGISTRATION_NUMBER" placeholder=" Registration Number" required>
+									</td>
+								</tr>
+
+								<tr>
+									<th> Model </th>
+									<td> <input type="text" name="VEHICLE_MODEL" placeholder=" Model" required> </td>
+								</tr>
+
+								<tr>
+									<th> RC Number </th>
+									<td> <input type="text" name="VEHICLE_RC_NUMBER" placeholder=" RC Number" required> </td>
+								</tr>
+
+								<tr>
+									<th> Insurance Number </th>
+									<td> <input type="text" name="VEHICLE_INSURANCE_NUMBER" placeholder=" Insurance Number"> </td>
+								</tr>
+
+								<tr>
+									<th> Safety Features</th>
+									<td>
+										<input type="checkbox" class="Vehicle_Safety_Features" name="AIRBAGS" value="Airbags"> Airbags <br>
+										<input type="checkbox" class="Vehicle_Safety_Features" name="ALL_WHEEL_DRIVE" value="All-Wheel Drive"> All-Wheel Drive <br>
+										<input type="checkbox" class="Vehicle_Safety_Features" name="ABS" value="ABS"> ABS <br>
+										<input type="checkbox" class="Vehicle_Safety_Features" name="ELECTRONIC_STABILITY_CONTROL" value="Electronic Stability Control"> Electronic Stability Control
+									</td>
+								</tr>
+
+								<tr>
+									<th> Vehicle Health </th>
+									<td>
+										<select name="VEHICLE_HEALTH" required>
+											<option value="" disabled> Select your choice </option>
+											<option value="Very Good"> Very Good </option>
+											<option value="Good"> Good </option>
+											<option value="Average"> Average </option>
+											<option value="Bad"> Bad </option>
+											<option value="Very Bad"> Very Bad </option>
+										</select>
+									</td>
+								</tr>
+								<!-- ---------------- End - Common Content ---------------- -->
+
+								<tr>
+									<td class="form_bottons" colspan="2">
+										<button type="submit" class="contact100-form-btn">
+											<span>
+												Save Changes
+												<i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"> </i>
+											</span>
+										</button>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</form>
+				</main>
+			</div>	
+			
+	
+			<!-- REPORT_VEHICLE_DAMAGE -->
+			<!-- <div class="Main_Page_Content" id="REPORT_VEHICLE_DAMAGE">
+				<main class="page-content">
+					<h5> REPORT VEHICLE DAMAGE </h5>
+					
+					<hr>
+				</main>
+			</div> -->
+	
+	
+	
+			<!-- --------  BLACKBOX -------- -->
+			<!-- ADD BLACKBOX -->
+			<div class="Main_Page_Content" id="ADD_BLACKBOX">
+				<main class="page-content">
+					<h5> ADD BLACKBOX </h5>
+
+					<i class="fa fa-close close_window_icon" aria-hidden="true" style="font-size: 30px;" onclick="javascript: show_hide_content('HOME_PAGE');"> </i>
+
+					<hr>
+
+
+					<div class="Form_Description">
+						Enter the credentials of new Blackbox Device
+					</div>
+
+					<form class="User_Filled_Forms Data_Forms" id="Add_Blackbox_Form" onsubmit="return validate_Add_Blackbox_Form('Add_Blackbox_Form');" action="javascript: Add_OR_Replace_Blackbox('Add_Blackbox_Form')">
+						<table class="form_tables" id="Add_Blackbox_Form_Table">
+							<tbody class="form_tables_body" id="Add_Blackbox_Form_Table_Body">
+								<tr>
+									<th> Blackbox ID  </th>
+									<td>
+										<input type="text" name="BLACKBOX_ID" placeholder=" Blackbox ID" required>
+									</td>
+								</tr>
+
+								<tr>
+									<th> Activation Code </th>
+									<td> <input type="password" name="ACTIVATION_CODE" placeholder=" Activation Code" required> </td>
+								</tr>
+
+								<tr>
+									<td class="form_bottons" colspan="2">
+										<button type="submit" class="contact100-form-btn">
+											<span>
+												Add Blackbox
+												<i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"> </i>
+											</span>
+										</button> &nbsp &nbsp
+										
+										<button type="reset" class="contact100-form-btn">
+											<span>
+												Clear
+												<i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"> </i>
+											</span>
+										</button>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</form>	
+				</main>
+			</div>
+			
+			
+			
+			<!-- REPLACE BLACKBOX -->
+			<div class="Main_Page_Content" id="REPLACE_BLACKBOX">
+				<main class="page-content">
+					<h5> REPLACE BLACKBOX </h5>
+
+					<i class="fa fa-close close_window_icon" aria-hidden="true" style="font-size: 30px;" onclick="javascript: show_hide_content('HOME_PAGE');"> </i>
+
+					<hr>
+
+
+					<div class="Form_Description">
+						Enter the credentials of new Blackbox Device
+					</div>
+
+					<form class="User_Filled_Forms Data_Forms" id="Replace_Blackbox_Form" onsubmit="return validate_Replace_Blackbox_Form('Replace_Blackbox_Form');" action="javascript: Add_OR_Replace_Blackbox('Replace_Blackbox_Form')">
+						<table class="form_tables" id="Replace_Blackbox_Form_Table">
+							<tbody class="form_tables_body" id="Replace_Blackbox_Form_Table_Body">
+								<tr>
+									<th> Blackbox ID  </th>
+									<td>
+										<input type="text" name="BLACKBOX_ID" placeholder=" Blackbox ID" required>
+									</td>
+								</tr>
+
+								<tr>
+									<th> Activation Code </th>
+									<td> <input type="password" name="ACTIVATION_CODE" placeholder=" Activation Code" required> </td>
+								</tr>
+
+								<tr>
+									<td class="form_bottons" colspan="2">
+										<button type="submit" class="contact100-form-btn">
+											<span>
+												Replace Blackbox
+												<i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"> </i>
+											</span>
+										</button> &nbsp &nbsp
+										
+										<button type="reset" class="contact100-form-btn">
+											<span>
+												Clear
+												<i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"> </i>
+											</span>
+										</button>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</form>	
+				</main>
+			</div>
+
+			
+
+
+			<!-- BLACKBOX_STATUS -->
+			<div class="Main_Page_Content" id="BLACKBOX_STATUS">
+				<main class="page-content">
+					<h5> BLACKBOX STATUS </h5>
+
+					<i class="fa fa-close close_window_icon" aria-hidden="true" style="font-size: 30px;" onclick="javascript: show_hide_content('HOME_PAGE');"> </i>
+					
+					<hr>
+
+
+					<form class="Data_Forms" id="Blackbox_Status_Form" onsubmit="return validate_Blackbox_Status_Form('Blackbox_Status_Form');" action="javascript: Update_Blackbox_Status()">
+						<table class="form_tables" id="Blackbox_Status_Form_Table">
+							<tbody class="form_tables_body" id="Blackbox_Status_Form_Table_Body">
+								<tr>
+									<th> Blackbox ID </th>
+									<td>
+										<input type="text" name="BLACKBOX_ID" placeholder=" Blackbox ID" readonly>
+									</td>
+								</tr>
+
+								<tr>
+									<th> Black Box Status </th>
+									<td>
+										<span id="Blackbox_Status_On">
+											<i class="fa fa-circle Status_On_icon" style="font-size: 15px;"> </i>
+											On
+										</span>
+										<span id="Blackbox_Status_Off">
+											<i class="fa fa-circle Status_Off_Icon" style="font-size: 15px;"> </i>
+											Off
+										</span>
+									</td>
+								</tr>
+
+								<tr>
+									<th> Sensor Status </th>
+									<td>
+										<!-- <b> Accelerometer </b> -->
+										<div class="Status" id="Accelerometer_Status_On">
+											<i class="fa fa-circle Status_On_icon"> </i>
+											Accelerometer
+										</div>
+										<div class="Status" id="Accelerometer_Status_Off">
+											<i class="fa fa-circle Status_Off_Icon"> </i>
+											Accelerometer
+										</div>
+
+										<br>
+
+										<!-- <b> Proximity Sensor </b> -->
+										<div class="Status" id="Proximity_Sensor_Status_Off">
+											<i class="fa fa-circle Status_Off_Icon"> </i>
+											Proximity Sensor
+										</div>
+										<div class="Status" id="Proximity_Sensor_Status_On">
+											<i class="fa fa-circle Status_On_icon"> </i>
+											Proximity Sensor
+										</div>
+										
+									</td>
+								</tr>
+
+								<tr>
+									<th> Overall Health </th>
+									<td> <input type="text" name="OVERALL_HEALTH" placeholder=" Overall Health" readonly> </td>
+								</tr>
+							</tbody>
+						</table>
+					</form>
+				</main>
+			</div>
+
+			<!-- REMOVE_BLACKBOX -->
+			<div class="Main_Page_Content" id="REMOVE_BLACKBOX">
+				<main class="page-content">
+					<h5> REMOVE BLACKBOX </h5>
+
+					<i class="fa fa-close close_window_icon" aria-hidden="true" style="font-size: 30px;" onclick="javascript: show_hide_content('HOME_PAGE');"> </i>
+					
+					<hr>
+
+
+					<form class="User_Filled_Forms Data_Forms" id="Verify_Current_Password_Form_FOR_Remove_Blackbox" onsubmit="return validate_Verify_Current_Password_Form_FOR_Remove_Blackbox('Verify_Current_Password_Form_FOR_Remove_Blackbox');" action="javascript: Verify_Current_Password('Verify_Current_Password_Form_FOR_Remove_Blackbox');">
+						<table class="form_tables" id="Verify_Current_Password_Form_FOR_Remove_Blackbox_Table">
+							<tbody class="form_tables_body" id="Verify_Current_Password_Form_FOR_Remove_Blackbox_Table_Body">
+								<!-- ---------------- Common Content ---------------- -->
+								<tr>
+									<th> Current Password </th>
+									<td> <input type="password" name="CURRENT_PASSWORD" placeHolder=" Current Password" required> </td>
+								</tr>
+
+								<input type="hidden" name="TASK">
+								<!-- ---------------- End - Common Content ---------------- -->
+
+								<tr>
+									<td class="form_bottons" colspan="2">
+										<button type="submit" class="contact100-form-btn">
+											<span>
+												Submit
+												<i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"> </i>
+											</span>
+										</button> &nbsp &nbsp
+
+										<button type="reset" class="contact100-form-btn">
+											<span>
+												Clear
+												<i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"> </i>
+											</span>
+										</button>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</form>
+				</main>
+			</div>
+
+
+
+			<!-- BLACKBOX_MANAGE_SENSORS -->
+			<!-- <div class="Main_Page_Content" id="BLACKBOX_MANAGE_SENSORS">
+				<main class="page-content">
+					<h5> BLACKBOX MANAGE SENSORS </h5>
+					
+					<i class="fa fa-close close_window_icon" aria-hidden="true" style="font-size: 30px;" onclick="javascript: show_hide_content('HOME_PAGE');"> </i>
+					
+					<hr>
+				</main>
+			</div> -->
+
+
+	
+			<!-- BLACKBOX_HELP -->
+			<!-- <div class="Main_Page_Content" id="BLACKBOX_HELP">
+				<main class="page-content">
+					<h5> BLACKBOX HELP </h5>
+
+					<i class="fa fa-close close_window_icon" aria-hidden="true" style="font-size: 30px;" onclick="javascript: show_hide_content('HOME_PAGE');"> </i>
+					
+					<hr>
+
+
+					Provide help for connections <br> <br>
+					Provide link for Guide <br> <br>
+					Provide Customer Care Support
+				</main>
+			</div> -->
+	
+	
+	
+			<!-- -------- DEVICE_CONFIGURATION -------- -->
+			<!-- <div class="Main_Page_Content" id="DEVICE_CONFIGURATION">
+				<main class="page-content">
+					<h5> DEVICE CONFIGURATION </h5>
+
+					<i class="fa fa-close close_window_icon" aria-hidden="true" style="font-size: 30px;" onclick="javascript: show_hide_content('HOME_PAGE');"> </i>
+					<hr>
+				</main>
+			</div> -->
+	
+	
+	
+	
+			<!-- -------- MAP & LOCATION -------- -->
+			<!-- MAP_CONFIGURATION -->
+			<div class="Main_Page_Content" id="MAP_CONFIGURATION">
+				<main class="page-content">
+					<h5> MAP CONFIGURATION </h5>
+
+					<i class="fa fa-close close_window_icon" aria-hidden="true" style="font-size: 30px;" onclick="javascript: show_hide_content('HOME_PAGE');"> </i>
+
+					<hr>
+
+
+					<form class="Data_Forms" id="Map_Configuration_Form" onsubmit="return validate_Map_Configuration_Form('Map_Configuration_Form');" action="javascript: Modify_Map_Configuration('Map_Configuration_Form')">
+						<table class="form_tables" id="Map_Configuration_Form_Table">
+							<tbody class="form_tables_body" id="Map_Configuration_Form_Table_Body">
+								<tr>
+									<th> View Type </th>
+									<td>
+										<select name="VIEW_TYPE" required>
+											<option value="Roadmap"> Roadmap </option>
+											<option value="Satellite"> Satellite </option>
+											<option value="Hybrid"> Hybrid </option>
+											<option value="Terrain"> Terrain </option>
+										</select>
+									</td>
+								</tr>
+
+								<tr>
+									<th> Information to be displayed on Markers </th>
+									<td>
+										<input type="checkbox" class="Information_To_Be_Displayed_On_Marker_FOR_Map_Configuration_Form" name="LOCATION_NAME" value="Location Name"> Name of the location. <br>
+										<input type="checkbox" class="Information_To_Be_Displayed_On_Marker_FOR_Map_Configuration_Form" name="COORDINATES" value="Coordinates"> Coordinates. <br>
+										<input type="checkbox" class="Information_To_Be_Displayed_On_Marker_FOR_Map_Configuration_Form" name="NUMBER_OF_ACCIDENTS_OCCURED" value="Number of Accidents Occured"> Number of accidents occured. <br>
+										<input type="checkbox" class="Information_To_Be_Displayed_On_Marker_FOR_Map_Configuration_Form" name="LEVEL_OF_RISK" value="Level of Risk"> Level of risk. <br>
+										<input type="checkbox" class="Information_To_Be_Displayed_On_Marker_FOR_Map_Configuration_Form" name="IMAGE" value="Image"> Image of the location. <br>
+										<input type="checkbox" class="Information_To_Be_Displayed_On_Marker_FOR_Map_Configuration_Form" name="CURRENT_STATUS" value="Current Status"> Current status of the location. <br>
+										<input type="checkbox" class="Information_To_Be_Displayed_On_Marker_FOR_Map_Configuration_Form" name="RECOMMENDATION" value="Recommendation"> Recommendation.
+									</td>
+								</tr>
+
+								<tr>
+									<th> Path Preference </th>
+									<td>
+										<input type="radio" name="PATH_PREFERENCE" id="Map_Configuration_Form_SHORTEST_PATH" value="Shortest Path"> Shortest Path &nbsp &nbsp
+										<input type="radio" name="PATH_PREFERENCE" id="Map_Configuration_Form_SAFEST_PATH" value="Safest Path"> Safest Path
+									</td>
+								</tr>
+
+								<tr>
+									<td class="form_bottons" colspan="2">
+										<button type="submit" class="contact100-form-btn">
+											<span>
+												Save Changes
+												<i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"> </i>
+											</span>
+										</button>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</form>
+				</main>
+			</div>
+
+
+
+
+			<!-- GPS_CONFIGURATION -->
+			<div class="Main_Page_Content" id="LOCATION_SETTINGS">
+				<main class="page-content">
+					<h5> LOCATION SETTINGS </h5>
+					
+					<i class="fa fa-close close_window_icon" aria-hidden="true" style="font-size: 30px;" onclick="javascript: show_hide_content('HOME_PAGE');"> </i>
+					
+					<hr>
+
+
+					<form class="Data_Forms" id="Location_Settings_Form" onsubmit="return validate_Location_Settings_Form('Location_Settings_Form');" action="javascript: Modify_Location_Settings('Location_Settings_Form')">
+						<table class="form_tables" id="Location_Settings_Form_Table">
+							<tbody class="form_tables_body" id="Location_Settings_Form_Table_Body">
+								<tr>
+									<th> GPS Module </th>
+									<td>
+										<select name="GPS_Module" required>
+											<option value="Mobile Device GPS"> Mobile Device GPS </option>
+											<option value="Blackbox GPS"> Blackbox GPS </option>
+										</select>
+									</td>
+								</tr>
+
+								<tr>
+									<th> Use Wifi? </th>
+									<td>
+										<input type="radio" name="USE_WIFI" id="USE_WIFI_YES" value="Yes"> Yes &nbsp &nbsp
+										<input type="radio" name="USE_WIFI" id="USE_WIFI_NO" value="No"> No
+									</td>
+								</tr>
+
+								<tr>
+									<th> Use Bluetooth? </th>
+									<td>
+										<input type="radio" name="USE_BLUETOOTH" id="USE_BLUETOOTH_YES" value="Yes"> Yes &nbsp &nbsp
+										<input type="radio" name="USE_BLUETOOTH" id="USE_BLUETOOTH_NO" value="No"> No
+									</td>
+								</tr>
+
+								<tr>
+									<td class="form_bottons" colspan="2">
+										<button type="submit" class="contact100-form-btn">
+											<span>
+												Save Changes
+												<i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"> </i>
+											</span>
+										</button>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</form>
+				</main>
+			</div>
+			
+
+
+
+			<!-- -------- EMERGENCY CONTACT -------- -->
+			<div class="Main_Page_Content" id="EMERGENCY_CONTACT">
+				<main class="page-content">
+					<h5> EMERGENCY CONTACT </h5>
+					
+					<i class="fa fa-close close_window_icon" aria-hidden="true" style="font-size: 30px;" onclick="javascript: show_hide_content('HOME_PAGE');"> </i>
+					<i class="fa fa-arrow-left go_back_icon" aria-hidden="true" style="font-size: 30px;" onclick="javascript: Display_Emergency_Contact_List_Window();"> </i>
+
+					<hr>
+
+					<div id="View_Emergency_Contacts_Window">
+						<table class="list_tables" id="Emergency_Contact_List">
+							<tbody class="list_tables_body Emergency_Contact_List_Table_Body_Class" id="Emergency_Contact_List_Table_Body_Id">
+							</tbody>
+						</table>
+	
+						<i class="fa fa-plus-circle fa-10x" id="Add_Emergency_Contact_Icon" aria-hidden0="true" onclick="javascript: View_Add_Emergency_Contact_Form();"> </i>
+					</div>
+					
+
+					<form class="User_Filled_Forms Data_Forms" id="Add_Emergency_Contact_Form" onsubmit="return validate_Add_Emergency_Contact_Form('Add_Emergency_Contact_Form');" action="javascript: Send_Request_FOR_Add_To_Emergency_Contact_List('Add_Emergency_Contact_Form')">
+						<table class="form_tables" id="Add_Emergency_Contact_Form_Table">
+							<tbody class="form_tables_body" id="Add_Emergency_Contact_Form_Table_Body">
+								<tr>
+									<th> Email ID </th>
+									<td> <input type="email" name="EMAIL_ID" placeholder=" Email ID" required> </td>
+								</tr>
+
+								<tr>
+									<td class="form_bottons" colspan="2">
+										<button type="submit" class="contact100-form-btn">
+											<span>
+												Add Contact
+												<i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"> </i>
+											</span>
+										</button> &nbsp &nbsp
+										
+										<button type="reset" class="contact100-form-btn">
+											<span>
+												Clear
+												<i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"> </i>
+											</span>
+										</button>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</form>
+				</main>
+			</div>
+
+
+
+
+			<!-- -------- REQUESTS -------- -->
+			<div class="Main_Page_Content" id="REQUESTS">
+				<main class="page-content">
+					<h5> REQUESTS </h5>
+
+					<i class="fa fa-close close_window_icon" aria-hidden="true" style="font-size: 30px;" onclick="javascript: show_hide_content('HOME_PAGE');"> </i>
+
+					<hr>
+
+					<table class="list_tables" id="Pending_Requests_List">
+						<tbody class="list_tables_body" id="Pending_Requests_List_Table_Body">
+						</tbody>
+					</table>
+
+					<br>
+
+					<table class="list_tables" id="Sent_Pending_Requests_List">
+						<tbody class="list_tables_body" id="Sent_Pending_Requests_List_Table_Body">
+						</tbody>
+					</table>
+
+					<br>
+
+					<table class="list_tables" id="Accepted_Requests_List">
+						<tbody class="list_tables_body" id="Accepted_Requests_List_Table_Body">
+						</tbody>
+					</table>
+
+					<br>
+
+					<table class="list_tables" id="Sent_Rejected_Requests_List">
+						<tbody class="list_tables_body" id="Sent_Rejected_Requests_List_Table_Body">
+						</tbody>
+					</table>
+
+					<br>
+
+					<table class="list_tables" id="Rejected_Requests_List">
+						<tbody class="list_tables_body" id="Rejected_Requests_List_Table_Body">
+						</tbody>
+					</table>
+
+					<br>
+
+					<table class="list_tables" id="Cancelled_Requests_List">
+						<tbody class="list_tables_body" id="Cancelled_Requests_List_Table_Body">
+						</tbody>
+					</table>
+				</main>
+			</div>
+
+
+
+
+			<!-- -------- CONFIRMATIONS -------- -->
+			<div class="Main_Page_Content" id="CONFIRMATIONS">
+				<main class="page-content">
+					<h5> CONFIRMATIONS </h5>
+
+					<i class="fa fa-close close_window_icon" aria-hidden="true" style="font-size: 30px;" onclick="javascript: show_hide_content('HOME_PAGE');"> </i>
+
+					<hr>
+
+					<table class="list_tables" id="Pending_Confirmations_List">
+						<tbody class="list_tables_body" id="Pending_Confirmations_List_Table_Body">
+						</tbody>
+					</table>
+
+					<br>
+
+					<table class="list_tables" id="Sent_Pending_Confirmations_List">
+						<tbody class="list_tables_body" id="Sent_Pending_Confirmations_List_Table_Body">
+						</tbody>
+					</table>
+
+					<br>
+
+					<table class="list_tables" id="Expired_Confirmations_List">
+						<tbody class="list_tables_body" id="Expired_Confirmations_List_Table_Body">
+						</tbody>
+					</table>
+					
+					<br>
+					
+					<table class="list_tables" id="Sent_Expired_Confirmations_List">
+						<tbody class="list_tables_body" id="Sent_Expired_Confirmations_List_Table_Body">
+						</tbody>
+					</table>
+					
+					<br>
+
+					<table class="list_tables" id="Sent_Accepted_Confirmations_List">
+						<tbody class="list_tables_body" id="Sent_Accepted_Confirmations_List_Table_Body">
+						</tbody>
+					</table>
+
+					<br>
+					
+					<table class="list_tables" id="Accepted_Confirmations_List">
+						<tbody class="list_tables_body" id="Accepted_Confirmations_List_Table_Body">
+						</tbody>
+					</table>
+
+					<br>
+
+					<table class="list_tables" id="Sent_Rejected_Confirmations_List">
+						<tbody class="list_tables_body" id="Sent_Rejected_Confirmations_List_Table_Body">
+						</tbody>
+					</table>
+
+					<br>
+
+					<table class="list_tables" id="Rejected_Confirmations_List">
+						<tbody class="list_tables_body" id="Rejected_Confirmations_List_Table_Body">
+						</tbody>
+					</table>
+
+					<br>
+					
+					<table class="list_tables" id="Cancelled_Confirmations_List">
+						<tbody class="list_tables_body" id="Cancelled_Confirmations_List_Table_Body">
+						</tbody>
+					</table>
+
+					<br>
+
+					<table class="list_tables" id="Sent_Cleared_Confirmations_List">
+						<tbody class="list_tables_body" id="Sent_Cleared_Confirmations_List_Table_Body">
+						</tbody>
+					</table>
+
+					<br>
+					
+					<table class="list_tables" id="Cleared_Confirmations_List">
+						<tbody class="list_tables_body" id="Cleared_Confirmations_List_Table_Body">
+						</tbody>
+					</table>
+				</main>
+			</div>
+
+
+
+			<!-- -------- MESSAGES -------- -->
+			<div class="Main_Page_Content" id="MESSAGES">
+				<main class="page-content">
+					<h5> MESSAGES </h5>
+
+					<i class="fa fa-close close_window_icon" aria-hidden="true" style="font-size: 30px;" onclick="javascript: show_hide_content('HOME_PAGE');"> </i>
+					<i class="fa fa-arrow-left go_back_icon" aria-hidden="true" style="font-size: 30px;" onclick="javascript: Display_Message_List();"> </i>
+					
+					<hr>
+
+
+					<table class="list_tables" id="Messages_List">
+						<tbody class="list_tables_body" id="Messages_List_Table_Body">
+						</tbody>
+					</table>
+
+					<div class="Notification_OR_Message_Window" id="Message_Window">
+						<div class="ID_FOR_Notification_OR_Message_Window_Class" id="Message_ID_FOR_Message_Window"> </div> <br>
+						<div class="Sender_FOR_Notification_OR_Message_Window_Class" id="Message_Sender_FOR_Message_Window"> </div> <br>
+						<div class="Subject_FOR_Notification_OR_Message_Window_Class" id="Message_Subject_FOR_Message_Window"> </div> <br>
+						<div class="Content_FOR_Notification_OR_Message_Window_Class" id="Message_Content_FOR_Message_Window"> </div> <br>
+						<div class="Time_FOR_Notification_OR_Message_Window_Class" id="Message_Time_FOR_Message_Window"> </div>
+
+						<br> <br>
+
+						<div class="Delete_Button_FOR_Notification_OR_Message_Window_Class">
+							<button type="button" class="contact100-form-btn" onclick="javascript: Delete_Message();">
+								<span>
+									Delete
+									<i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"> </i>
+								</span>
+							</button>
+						</div>
+					</div>
+				</main>
+			</div>
+			
+
+
+
+
+			<!-- -------- SETTINGS -------- -->
+			<!-- MY_PROFILE -->
+			<div class="Main_Page_Content" id="MY_PROFILE">
+				<main class="page-content">
+					<h5> MY PROFILE </h5>
+
+					<i class="fa fa-close close_window_icon" aria-hidden="true" style="font-size: 30px;" onclick="javascript: show_hide_content('HOME_PAGE');"> </i>
+					<i class="fa fa-arrow-left go_back_icon" aria-hidden="true" style="font-size: 30px;" onclick="javascript: Display_My_Profie_Window()"> </i>
+					
+					<hr>
+
+
+					<div class="User_Profile_Forms" id="My_Profile_Form" style="padding: 0; margin: 0; border: 0;">
+						<!-- ---------------- Unique Content ---------------- -->
+						<form class="Data_Forms" id="User_Profile_Info_FOR_My_Profile_Form">
+							<table class="form_tables">
+								<tbody class="form_tables_body">
+									<tr>
+										<th id="User_Profile_Picture_th">
+											<div class="image-preview">
+												<img class="Image_Object_Class Profile_Picture_Img" id="Profile_Picture_Img_FOR_My_Profile" alt="User Picture"> <br>
+												<div class="edit_image"> <a href="javascript: Edit_Image('User_Profile_Info_FOR_My_Profile_Form', 'Profile_Picture_FOR_My_Profile');"> <i class="fa fa-pencil fa-lg"> </i> </a> </div>
+												<div class="remove_image"> <a href="javascript: Remove_Image('User_Profile_Info_FOR_My_Profile_Form', 'Profile_Picture_Img_FOR_My_Profile');"> <i class="fa fa-trash fa-lg"> </i> </a> </div>
+											</div>
+										</th>
+
+										<td>
+											<input type="file" class="Edit_Image_Input" id="Profile_Picture_FOR_My_Profile" name="PROFILE_PICTURE" placeholder="Edit" accept="image/*" capture="capture" onchange="javascript: Preview_Image(this, 'Profile_Picture_Img_FOR_My_Profile');"/>
+											<input type="hidden" name="Remove_Picture" value="No">
+											<span class="user-name User_Name_FOR_My_Profile"> </span> <br> <br>
+											<span class="user-role User_Role_FOR_My_Profile">  </span> <br> <br>
+
+											<span class="user-status-Online">
+												<i class="fa fa-circle Internet_Status_Logo_Online" ></i>
+												<span> Online </span>
+											</span>
+											
+											<span class="user-status-Offline">
+												<i class="fa fa-circle Internet_Status_Logo_Offline" ></i>
+												<span> Offline </span>
+											</span>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</form>
+						<!-- ---------------- End - Unique Content ---------------- -->
+						
+						
+						<form class="Data_Forms" id="My_Profile_Simple_User_Form" onsubmit="return validate_My_Profile_Simple_User_Form('My_Profile_Simple_User_Form');" action="javascript: Sign_Up_OR_Modify_User_Profile('Modify', 'My_Profile_Simple_User_Form');">
+							<table class="form_tables" id="My_Profile_Simple_User_Form_Table">
+								<tbody class="form_tables_body" id="My_Profile_Simple_User_Form_Table_Body">
+									<!-- ---------------- Common Content ---------------- -->
+									<tr>
+										<th> Full Name </th>
+										<td>
+											<input type="text" name="FIRST_NAME" placeholder=" First Name" required>  &nbsp &nbsp
+											<input type="text" name="MIDDLE_NAME" placeHolder=" Middle Name" > &nbsp &nbsp
+											<input type="text" name="LAST_NAME" placeholder=" Last Name" required>
+										</td>
+									</tr>
+
+									<tr>
+										<th> Email ID </th>
+										<td> <input type="email" name="EMAIL_ID" placeholder=" Email ID" required readonly> </td>
+									</tr>
+
+									<tr>
+										<th> Alternate Email ID </th>
+										<td> <input type="email" name="ALTERNATE_EMAIL_ID" placeholder=" Alternate Email ID"> </td>
+									</tr>
+
+									<tr>
+										<th> Contact Number </th>
+										<td> <input type="number" name="CONTACT_NUMBER" placeholder=" Contact Number" required> </td>
+									</tr>
+
+									<tr>
+										<th> Alternate Contact Number </th>
+										<td> <input type="number" name="ALTERNATE_CONTACT_NUMBER" placeholder=" Alternate Contact Number"> </td>
+									</tr>
+
+									<!-- <tr>
+										<th> Profile Picture </th>
+										<td> <input type="file" name="PROFILE_PICTURE" accept="image/*" capture="capture"/> </td>
+									</tr> -->
+
+									<tr>
+										<th> Nationality </th>
+										<td>
+											<select name="NATIONALITY" required>
+												<option value="" disabled selected> Select your choice </option>
+												<option value="afghan">Afghan</option>
+												<option value="albanian">Albanian</option>
+												<option value="algerian">Algerian</option>
+												<option value="american">American</option>
+												<option value="andorran">Andorran</option>
+												<option value="angolan">Angolan</option>
+												<option value="antiguans">Antiguans</option>
+												<option value="argentinean">Argentinean</option>
+												<option value="armenian">Armenian</option>
+												<option value="australian">Australian</option>
+												<option value="austrian">Austrian</option>
+												<option value="azerbaijani">Azerbaijani</option>
+												<option value="bahamian">Bahamian</option>
+												<option value="bahraini">Bahraini</option>
+												<option value="bangladeshi">Bangladeshi</option>
+												<option value="barbadian">Barbadian</option>
+												<option value="barbudans">Barbudans</option>
+												<option value="batswana">Batswana</option>
+												<option value="belarusian">Belarusian</option>
+												<option value="belgian">Belgian</option>
+												<option value="belizean">Belizean</option>
+												<option value="beninese">Beninese</option>
+												<option value="bhutanese">Bhutanese</option>
+												<option value="bolivian">Bolivian</option>
+												<option value="bosnian">Bosnian</option>
+												<option value="brazilian">Brazilian</option>
+												<option value="british">British</option>
+												<option value="bruneian">Bruneian</option>
+												<option value="bulgarian">Bulgarian</option>
+												<option value="burkinabe">Burkinabe</option>
+												<option value="burmese">Burmese</option>
+												<option value="burundian">Burundian</option>
+												<option value="cambodian">Cambodian</option>
+												<option value="cameroonian">Cameroonian</option>
+												<option value="canadian">Canadian</option>
+												<option value="cape verdean">Cape Verdean</option>
+												<option value="central african">Central African</option>
+												<option value="chadian">Chadian</option>
+												<option value="chilean">Chilean</option>
+												<option value="chinese">Chinese</option>
+												<option value="colombian">Colombian</option>
+												<option value="comoran">Comoran</option>
+												<option value="congolese">Congolese</option>
+												<option value="costa rican">Costa Rican</option>
+												<option value="croatian">Croatian</option>
+												<option value="cuban">Cuban</option>
+												<option value="cypriot">Cypriot</option>
+												<option value="czech">Czech</option>
+												<option value="danish">Danish</option>
+												<option value="djibouti">Djibouti</option>
+												<option value="dominican">Dominican</option>
+												<option value="dutch">Dutch</option>
+												<option value="east timorese">East Timorese</option>
+												<option value="ecuadorean">Ecuadorean</option>
+												<option value="egyptian">Egyptian</option>
+												<option value="emirian">Emirian</option>
+												<option value="equatorial guinean">Equatorial Guinean</option>
+												<option value="eritrean">Eritrean</option>
+												<option value="estonian">Estonian</option>
+												<option value="ethiopian">Ethiopian</option>
+												<option value="fijian">Fijian</option>
+												<option value="filipino">Filipino</option>
+												<option value="finnish">Finnish</option>
+												<option value="french">French</option>
+												<option value="gabonese">Gabonese</option>
+												<option value="gambian">Gambian</option>
+												<option value="georgian">Georgian</option>
+												<option value="german">German</option>
+												<option value="ghanaian">Ghanaian</option>
+												<option value="greek">Greek</option>
+												<option value="grenadian">Grenadian</option>
+												<option value="guatemalan">Guatemalan</option>
+												<option value="guinea-bissauan">Guinea-Bissauan</option>
+												<option value="guinean">Guinean</option>
+												<option value="guyanese">Guyanese</option>
+												<option value="haitian">Haitian</option>
+												<option value="herzegovinian">Herzegovinian</option>
+												<option value="honduran">Honduran</option>
+												<option value="hungarian">Hungarian</option>
+												<option value="icelander">Icelander</option>
+												<option value="indian">Indian</option>
+												<option value="indonesian">Indonesian</option>
+												<option value="iranian">Iranian</option>
+												<option value="iraqi">Iraqi</option>
+												<option value="irish">Irish</option>
+												<option value="israeli">Israeli</option>
+												<option value="italian">Italian</option>
+												<option value="ivorian">Ivorian</option>
+												<option value="jamaican">Jamaican</option>
+												<option value="japanese">Japanese</option>
+												<option value="jordanian">Jordanian</option>
+												<option value="kazakhstani">Kazakhstani</option>
+												<option value="kenyan">Kenyan</option>
+												<option value="kittian and nevisian">Kittian and Nevisian</option>
+												<option value="kuwaiti">Kuwaiti</option>
+												<option value="kyrgyz">Kyrgyz</option>
+												<option value="laotian">Laotian</option>
+												<option value="latvian">Latvian</option>
+												<option value="lebanese">Lebanese</option>
+												<option value="liberian">Liberian</option>
+												<option value="libyan">Libyan</option>
+												<option value="liechtensteiner">Liechtensteiner</option>
+												<option value="lithuanian">Lithuanian</option>
+												<option value="luxembourger">Luxembourger</option>
+												<option value="macedonian">Macedonian</option>
+												<option value="malagasy">Malagasy</option>
+												<option value="malawian">Malawian</option>
+												<option value="malaysian">Malaysian</option>
+												<option value="maldivan">Maldivan</option>
+												<option value="malian">Malian</option>
+												<option value="maltese">Maltese</option>
+												<option value="marshallese">Marshallese</option>
+												<option value="mauritanian">Mauritanian</option>
+												<option value="mauritian">Mauritian</option>
+												<option value="mexican">Mexican</option>
+												<option value="micronesian">Micronesian</option>
+												<option value="moldovan">Moldovan</option>
+												<option value="monacan">Monacan</option>
+												<option value="mongolian">Mongolian</option>
+												<option value="moroccan">Moroccan</option>
+												<option value="mosotho">Mosotho</option>
+												<option value="motswana">Motswana</option>
+												<option value="mozambican">Mozambican</option>
+												<option value="namibian">Namibian</option>
+												<option value="nauruan">Nauruan</option>
+												<option value="nepalese">Nepalese</option>
+												<option value="new zealander">New Zealander</option>
+												<option value="ni-vanuatu">Ni-Vanuatu</option>
+												<option value="nicaraguan">Nicaraguan</option>
+												<option value="nigerien">Nigerien</option>
+												<option value="north korean">North Korean</option>
+												<option value="northern irish">Northern Irish</option>
+												<option value="norwegian">Norwegian</option>
+												<option value="omani">Omani</option>
+												<option value="pakistani">Pakistani</option>
+												<option value="palauan">Palauan</option>
+												<option value="panamanian">Panamanian</option>
+												<option value="papua new guinean">Papua New Guinean</option>
+												<option value="paraguayan">Paraguayan</option>
+												<option value="peruvian">Peruvian</option>
+												<option value="polish">Polish</option>
+												<option value="portuguese">Portuguese</option>
+												<option value="qatari">Qatari</option>
+												<option value="romanian">Romanian</option>
+												<option value="russian">Russian</option>
+												<option value="rwandan">Rwandan</option>
+												<option value="saint lucian">Saint Lucian</option>
+												<option value="salvadoran">Salvadoran</option>
+												<option value="samoan">Samoan</option>
+												<option value="san marinese">San Marinese</option>
+												<option value="sao tomean">Sao Tomean</option>
+												<option value="saudi">Saudi</option>
+												<option value="scottish">Scottish</option>
+												<option value="senegalese">Senegalese</option>
+												<option value="serbian">Serbian</option>
+												<option value="seychellois">Seychellois</option>
+												<option value="sierra leonean">Sierra Leonean</option>
+												<option value="singaporean">Singaporean</option>
+												<option value="slovakian">Slovakian</option>
+												<option value="slovenian">Slovenian</option>
+												<option value="solomon islander">Solomon Islander</option>
+												<option value="somali">Somali</option>
+												<option value="south african">South African</option>
+												<option value="south korean">South Korean</option>
+												<option value="spanish">Spanish</option>
+												<option value="sri lankan">Sri Lankan</option>
+												<option value="sudanese">Sudanese</option>
+												<option value="surinamer">Surinamer</option>
+												<option value="swazi">Swazi</option>
+												<option value="swedish">Swedish</option>
+												<option value="swiss">Swiss</option>
+												<option value="syrian">Syrian</option>
+												<option value="taiwanese">Taiwanese</option>
+												<option value="tajik">Tajik</option>
+												<option value="tanzanian">Tanzanian</option>
+												<option value="thai">Thai</option>
+												<option value="togolese">Togolese</option>
+												<option value="tongan">Tongan</option>
+												<option value="trinidadian or tobagonian">Trinidadian or Tobagonian</option>
+												<option value="tunisian">Tunisian</option>
+												<option value="turkish">Turkish</option>
+												<option value="tuvaluan">Tuvaluan</option>
+												<option value="ugandan">Ugandan</option>
+												<option value="ukrainian">Ukrainian</option>
+												<option value="uruguayan">Uruguayan</option>
+												<option value="uzbekistani">Uzbekistani</option>
+												<option value="venezuelan">Venezuelan</option>
+												<option value="vietnamese">Vietnamese</option>
+												<option value="welsh">Welsh</option>
+												<option value="yemenite">Yemenite</option>
+												<option value="zambian">Zambian</option>
+												<option value="zimbabwean">Zimbabwean</option>
+											</select>
+										</td>
+									</tr>
+
+									<tr>
+										<th> Date of Birth </th>
+										<td> <input type="date" name="DOB" required> </td>
+									</tr>
+
+									<tr>
+										<th> Gender </th>
+										<td>
+											<input type="radio" name="GENDER" id="My_Profile_Simple_User_Form_MALE" value="Male" required> Male &nbsp
+											<input type="radio" name="GENDER" id="My_Profile_Simple_User_Form_FEMALE" value="Female"> Female &nbsp
+											<input type="radio" name="GENDER" id="My_Profile_Simple_User_Form_OTHER" value="Other"> Other
+										</td>
+									</tr>
+
+									<tr>
+										<th> Address </th>
+										<td>
+											<input type="number" name="HOUSE_NO_OR_FLAT_NO" placeHolder=" House No. / Flat No." required> &nbsp &nbsp
+											<input type="text" name="STREET_OR_BUILDING_OR_COLONY" placeholder=" Street / Building / Colony" required> &nbsp &nbsp
+											<input type="text" name="CITY" placeholder=" City" required> <br> <br>
+											<input type="text" name="STATE" placeholder=" State" required> &nbsp &nbsp
+											<input type="text" name="COUNTRY" placeholder=" Country" required> &nbsp &nbsp
+											<input type="number" name="POSTAL_CODE" placeholder=" Postal Code" required>
+
+											<br> <br>
+
+											<input type="text" name="COORDINATES" placeholder=" Coordinates" required>
+											<button type="button" class="refresh_location_coordinates_button" onclick="javascript: fetch_location('My_Profile_Simple_User_Form');"> <i class="fa fa-refresh"> </i> </button>
+										</td>
+									</tr>
+									<!-- ---------------- End - Common Content ---------------- -->
+
+									
+									
+									<!-- ---------------- Unique Content ---------------- -->
+									<!-- <tr>
+										<th> Password </th>
+										<td>
+											<input type="password" name="PASSWORD_1" placeholder=" Password" required>
+										</td>
+									</tr>
+
+									<tr>
+										<th> Re-enter Password </th>
+										<td>
+											<input type="password" name="PASSWORD_2" placeholder=" Re-enter Password" required>
+											<span id="password_message"></span>
+										</td>
+									</tr> -->
+									
+									<!-- <tr>
+										<th> Security Question </th>
+										<td>
+											<input type="text" name="BIRTH_PLACE" placeholder=" Birth Place" required>  &nbsp &nbsp
+											<input type="text" name="FIRST_PETS_NAME" placeHolder=" Name Of 1st Pet" required> &nbsp &nbsp
+											<input type="text" name="FAVORITE_DISH" placeholder=" Favorite Dish" required>
+										</td>
+									</tr> -->
+
+									<tr>
+										<td class="form_bottons" colspan="2">
+											<button type="submit" class="contact100-form-btn">
+												<span>
+													Save Changes
+													<i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"> </i>
+												</span>
+											</button>
+										</td>
+									</tr>
+
+									<tr>
+										<td class="form_bottons" colspan="2">
+											<button type="button" class="contact100-form-btn" onclick="javascript: View_Verify_Current_Password_Form_FOR_Change_Password_OR_Delete_Account('Change Password');">
+												<span>
+													Change Password
+													<i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"> </i>
+												</span>
+											</button> &nbsp &nbsp
+
+											<!-- <input type="reset" value="Clear"> -->
+											<button type="button" class="contact100-form-btn" onclick="javascript: View_Verify_Current_Password_Form_FOR_Change_Password_OR_Delete_Account('Delete Account');">
+												<span>
+													Delete Account
+													<i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"> </i>
+												</span>
+											</button>
+										</td>
+									</tr>
+									<!-- ---------------- End - Unique Content ---------------- -->
+								</tbody>
+							</table>
+						</form>
+
+
+
+						<form class="Data_Forms" id="My_Profile_Vehicle_User_Form" onsubmit="return validate_My_Profile_Vehicle_User_Form('My_Profile_Vehicle_User_Form');" action="javascript: Sign_Up_OR_Modify_User_Profile('Modify', 'My_Profile_Vehicle_User_Form');">
+							<table class="form_tables" id="My_Profile_Vehicle_User_Form_Table">
+								<tbody class="form_tables_body" id="My_Profile_Vehicle_User_Form_Table_Body">
+									<!-- ---------------- Common Content ---------------- -->
+									<tr>
+										<th> Full Name </th>
+										<td>
+											<input type="text" name="FIRST_NAME" placeholder=" First Name" required>  &nbsp &nbsp
+											<input type="text" name="MIDDLE_NAME" placeHolder=" Middle Name" > &nbsp &nbsp
+											<input type="text" name="LAST_NAME" placeholder=" Last Name" required>
+										</td>
+									</tr>
+
+									<tr>
+										<th> Email ID </th>
+										<td> <input type="email" name="EMAIL_ID" placeholder=" Email ID" required readonly> </td>
+									</tr>
+
+									<tr>
+										<th> Alternate Email ID </th>
+										<td> <input type="email" name="ALTERNATE_EMAIL_ID" placeholder=" Alternate Email ID"> </td>
+									</tr>
+
+									<tr>
+										<th> Contact Number </th>
+										<td> <input type="number" name="CONTACT_NUMBER" placeholder=" Contact Number" required> </td>
+									</tr>
+
+									<tr>
+										<th> Alternate Contact Number </th>
+										<td> <input type="number" name="ALTERNATE_CONTACT_NUMBER" placeholder=" Alternate Contact Number"> </td>
+									</tr>
+
+									<!-- <tr>
+										<th> Profile Picture </th>
+										<td> <input type="file" name="PROFILE_PICTURE" accept="image/*" capture="capture"/> </td>
+									</tr> -->
+
+									<tr>
+										<th> Nationality </th>
+										<td>
+											<select name="NATIONALITY" required>
+												<option value="" disabled selected> Select your choice </option>
+												<option value="afghan">Afghan</option>
+												<option value="albanian">Albanian</option>
+												<option value="algerian">Algerian</option>
+												<option value="american">American</option>
+												<option value="andorran">Andorran</option>
+												<option value="angolan">Angolan</option>
+												<option value="antiguans">Antiguans</option>
+												<option value="argentinean">Argentinean</option>
+												<option value="armenian">Armenian</option>
+												<option value="australian">Australian</option>
+												<option value="austrian">Austrian</option>
+												<option value="azerbaijani">Azerbaijani</option>
+												<option value="bahamian">Bahamian</option>
+												<option value="bahraini">Bahraini</option>
+												<option value="bangladeshi">Bangladeshi</option>
+												<option value="barbadian">Barbadian</option>
+												<option value="barbudans">Barbudans</option>
+												<option value="batswana">Batswana</option>
+												<option value="belarusian">Belarusian</option>
+												<option value="belgian">Belgian</option>
+												<option value="belizean">Belizean</option>
+												<option value="beninese">Beninese</option>
+												<option value="bhutanese">Bhutanese</option>
+												<option value="bolivian">Bolivian</option>
+												<option value="bosnian">Bosnian</option>
+												<option value="brazilian">Brazilian</option>
+												<option value="british">British</option>
+												<option value="bruneian">Bruneian</option>
+												<option value="bulgarian">Bulgarian</option>
+												<option value="burkinabe">Burkinabe</option>
+												<option value="burmese">Burmese</option>
+												<option value="burundian">Burundian</option>
+												<option value="cambodian">Cambodian</option>
+												<option value="cameroonian">Cameroonian</option>
+												<option value="canadian">Canadian</option>
+												<option value="cape verdean">Cape Verdean</option>
+												<option value="central african">Central African</option>
+												<option value="chadian">Chadian</option>
+												<option value="chilean">Chilean</option>
+												<option value="chinese">Chinese</option>
+												<option value="colombian">Colombian</option>
+												<option value="comoran">Comoran</option>
+												<option value="congolese">Congolese</option>
+												<option value="costa rican">Costa Rican</option>
+												<option value="croatian">Croatian</option>
+												<option value="cuban">Cuban</option>
+												<option value="cypriot">Cypriot</option>
+												<option value="czech">Czech</option>
+												<option value="danish">Danish</option>
+												<option value="djibouti">Djibouti</option>
+												<option value="dominican">Dominican</option>
+												<option value="dutch">Dutch</option>
+												<option value="east timorese">East Timorese</option>
+												<option value="ecuadorean">Ecuadorean</option>
+												<option value="egyptian">Egyptian</option>
+												<option value="emirian">Emirian</option>
+												<option value="equatorial guinean">Equatorial Guinean</option>
+												<option value="eritrean">Eritrean</option>
+												<option value="estonian">Estonian</option>
+												<option value="ethiopian">Ethiopian</option>
+												<option value="fijian">Fijian</option>
+												<option value="filipino">Filipino</option>
+												<option value="finnish">Finnish</option>
+												<option value="french">French</option>
+												<option value="gabonese">Gabonese</option>
+												<option value="gambian">Gambian</option>
+												<option value="georgian">Georgian</option>
+												<option value="german">German</option>
+												<option value="ghanaian">Ghanaian</option>
+												<option value="greek">Greek</option>
+												<option value="grenadian">Grenadian</option>
+												<option value="guatemalan">Guatemalan</option>
+												<option value="guinea-bissauan">Guinea-Bissauan</option>
+												<option value="guinean">Guinean</option>
+												<option value="guyanese">Guyanese</option>
+												<option value="haitian">Haitian</option>
+												<option value="herzegovinian">Herzegovinian</option>
+												<option value="honduran">Honduran</option>
+												<option value="hungarian">Hungarian</option>
+												<option value="icelander">Icelander</option>
+												<option value="indian">Indian</option>
+												<option value="indonesian">Indonesian</option>
+												<option value="iranian">Iranian</option>
+												<option value="iraqi">Iraqi</option>
+												<option value="irish">Irish</option>
+												<option value="israeli">Israeli</option>
+												<option value="italian">Italian</option>
+												<option value="ivorian">Ivorian</option>
+												<option value="jamaican">Jamaican</option>
+												<option value="japanese">Japanese</option>
+												<option value="jordanian">Jordanian</option>
+												<option value="kazakhstani">Kazakhstani</option>
+												<option value="kenyan">Kenyan</option>
+												<option value="kittian and nevisian">Kittian and Nevisian</option>
+												<option value="kuwaiti">Kuwaiti</option>
+												<option value="kyrgyz">Kyrgyz</option>
+												<option value="laotian">Laotian</option>
+												<option value="latvian">Latvian</option>
+												<option value="lebanese">Lebanese</option>
+												<option value="liberian">Liberian</option>
+												<option value="libyan">Libyan</option>
+												<option value="liechtensteiner">Liechtensteiner</option>
+												<option value="lithuanian">Lithuanian</option>
+												<option value="luxembourger">Luxembourger</option>
+												<option value="macedonian">Macedonian</option>
+												<option value="malagasy">Malagasy</option>
+												<option value="malawian">Malawian</option>
+												<option value="malaysian">Malaysian</option>
+												<option value="maldivan">Maldivan</option>
+												<option value="malian">Malian</option>
+												<option value="maltese">Maltese</option>
+												<option value="marshallese">Marshallese</option>
+												<option value="mauritanian">Mauritanian</option>
+												<option value="mauritian">Mauritian</option>
+												<option value="mexican">Mexican</option>
+												<option value="micronesian">Micronesian</option>
+												<option value="moldovan">Moldovan</option>
+												<option value="monacan">Monacan</option>
+												<option value="mongolian">Mongolian</option>
+												<option value="moroccan">Moroccan</option>
+												<option value="mosotho">Mosotho</option>
+												<option value="motswana">Motswana</option>
+												<option value="mozambican">Mozambican</option>
+												<option value="namibian">Namibian</option>
+												<option value="nauruan">Nauruan</option>
+												<option value="nepalese">Nepalese</option>
+												<option value="new zealander">New Zealander</option>
+												<option value="ni-vanuatu">Ni-Vanuatu</option>
+												<option value="nicaraguan">Nicaraguan</option>
+												<option value="nigerien">Nigerien</option>
+												<option value="north korean">North Korean</option>
+												<option value="northern irish">Northern Irish</option>
+												<option value="norwegian">Norwegian</option>
+												<option value="omani">Omani</option>
+												<option value="pakistani">Pakistani</option>
+												<option value="palauan">Palauan</option>
+												<option value="panamanian">Panamanian</option>
+												<option value="papua new guinean">Papua New Guinean</option>
+												<option value="paraguayan">Paraguayan</option>
+												<option value="peruvian">Peruvian</option>
+												<option value="polish">Polish</option>
+												<option value="portuguese">Portuguese</option>
+												<option value="qatari">Qatari</option>
+												<option value="romanian">Romanian</option>
+												<option value="russian">Russian</option>
+												<option value="rwandan">Rwandan</option>
+												<option value="saint lucian">Saint Lucian</option>
+												<option value="salvadoran">Salvadoran</option>
+												<option value="samoan">Samoan</option>
+												<option value="san marinese">San Marinese</option>
+												<option value="sao tomean">Sao Tomean</option>
+												<option value="saudi">Saudi</option>
+												<option value="scottish">Scottish</option>
+												<option value="senegalese">Senegalese</option>
+												<option value="serbian">Serbian</option>
+												<option value="seychellois">Seychellois</option>
+												<option value="sierra leonean">Sierra Leonean</option>
+												<option value="singaporean">Singaporean</option>
+												<option value="slovakian">Slovakian</option>
+												<option value="slovenian">Slovenian</option>
+												<option value="solomon islander">Solomon Islander</option>
+												<option value="somali">Somali</option>
+												<option value="south african">South African</option>
+												<option value="south korean">South Korean</option>
+												<option value="spanish">Spanish</option>
+												<option value="sri lankan">Sri Lankan</option>
+												<option value="sudanese">Sudanese</option>
+												<option value="surinamer">Surinamer</option>
+												<option value="swazi">Swazi</option>
+												<option value="swedish">Swedish</option>
+												<option value="swiss">Swiss</option>
+												<option value="syrian">Syrian</option>
+												<option value="taiwanese">Taiwanese</option>
+												<option value="tajik">Tajik</option>
+												<option value="tanzanian">Tanzanian</option>
+												<option value="thai">Thai</option>
+												<option value="togolese">Togolese</option>
+												<option value="tongan">Tongan</option>
+												<option value="trinidadian or tobagonian">Trinidadian or Tobagonian</option>
+												<option value="tunisian">Tunisian</option>
+												<option value="turkish">Turkish</option>
+												<option value="tuvaluan">Tuvaluan</option>
+												<option value="ugandan">Ugandan</option>
+												<option value="ukrainian">Ukrainian</option>
+												<option value="uruguayan">Uruguayan</option>
+												<option value="uzbekistani">Uzbekistani</option>
+												<option value="venezuelan">Venezuelan</option>
+												<option value="vietnamese">Vietnamese</option>
+												<option value="welsh">Welsh</option>
+												<option value="yemenite">Yemenite</option>
+												<option value="zambian">Zambian</option>
+												<option value="zimbabwean">Zimbabwean</option>
+											</select>
+										</td>
+									</tr>
+
+									<tr>
+										<th> Date of Birth </th>
+										<td> <input type="date" name="DOB" required> </td>
+									</tr>
+
+									<tr>
+										<th> Gender </th>
+										<td>
+											<input type="radio" name="GENDER" id="My_Profile_Vehicle_User_Form_MALE" value="Male" required> Male &nbsp
+											<input type="radio" name="GENDER" id="My_Profile_Vehicle_User_Form_FEMALE" value="Female"> Female &nbsp
+											<input type="radio" name="GENDER" id="My_Profile_Vehicle_User_Form_OTHER" value="Other"> Other
+										</td>
+									</tr>
+
+									<tr>
+										<th> Address </th>
+										<td>
+											<input type="number" name="HOUSE_NO_OR_FLAT_NO" placeHolder=" House No. / Flat No." required> &nbsp &nbsp
+											<input type="text" name="STREET_OR_BUILDING_OR_COLONY" placeholder=" Street / Building / Colony" required> &nbsp &nbsp
+											<input type="text" name="CITY" placeholder=" City" required> <br> <br>
+											<input type="text" name="STATE" placeholder=" State" required> &nbsp &nbsp
+											<input type="text" name="COUNTRY" placeholder=" Country" required> &nbsp &nbsp
+											<input type="number" name="POSTAL_CODE" placeholder=" Postal Code" required>
+
+											<br> <br>
+
+											<input type="text" name="COORDINATES" placeholder=" Coordinates" required>
+											<button type="button" class="refresh_location_coordinates_button" onclick="javascript: fetch_location('My_Profile_Vehicle_User_Form');"> <i class="fa fa-refresh"> </i> </button>
+										</td>
+									</tr>
+									<!-- ---------------- End - Common Content ---------------- -->
+
+									
+									
+									<!-- ---------------- Unique Content ---------------- -->
+									<!-- <tr>
+										<th> Password </th>
+										<td>
+											<input type="password" name="PASSWORD_1" placeholder=" Password" required>
+										</td>
+									</tr>
+
+									<tr>
+										<th> Re-enter Password </th>
+										<td>
+											<input type="password" name="PASSWORD_2" placeholder=" Re-enter Password" required>
+											<span id="password_message"></span>
+										</td>
+									</tr> -->
+									
+									<!-- <tr>
+										<th> Security Question </th>
+										<td>
+											<input type="text" name="BIRTH_PLACE" placeholder=" Birth Place" required>  &nbsp &nbsp
+											<input type="text" name="FIRST_PETS_NAME" placeHolder=" Name Of 1st Pet" required> &nbsp &nbsp
+											<input type="text" name="FAVORITE_DISH" placeholder=" Favorite Dish" required>
+										</td>
+									</tr> -->
+
+									<tr>
+										<td class="form_bottons" colspan="2">
+											<button type="submit" class="contact100-form-btn">
+												<span>
+													Save Changes
+													<i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"> </i>
+												</span>
+											</button>
+										</td>
+									</tr>
+
+									<tr>
+										<td class="form_bottons" colspan="2">
+											<button type="button" class="contact100-form-btn" onclick="javascript: View_Verify_Current_Password_Form_FOR_Change_Password_OR_Delete_Account('Change Password');">
+												<span>
+													Change Password
+													<i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"> </i>
+												</span>
+											</button> &nbsp &nbsp
+
+											<!-- <input type="reset" value="Clear"> -->
+											<button type="button" class="contact100-form-btn" onclick="javascript: View_Verify_Current_Password_Form_FOR_Change_Password_OR_Delete_Account('Delete Account');">
+												<span>
+													Delete Account
+													<i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"> </i>
+												</span>
+											</button>
+										</td>
+									</tr>
+									<!-- ---------------- End - Unique Content ---------------- -->
+								</tbody>
+							</table>
+						</form>
+
+
+
+						<form class="Data_Forms" id="My_Profile_Emergency_Service_User_Form" onsubmit="return validate_My_Profile_Emergency_Service_User_Form('My_Profile_Emergency_Service_User_Form');" action="javascript: Sign_Up_OR_Modify_User_Profile('Modify', 'My_Profile_Emergency_Service_User_Form');">
+							<table class="form_tables" id="My_Profile_Emergency_Service_User_Form_Table">
+								<tbody class="form_tables_body" id="My_Profile_Emergency_Service_User_Form_Table_Body">
+									<!-- ---------------- Common Content ---------------- -->
+									<tr>
+										<th> Name </th>
+										<td> <input type="text" name="NAME" placeholder=" Name" required> </td>
+									</tr>
+
+									<tr>
+										<th> Email ID </th>
+										<td> <input type="email" name="EMAIL_ID" placeholder=" Email ID" required readonly> </td>
+									</tr>
+
+									<tr>
+										<th> Alternate Email ID </th>
+										<td> <input type="email" name="ALTERNATE_EMAIL_ID" placeholder=" Alternate Email ID"> </td>
+									</tr>
+
+									<tr>
+										<th> Contact Number </th>
+										<td> <input type="number" name="CONTACT_NUMBER" placeholder=" Contact Number" required> </td>
+									</tr>
+
+									<tr>
+										<th> Alternate Contact Number </th>
+										<td> <input type="number" name="ALTERNATE_CONTACT_NUMBER" placeholder=" Alternate Contact Number"> </td>
+									</tr>
+
+									<!-- <tr>
+										<th> Profile Picture </th>
+										<td> <input type="file" name="PROFILE_PICTURE" accept="image/*" capture="capture"/> </td>
+									</tr> -->
+
+									<tr>
+										<th> Service Type </th>
+										<td>
+											<select name="SERVICE_TYPE" required>
+												<option value="" disabled selected> Select your choice </option>
+												<option value="Air Ambulance"> Air Ambulance </option>
+												<option value="Ambulance"> Ambulance </option>
+												<option value="Disaster Management"> Disaster Management </option>
+												<option value="Fire"> Fire </option>
+												<option value="Police"> Police </option>
+												<option value="Public Works Department (PWD)"> PWD </option>
+											</select>
+										</td>
+									</tr>
+
+									<tr>
+										<th> Date of Establishment </th>
+										<td> <input type="date" name="DOE" required> </td>
+									</tr>
+
+									<tr>
+										<th> Government Organization? </th>
+										<td>
+											<input type="radio" name="GOVERNMENT_ORGANIZATION" id="My_Profile_Emergency_Service_User_Form_GOVERNMENT_ORGANIZATION_YES" value="Yes" required> Yes &nbsp &nbsp
+											<input type="radio" name="GOVERNMENT_ORGANIZATION" id="My_Profile_Emergency_Service_User_Form_GOVERNMENT_ORGANIZATION_NO" value="No"> No
+										</td>
+									</tr>
+
+									<tr>
+										<th> Government Authorized? </th>
+										<td>
+											<input type="radio" name="GOVERNMENT_AUTHORIZED" id="My_Profile_Emergency_Service_User_Form_GOVERNMENT_AUTHORIZED_YES" value="Yes" required> Yes &nbsp &nbsp
+											<input type="radio" name="GOVERNMENT_AUTHORIZED" id="My_Profile_Emergency_Service_User_Form_GOVERNMENT_AUTHORIZED_NO" value="No"> No
+										</td>
+									</tr>
+
+									<tr>
+										<th> Address </th>
+										<td>
+											<input type="number" name="HOUSE_NO_OR_FLAT_NO" placeHolder=" House No. / Flat No." required> &nbsp &nbsp
+											<input type="text" name="STREET_OR_BUILDING_OR_COLONY" placeholder=" Street / Building / Colony" required> &nbsp &nbsp
+											<input type="text" name="CITY" placeholder=" City" required> <br> <br>
+											<input type="text" name="STATE" placeholder=" State" required> &nbsp &nbsp
+											<input type="text" name="COUNTRY" placeholder=" Country" required> &nbsp &nbsp
+											<input type="number" name="POSTAL_CODE" placeholder=" Postal Code" required>
+
+											<br> <br>
+
+											<input type="text" name="COORDINATES" placeholder=" Coordinates" required>
+											<button type="button" class="refresh_location_coordinates_button" onclick="javascript: fetch_location('My_Profile_Emergency_Service_User_Form');"> <i class="fa fa-refresh"> </i> </button>
+
+											<br> <br>
+
+											<b>Note:</b> In case of a Portable/Mobile Service (like Ambulance, etc), please provide the permanent address of organization.
+										</td>
+									</tr>
+									<!-- ---------------- End - Common Content ---------------- -->
+
+									
+									
+									<!-- ---------------- Unique Content ---------------- -->
+									<!-- <tr>
+										<th> Password </th>
+										<td>
+											<input type="password" name="PASSWORD_1" placeholder=" Password" required>
+										</td>
+									</tr>
+
+									<tr>
+										<th> Re-enter Password </th>
+										<td>
+											<input type="password" name="PASSWORD_2" placeholder=" Re-enter Password" required>
+											<span id="password_message"></span>
+										</td>
+									</tr>
+
+									<tr>
+										<th> Security Question </th>
+										<td>
+											<input type="text" name="BIRTH_PLACE" placeholder=" Birth Place" required>  &nbsp &nbsp
+											<input type="text" name="FIRST_PETS_NAME" placeHolder=" Name Of 1st Pet" required> &nbsp &nbsp
+											<input type="text" name="FAVORITE_DISH" placeholder=" Favorite Dish" required>
+										</td>
+									</tr> -->
+									
+									
+									<tr>
+										<td class="form_bottons" colspan="2">
+											<button type="submit" class="contact100-form-btn">
+												<span>
+													Save Changes
+													<i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"> </i>
+												</span>
+											</button>
+										</td>
+									</tr>
+
+									<tr>
+										<td class="form_bottons" colspan="2">
+											<button type="button" class="contact100-form-btn" onclick="javascript: View_Verify_Current_Password_Form_FOR_Change_Password_OR_Delete_Account('Change Password');">
+												<span>
+													Change Password
+													<i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"> </i>
+												</span>
+											</button> &nbsp &nbsp
+
+											<!-- <input type="reset" value="Clear"> -->
+											<button type="button" class="contact100-form-btn" onclick="javascript: View_Verify_Current_Password_Form_FOR_Change_Password_OR_Delete_Account('Delete Account');">
+												<span>
+													Delete Account
+													<i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"> </i>
+												</span>
+											</button>
+										</td>
+									</tr>
+									<!-- ---------------- End - Unique Content ---------------- -->
+								</tbody>
+							</table>
+						</form>
+					</div>
+					
+
+
+					<form class="User_Filled_Forms Data_Forms" id="Verify_Current_Password_Form_FOR_Change_Password_OR_Delete_Account" onsubmit="return validate_Verify_Current_Password_Form_FOR_Change_Password_OR_Delete_Account('Verify_Current_Password_Form_FOR_Change_Password_OR_Delete_Account');" action="javascript: Verify_Current_Password('Verify_Current_Password_Form_FOR_Change_Password_OR_Delete_Account');">
+						<table class="form_tables" id="Verify_Current_Password_Form_FOR_Change_Password_OR_Delete_Account_Table">
+							<tbody class="form_tables_body" id="Verify_Current_Password_Form_FOR_Change_Password_OR_Delete_Account_Table_Body">
+								<!-- ---------------- Common Content ---------------- -->
+								<tr>
+									<th> Current Password </th>
+									<td> <input type="password" name="CURRENT_PASSWORD" placeHolder=" Current Password" required> </td>
+								</tr>
+
+								<input type="hidden" name="TASK">
+								<!-- ---------------- End - Common Content ---------------- -->
+
+								<tr>
+									<td class="form_bottons" colspan="2">
+										<button type="submit" class="contact100-form-btn">
+											<span>
+												Submit
+												<i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"> </i>
+											</span>
+										</button> &nbsp &nbsp
+
+										<button type="reset" class="contact100-form-btn">
+											<span>
+												Clear
+												<i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"> </i>
+											</span>
+										</button>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</form>
+
+
+					<form class="User_Filled_Forms Data_Forms" id="Change_Password_Logged_In_Form" onsubmit="return validate_Reset_Password_OR_Change_Password_Form('Change_Password_Logged_In_Form');" action="javascript: Change_Password('Change_Password_Logged_In_Form')">
+						<table class="form_tables" id="Change_Password_Logged_In_Form_Table">
+							<tbody class="form_tables_body" id="Change_Password_Logged_In_Form_Table_Body">
+								<!-- ---------------- Common Content ---------------- -->
+								<tr>
+									<th> New Password </th>
+									<td> <input type="password" name="NEW_PASSWORD_1" placeHolder=" New Password" required> </td>
+								</tr>
+
+								<tr>
+									<th> Re-enter New Password </th>
+									<td>
+										<input type="password" name="NEW_PASSWORD_2" placeHolder=" Re-enter New Password" required>
+										<span id="Change_Password_Logged_In_Form_Password_Match"></span>
+									</td>
+								</tr>
+								<!-- ---------------- End - Common Content ---------------- -->
+
+								
+								
+								<!-- ---------------- Unique Content ---------------- -->
+								<tr>
+									<td class="form_bottons" colspan="2">
+										<button type="submit" class="contact100-form-btn">
+											<span>
+												Change Password
+												<i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"> </i>
+											</span>
+										</button> &nbsp &nbsp
+
+										<button type="reset" class="contact100-form-btn">
+											<span>
+												Clear
+												<i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"> </i>
+											</span>
+										</button>
+									</td>
+								</tr>
+								<!-- ---------------- End - Unique Content ---------------- -->
+							</tbody>
+						</table>
+					</form>
+				</main>
+			</div>
+
+			
+
+
+
+
+
+			<!-- SWITCH_USER_TYPE -->
+			<div class="User_Profile_Forms" id="Switch_User_Type_Form">
+				<div class="Main_Page_Content" id="SWITCH_USER_TYPE">
+					<main class="page-content">
+						<h5> SWITCH USER TYPE </h5>
+
+						<i class="fa fa-close close_window_icon" aria-hidden="true" style="font-size: 30px;" onclick="javascript: show_hide_content('HOME_PAGE');"> </i>
+						
+						<hr>
+
+						<form class="User_Filled_Forms Data_Forms" id="Verify_Current_Password_Form_FOR_Switch_User_Type" onsubmit="return validate_Verify_Current_Password_Form_FOR_Switch_User_Type('Verify_Current_Password_Form_FOR_Switch_User_Type');" action="javascript: Verify_Current_Password('Verify_Current_Password_Form_FOR_Switch_User_Type');">
+							<table class="form_tables" id="Verify_Current_Password_Form_FOR_Switch_User_Type_Table">
+								<tbody class="form_tables_body" id="Verify_Current_Password_Form_FOR_Switch_User_Type_Table_Body">
+									<tr>
+										<th> Current Password </th>
+										<td> <input type="password" name="CURRENT_PASSWORD" placeHolder=" Current Password" required> </td>
+									</tr>
+
+									<input type="hidden" name="TASK">
+
+									<tr>
+										<td class="form_bottons" colspan="2">
+											<button type="submit" class="contact100-form-btn">
+												<span>
+													Submit
+													<i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"> </i>
+												</span>
+											</button> &nbsp &nbsp
+
+											<button type="reset" class="contact100-form-btn">
+												<span>
+													Clear
+													<i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"> </i>
+												</span>
+											</button>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</form>
+
+
+						<form class="User_Filled_Forms Data_Forms" id="Add_Vehicle_Details_Form" onsubmit="return validate_Add_Vehicle_Details_Form('Add_Vehicle_Details_Form');" action="javascript: Add_OR_Modify_Vehicle_Details('Add_Vehicle_Details_Form')">
+							<table class="form_tables" id="Add_Vehicle_Details_Form_Table">
+								<tbody class="form_tables_body" id="Add_Vehicle_Details_Form_Table_Body">
+									<!-- ---------------- Common Content ---------------- -->
+									<tr>
+										<th> Registration Number </th>
+										<td>
+											<input type="text" name="VEHICLE_REGISTRATION_NUMBER" placeholder=" Registration Number" required>
+										</td>
+									</tr>
+
+									<tr>
+										<th> Model </th>
+										<td> <input type="text" name="VEHICLE_MODEL" placeholder=" Model" required> </td>
+									</tr>
+
+									<tr>
+										<th> RC Number </th>
+										<td> <input type="text" name="VEHICLE_RC_NUMBER" placeholder=" RC Number" required> </td>
+									</tr>
+
+									<tr>
+										<th> Insurance Number </th>
+										<td> <input type="text" name="VEHICLE_INSURANCE_NUMBER" placeholder=" Insurance Number"> </td>
+									</tr>
+
+									<tr>
+										<th> Safety Features</th>
+										<td>
+											<input type="checkbox" name="AIRBAGS"> Airbags <br>
+											<input type="checkbox" name="ALL_WHEEL_DRIVE"> All-Wheel Drive <br>
+											<input type="checkbox" name="ABS"> ABS <br>
+											<input type="checkbox" name="ELECTRONIC_STABILITY_CONTROL"> Electronic Stability Control
+										</td>
+									</tr>
+
+									<tr>
+										<th> Vehicle Health </th>
+										<td>
+											<select name="VEHICLE_HEALTH" required>
+												<option value="" disabled> Select your choice </option>
+												<option value="Very Good"> Very Good </option>
+												<option value="Good"> Good </option>
+												<option value="Average"> Average </option>
+												<option value="Bad"> Bad </option>
+												<option value="Very Bad"> Very Bad </option>
+											</select>
+										</td>
+									</tr>
+									<!-- ---------------- End - Common Content ---------------- -->
+
+									<tr>
+										<td class="form_bottons" colspan="2">
+											<button type="submit" class="contact100-form-btn">
+												<span>
+													Add Vehicle
+													<i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"> </i>
+												</span>
+											</button>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</form>
+					</main>
+				</div>
+			</div>
+
+
+
+
+
+			<!-- PASS_VEHICLE_CONTROL -->
+			<div class="Main_Page_Content" id="PASS_VEHICLE_CONTROL">
+				<main class="page-content">
+					<h5> PASS VEHICLE CONTROL </h5>
+
+					<i class="fa fa-close close_window_icon" aria-hidden="true" style="font-size: 30px;" onclick="javascript: show_hide_content('HOME_PAGE');"> </i>
+					
+					<hr>
+
+					<form class="User_Filled_Forms Data_Forms" id="Pass_Vehicle_Control_Form" onsubmit="return validate_Pass_Vehicle_Control_Form('Pass_Vehicle_Control_Form');" action="javascript: Send_Request_FOR_Pass_Vehicle_Control('Pass_Vehicle_Control_Form');">
+						<table class="form_tables" id="Pass_Vehicle_Control_Form_Table">
+							<tbody class="form_tables_body" id="Pass_Vehicle_Control_Form_Table_Body">
+								<tr>
+									<th> New Controller's Email_ID </th>
+									<td> <input type="email" name="NEW_CONTROLLER_EMAIL_ID" placeHolder=" New_Controller's Email ID" required> </td>
+								</tr>
+
+								<tr>
+									<td class="form_bottons" colspan="2">
+										<button type="submit" class="contact100-form-btn">
+											<span>
+												Submit
+												<i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"> </i>
+											</span>
+										</button> &nbsp &nbsp
+
+										<button type="reset" class="contact100-form-btn">
+											<span>
+												Clear
+												<i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"> </i>
+											</span>
+										</button>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</form>
+				</main>
+			</div>
+			
+
+
+			
+			
+			<!-- CUSTOMIZE_APPLICATION  -->
+			<div class="Main_Page_Content" id="CUSTOMIZE_APPLICATION">
+				<main class="page-content">
+					<!-- <div class="container-fluid">
+						<div class="row">
+							<div class="form-group col-md-12"> -->
+								<h5> Theme Customizations </h5>
+							<!-- </div>
+						</div> -->
+						
+						<i class="fa fa-close close_window_icon" aria-hidden="true" style="font-size: 30px;" onclick="javascript: show_hide_content('HOME_PAGE');"> </i>
+
+						<hr>
+						
+						<!-- <div class="row">
+							<div class="form-group col-md-12"> -->
+								<h5> Themes </h5>
+							<!-- </div>
+						</div> -->
+						
+						<div class="row">
+							<div class="form-group col-md-12">
+								<a href="#" data-theme="chiller-theme" class="theme chiller-theme selected"> </a>
+								<a href="#" data-theme="ice-theme" class="theme ice-theme"> </a>
+								<a href="#" data-theme="cool-theme" class="theme cool-theme"> </a>
+								<a href="#" data-theme="light-theme" class="theme light-theme"> </a>
+							</div>
+							
+							<!-- <div class="form-group col-md-12">
+								<h4> Background Images </h4>
+							</div>
+							
+							<div class="form-group col-md-12">
+								<a href="#" data-theme="bg1" class="theme theme-bg selected"> </a>
+								<a href="#" data-theme="bg2" class="theme theme-bg"> </a>
+								<a href="#" data-theme="bg3" class="theme theme-bg"> </a>
+								<a href="#" data-theme="bg4" class="theme theme-bg"> </a>
+							</div> -->
+							
+							<div class="form-group col-md-12">
+								<div class="form-group col-md-12">
+									<label class="form-check">
+										<input type="checkbox" class="form-check-input" name="" id="toggle-bg" checked>
+										Background Image
+									</label>
+								</div>
+							</div>
+						</div>
+					<!-- </div> -->
+				</main>
+			</div>
+
+
+			<!-- HELP -->
+			<div class="Main_Page_Content" id="HELP">
+				<main class="page-content">
+					<h5> HELP </h5>
+					
+					<hr>
+
+					<!-- Provide help for connections <br> <br>
+					Provide link for Guide <br> <br>
+					Provide Customer Care Support -->
+
+					<form class="User_Filled_Forms Data_Forms" id="Help_Form" onsubmit="return validate_Help_Form('Help_Form');" action="javascript: Submit_Query_OR_Complaint('Help_Form');">
+						<table class="form_tables" id="Help_Form_Table">
+							<tbody class="form_tables_body" id="Help_Form_Table_Body">
+								<!-- ---------------- Unique Content ---------------- -->
+								<tr>
+									<th> Query / Complaint </th>
+									<td>
+    
+										<textarea name="QUERY_OR_COMPLAINT" placeholder=" Description" rows="4" cols="25" required> </textarea> &nbsp 
+										<button type="submit" class="contact100-form-btn">
+											<span>
+												Submit
+												<i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"> </i>
+											</span>
+										</button>
+									</td>
+								</tr>
+
+								<tr>
+									<th> Contact Customer Care </th>
+									<td class="form_bottons" colspan="2">
+										Primary Contact No. &nbsp &nbsp
+										<button type="button" onclick="window.location='tel:+919673599997'" class="contact100-form-btn">
+											<span>
+												<i class="fa fa-phone" style="width: 15px; height:15px;"> </i>
+											</span>
+										</button>
+
+										<br> <br>
+										
+										Secondary Contact No. &nbsp &nbsp
+										<button type="button" onclick="window.location='tel:+917262063793'" class="contact100-form-btn">
+											<span>
+												<i class="fa fa-phone"> </i>
+											</span>
+										</button>
+									</td>
+								</tr>
+								<!-- ---------------- End - Unique Content ---------------- -->
+							</tbody>
+						</table>
+					</form>
+				</main>
+			</div>
+		</div>
+
+
+
+
+		<!-- --------------------------------------------------------------
+							Modal - Own Accident Confirmation
+			-------------------------------------------------------------- -->
+		<div id ="Confirm_Accident_Modal" class="modal">
+			<div class="modal-header">
+				<!-- <button type="button" class="close" data-dismiss="modal"> &times; </button> -->
+				<h4 id="Confirm_Accident_Modal_Header"> Accident Confirmation </h4>
+			</div>
+			
+			<div class="modal-body">
+				<p id="Confirm_Accident_Modal_Body_Paragraph">
+					The system has been alerted about possibility of your accident.<br>
+					Do you wish to confirm the same?
+				</p>
+			</div>
+
+			<div class="modal-footer">
+				<button class="button Modal_Buttons" id="Modal_Button_YES" onclick="javascript: Accept_OR_Reject_Own_Accident('Accept');"> Yes  </button>
+				<button class="button Modal_Buttons" id="Modal_Button_NO" onclick="javascript: Accept_OR_Reject_Own_Accident('Reject');"> No </button>
+			</div>
+		</div>
+
+
+
+		<!-- --------------------------------------------------------------
+							Modal - One Click Help Confirmation
+			-------------------------------------------------------------- -->
+		<div id ="Confirm_One_Click_Help_Modal" class="modal">
+			<div class="modal-header">
+				<!-- <button type="button" class="close" data-dismiss="modal"> &times; </button> -->
+				<h4 id="Confirm_One_Click_Help_Modal_Header"> Confirm </h4>
+			</div>
+			
+			<div class="modal-body">
+				<p id="Confirm_One_Click_Help_Modal_Body_Paragraph">
+					Are you sure, you want to call for help?
+				</p>
+			</div>
+
+			<div class="modal-footer">
+				<button class="button Modal_Buttons" id="Modal_Button_YES" onclick="javascript: Accept_OR_Reject_One_Click_Help_Confirmation('Accept');"> Yes  </button>
+				<button class="button Modal_Buttons" id="Modal_Button_NO" onclick="javascript: Accept_OR_Reject_One_Click_Help_Confirmation('Reject');"> No </button>
+			</div>
+		</div>
+
+
+
+		<!-- --------------------------------------------------------------
+								Hidden Data
+			-------------------------------------------------------------- -->
+		<!-- Empty File - (Very Important) (Not Visible - Hidden) -->
+		<input type="file" id="EMPTY_FILE" hidden>
+		
+		<!-- Hidden Table - For Downloading Accident Scenario Report -->
+		<table id="Accident_Scenario_Report_Table_FOR_Download">
+		</table>
+
+		<!-- --------------------------------------------------------------
+							For Bootsrap Navbar
+			-------------------------------------------------------------- -->
+		<!-- Page-Wrapper -->
+		<script src="js/Navbar/2/jquery.min.js"> </script>
+		<script src="js/Navbar/2/popper.min.js"> </script>
+		<script src="js/Navbar/2/bootstrap.min.js"> </script>
+		<script src="js/Navbar/2/jquery.mCustomScrollbar.concat.min.js"> </script>
+		
+		<script src="js/Navbar/assets/custom.js"> </script>
+		
+		<!-- ----------------------------------- -->
+		
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" -->
+            <!-- crossorigin="anonymous"></script> -->
+        <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" -->
+            <!-- crossorigin="anonymous"></script> -->
+        <!-- <script src="//malihu.github.io/custom-scrollbar/jquery.mCustomScrollbar.concat.min.js"></script> -->
+		
+        <!-- <script src="assets/js/custom.js"></script> -->
+
+
+
+		<!-- --------------------------------------------------------------
+									Firebase
+			-------------------------------------------------------------- -->
+		<script src="https://www.gstatic.com/firebasejs/5.7.1/firebase.js"> </script>
+
+		<!-- <script src="https://www.gstatic.com/firebasejs/5.7.1/firebase-app.js"> </script>
+		<script src="https://www.gstatic.com/firebasejs/5.7.1/firebase-auth.js"> </script>
+		<script src="https://www.gstatic.com/firebasejs/5.7.1/firebase-database.js"> </script>
+		<script src="https://www.gstatic.com/firebasejs/5.7.1/firebase-storage.js"> </script>
+		<script src="https://www.gstatic.com/firebasejs/5.7.1/firebase-functions.js"> </script>
+		<script src="https://www.gstatic.com/firebasejs/5.7.1/firebase-messaging.js"> </script> -->
+ </body>
+</html>

@@ -45,25 +45,25 @@ https://github.com/othneildrew/Best-README-Template -->
   .
 
   Following are some of the most crucial functions of this system:
-  1. ###### Cross-platform User Application
+  1. ##### Cross-platform User Application
       Used to dynamically support interfaces for 3 unique types of users.
-  2. ###### Compact IoT Device
+  2. ##### Compact IoT Device
       To be attached to vehicles, so as to effectively pick up and translate sensor readings.
-  3. ###### Accident Prevention
+  3. ##### Accident Prevention
       Carried out by providing shortest and safest path (2 approaches) - (But, stressing more on User Safety).
-  4. ###### Accident Detection
+  4. ##### Accident Detection
       Done with the help of a variety of sensors, attached to the blackbox. It also utilizes user uploads from multiple accident scenarios (Through the mobile application).
-  5. ###### Rescue & Aid
+  5. ##### Rescue & Aid
       Government emergency services, ambulances, etc are made more efficient to provide quick aid/rescue. User’s personal emergency contect list also has a role to play.
-  6. ###### Pass vehicle control
-  7. ###### 24 x 7 automated support
+  6. ##### Pass vehicle control
+  7. ##### 24 x 7 automated support
   
   .
   <p align="center"><img src="Read_Me_Content/Overview/Proposed_Idea.jpg" alt="Proposed_Idea" width="1000"></p>
 
   .
 
-  ##### Concept of Blackspots
+  #### Concept of Blackspots
   * Black spots refer to areas on the road where there is a possibility of accident (accident prone zones).
   * The black spots will be of the following types:
     1. Locations which have a high possibility of vehicle accidents depending on the recorded scenarios.
@@ -85,7 +85,7 @@ https://github.com/othneildrew/Best-README-Template -->
 
 <!-- GETTING STARTED -->
 ## Getting Started
-  #### Prerequisites
+  ### Prerequisites
   * Java, Python, Node.js, Apache Cordova
   * Google Cloud - Firbase, Cloud Messaging
   * Raspberry Pi, Sensors.
@@ -93,28 +93,28 @@ https://github.com/othneildrew/Best-README-Template -->
   * Windows/MacOs/Linux - Minimum 4GB RAM, Intel i5 Processor (or Equivalent)
   * Android, iOS - Minimum 4GB RAM, Qualcomm 755 Processor (or Equivalent)
   
-  #### Setup & Use
+  ### Setup & Use
   Being an IoT application, to experience the full fledged implementation, one needs the blackbox device with unique identifier to be purchased from the licence holders.
 
   To simply experience the end-user application, one can easily do so by installing the 'apk' file that has been provided in the parent directory.
 
   
 
-  ##### Setup Entire Project (Except for IoT Component)
+  #### Setup Entire Project (Except for IoT Component)
   The source codes are available in 'Project/' folder.
-  1. <b>'Project/Cordova App/Maps':</b>
+  1. #####'Project/Cordova App/Maps':
       * Contains the source code for cross-platform front end implementation.
       * It is Cordova application, and can hence be run over node.js server.
   
   <spacer type="vertical" height="4" width="2"></spacer>
   
-  2. <b>'Project/Android - FCM Extension':</b>
+  2. #####'Project/Android - FCM Extension':
       * This is an android-specific application, which needs to be installed along with the main application to be able to provide notifcations support.
       * It can be imported and opened in Android Studio.
 
   <spacer type="vertical" height="4" width="2"></spacer>
 
-  3. <b>'Project/Real Time Database - [Sample Data]':</b>
+  3. #####'Project/Real Time Database - [Sample Data]':
       * This directory contains the sample data and configuration for the <b>'Real-time Database'</b>.
       * For this, we need to create and set-up cour project on Google Cloud Platform.
       * Then, we can use the content of this directory to add and configure our 'Firebase real-time DB'.
@@ -122,7 +122,7 @@ https://github.com/othneildrew/Best-README-Template -->
   
   <spacer type="vertical" height="4" width="2"></spacer>
 
-  4. <b>'Project/Firebase_Functions':</b>
+  4. #####'Project/Firebase_Functions':
       * This directory contains the mircoservices that needs to be hosted on Google Cloud Platform (GCP) -> Firebase.
       * Once the project has been been created on GCP, then we need to add a hosting component, i.e. 'Firbase Functions'.
       * Once set up, we can use the contents of this directory with the update DB credentials (from Part 3) to host the microservices.

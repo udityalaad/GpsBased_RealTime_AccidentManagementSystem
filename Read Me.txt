@@ -1,3 +1,0 @@
-Note: The API Keys, used in this application will expire or be disabled at some point.
-  - The application will continue to run smoothly, as long as the API Keys are 'Active'.
-    [However, some errors will start showing up, once these keys have 'Expired' or been 'Disabled']

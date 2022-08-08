@@ -45,21 +45,16 @@ https://github.com/othneildrew/Best-README-Template -->
   .
 
   Following are some of the most crucial functions of this system:
-  1. ##### Cross-platform User Application
+  1. <b> Cross-platform User Application: </b>
       Used to dynamically support interfaces for 3 unique types of users.
-  2. ##### Compact IoT Device
-      To be attached to vehicles, so as to effectively pick up and translate sensor readings.
-  3. ##### Accident Prevention
-      Carried out by providing shortest and safest path (2 approaches) - (But, stressing more on User Safety).
-  4. ##### Accident Detection
-      Done with the help of a variety of sensors, attached to the blackbox. It also utilizes user uploads from multiple accident scenarios (Through the mobile application).
-  5. ##### Rescue & Aid
-      Government emergency services, ambulances, etc are made more efficient to provide quick aid/rescue. User’s personal emergency contect list also has a role to play.
-  6. ##### Pass vehicle control
-  7. ##### 24 x 7 automated support
+  2. <b> Compact IoT Device: </b> To be attached to vehicles, so as to effectively pick up and translate sensor readings.
+  3. <b> Accident Prevention: </b> Carried out by providing shortest and safest path (2 approaches) - (But, stressing more on User Safety).
+  4. <b> Accident Detection: </b> Done with the help of a variety of sensors, attached to the blackbox. It also utilizes user uploads from multiple accident scenarios (Through the mobile application).
+  5. <b> Rescue & Aid:  </b> Government emergency services, ambulances, etc are made more efficient to provide quick aid/rescue. User’s personal emergency contect list also has a role to play.
+  6. <b> Pass vehicle control </b>
+  7. <b> 24 x 7 automated support </b>
   
-  .
-  <p align="center"><img src="Read_Me_Content/Overview/Proposed_Idea.jpg" alt="Proposed_Idea" width="1000"></p>
+  <p align="center"><img src="Read_Me_Content/Overview/Proposed_Idea.jpg" alt="Proposed_Idea" width="750"></p>
 
   .
 
@@ -102,19 +97,19 @@ https://github.com/othneildrew/Best-README-Template -->
 
   #### Setup Entire Project (Except for IoT Component)
   The source codes are available in 'Project/' folder.
-  1. #####'Project/Cordova App/Maps':
+  1. ##### 'Project/Cordova App/Maps':
       * Contains the source code for cross-platform front end implementation.
       * It is Cordova application, and can hence be run over node.js server.
   
   <spacer type="vertical" height="4" width="2"></spacer>
   
-  2. #####'Project/Android - FCM Extension':
+  2. ##### 'Project/Android - FCM Extension':
       * This is an android-specific application, which needs to be installed along with the main application to be able to provide notifcations support.
       * It can be imported and opened in Android Studio.
 
   <spacer type="vertical" height="4" width="2"></spacer>
 
-  3. #####'Project/Real Time Database - [Sample Data]':
+  3. ##### 'Project/Real Time Database - [Sample Data]':
       * This directory contains the sample data and configuration for the <b>'Real-time Database'</b>.
       * For this, we need to create and set-up cour project on Google Cloud Platform.
       * Then, we can use the content of this directory to add and configure our 'Firebase real-time DB'.
@@ -122,13 +117,13 @@ https://github.com/othneildrew/Best-README-Template -->
   
   <spacer type="vertical" height="4" width="2"></spacer>
 
-  4. #####'Project/Firebase_Functions':
+  4. ##### 'Project/Firebase_Functions':
       * This directory contains the mircoservices that needs to be hosted on Google Cloud Platform (GCP) -> Firebase.
       * Once the project has been been created on GCP, then we need to add a hosting component, i.e. 'Firbase Functions'.
       * Once set up, we can use the contents of this directory with the update DB credentials (from Part 3) to host the microservices.
       * The credentials for these microservices then need to be updated in the main application and extension, discussed in the above 2 sections.
 
-  #### Note
+  ### Note:
   The API Keys, used in this application will expire or be disabled at some point.
   - The application will continue to run smoothly, as long as the API Keys are 'Active'.
     [However, some errors will start showing up, once these keys have 'Expired' or been 'Disabled']
@@ -152,10 +147,10 @@ https://github.com/othneildrew/Best-README-Template -->
 
   #### Some Sample Runs with the IoT Device:
   * ###### Sample Run 1
-  <p align="center"><img src="Read_Me_Content/Overview/Run_1.jpg" alt="Graphical_Representation"></p>
+  <p align="center"><img src="Read_Me_Content/Overview/Run_1.jpg" alt="Graphical_Representation" width="900"></p>
 
   * ###### Sample Run 2
-  <p align="center"><img src="Read_Me_Content/Overview/Run_2.jpg" alt="Graphical_Representation"></p>
+  <p align="center"><img src="Read_Me_Content/Overview/Run_2.jpg" alt="Graphical_Representation" width="900"></p>
 
   <spacer type="vertical" height="4" width="2"></spacer>
 

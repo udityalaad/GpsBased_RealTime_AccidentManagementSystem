@@ -147,7 +147,7 @@ https://github.com/othneildrew/Best-README-Template -->
   * ###### Sample Run 2
   <p align="center"><img src="Read_Me_Content/Overview/Run_2.jpg" alt="Graphical_Representation" width="900"></p>
 
-  <spacer type="vertical" height="4" width="2"></spacer>
+  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 ## License or Author

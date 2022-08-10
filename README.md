@@ -11,7 +11,7 @@ https://github.com/othneildrew/Best-README-Template -->
 
   
   <img src="Read_Me_Content/top_label.jpg" alt="top_label.jpg">
-  .
+  . 
 
   <p align="center">
     A GPS-based real-time Accident Management System !
